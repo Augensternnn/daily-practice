@@ -1,0 +1,32 @@
+public class PrimitiveDataType{
+	public static void main(String[] args){
+		System.out.println("基本类型：char");
+		//以数值形式而不是字符形式输出 
+		System.out.println("最大值："+(int)Character.MAX_VALUE);
+		System.out.println("最小值："+(int)Character.MIN_VALUE);
+		System.out.println();
+		System.out.println("基本类型：byte");
+		System.out.println("最大值："+Byte.MAX_VALUE);
+		System.out.println("最小值："+Byte.MIN_VALUE);
+		System.out.println();
+			System.out.println("基本类型：short");
+		System.out.println("最大值："+Short.MAX_VALUE);
+		System.out.println("最小值："+Short.MIN_VALUE);
+		System.out.println();
+		System.out.println("基本类型：int");
+		System.out.println("最大值："+Integer.MAX_VALUE);
+		System.out.println("最小值："+Integer.MIN_VALUE);
+		System.out.println();	
+		System.out.println("基本类型：long");
+		System.out.println("最大值："+Long.MAX_VALUE);
+		System.out.println("最小值："+Long.MIN_VALUE);
+		System.out.println();
+		System.out.println("基本类型：float");
+		System.out.println("最大值："+Float.MAX_VALUE);
+		System.out.println("最小值："+Float.MIN_VALUE);
+		System.out.println();
+			System.out.println("基本类型：double");
+		System.out.println("最大值："+Double.MAX_VALUE);
+		System.out.println("最小值："+Double.MIN_VALUE);
+	}
+}
