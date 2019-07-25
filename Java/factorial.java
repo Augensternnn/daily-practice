@@ -1,13 +1,28 @@
-//递归求n!
+//求n!
 public class factorial{
-	public static long factorial1(int n) {
-		// 终止条件
-		// 1! == 1		0! == 1
-		if (n == 0 || n == 1) {
+	//递归方法
+	public static long factorial_1(int n){
+		if(n == 0 || n == 1){
 			return 1;
 		}
-		// 递推公式
-		// n! == (n - 1)! * n
-		return factorial1(n - 1) * n;
+		else return factorial_1(n - 1) * n;
 	}
+	//循环方法
+	public static long factorial_2(int n){
+		long fact = 1;
+		for(int i = 1; i <= n; i++){
+			fact = fact * i;
+		}
+		return fact;
+	}
+	
+	public static void main(String[] args){
+		int n = 9;
+		
+		long fact1 = factorial_1(n);
+		System.out.printf("阶乘是%d%n",fact1);
+		
+		long fact2 = factorial_2(n);
+		System.out.printf("阶乘是%d%n",fact2);
+	}	
 }
