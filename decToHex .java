@@ -6,12 +6,12 @@
 	122 / 16 == 7		7 < 16	    
 	故 1958 的 16 进制 为 7A6*/
 public class decToHex{	
-	public static String reverse(String s){
-		int length = s.length();
+	public static String reverse(String S){
+		int length = S.length();
 		String r = "";
 		// 0, 1, 2 ... length - 1
 		for(int i = length-1; i >= 0; i--){
-			char ch = s.charAt(i);
+			char ch = S.charAt(i);
 			r = r + ch;
 		}
 		return r;
