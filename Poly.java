@@ -22,7 +22,7 @@ class D1 extends Base {
 public class Poly {
 	public static void main(String[] args) {
 		D1   d1 = new D1();
-		Base base = d12;
+		Base base = d1;
 		// 普通方法看后边的对象类型来决定执行哪个方法
 		base.method();			// D1.method()
 		d1.method();			// D1.method()
