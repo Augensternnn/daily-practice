@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03cae726-07ea-4614-a3b3-b8ccd10bbbd9" name="默认的" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Trees.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+              <folding>
+                <element signature="method#buildTree#0;class#Trees#0" />
+                <element signature="method#preOrder#0;class#Trees#0" />
+                <element signature="method#inOrder#0;class#Trees#0" />
+                <element signature="method#postOrder#0;class#Trees#0" />
+                <element signature="method#levelOrderTraversal#0;class#Trees#0" />
+                <element signature="method#levelOrder#0;class#Trees#0" />
+                <element signature="method#calcTreeNode1#0;class#Trees#0" />
+                <element signature="method#calcTreeNode2#0;class#Trees#0" />
+                <element signature="method#calcLeafCount1#0;class#Trees#0" />
+                <element signature="method#calcLeafCount2#0;class#Trees#0" />
+                <element signature="method#calcHeight#0;class#Trees#0" />
+                <element signature="method#calcKLevel#0;class#Trees#0" />
+                <element signature="method#search#0;class#Trees#0" />
+                <element signature="method#search2#0;class#Trees#0" />
+                <element signature="method#search3#0;class#Trees#0" />
+                <element signature="method#isSameTree#0;class#Trees#0" />
+                <element signature="method#isMirror#0;class#Trees#0" />
+                <element signature="method#buildTree1#0;class#Trees#0" />
+                <element signature="method#buildTree2#0;class#Trees#0" />
+                <element signature="method#buildTreeArray#0;class#Trees#0" />
+                <element signature="method#buildTreePreorder#0;class#Trees#0" />
+                <element signature="method#isBalanced#0;class#Trees#0" />
+                <element signature="method#treeStr#0;class#Trees#0" />
+                <element signature="method#preorderTree#0;class#Trees#0" />
+                <element signature="method#lowestCommonAncestor#0;class#Trees#0" />
+                <element signature="method#search4#0;class#Trees#0" />
+                <element signature="method#main#0;class#Trees#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Node.java" />
+        <option value="$PROJECT_DIR$/src/Trees.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="3" />
+    <option name="width" value="906" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Trees" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees" />
+      <module name="buildTree" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.Trees" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03cae726-07ea-4614-a3b3-b8ccd10bbbd9" name="默认的" comment="" />
+      <created>1566620204431</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566620204431</updated>
+      <workItem from="1566620205749" duration="892000" />
+      <workItem from="1566633735886" duration="3542000" />
+      <workItem from="1566662176788" duration="2989000" />
+      <workItem from="1566697078482" duration="6978000" />
+      <workItem from="1566719230615" duration="2954000" />
+      <workItem from="1566783896822" duration="4949000" />
+      <workItem from="1566833780687" duration="590000" />
+      <workItem from="1566872316272" duration="23000" />
+      <workItem from="1567049572454" duration="594000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="23511000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5440141" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="设计师" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="消息" order="12" />
+      <window_info active="true" anchor="bottom" id="运行" order="13" visible="true" weight="0.33451328" />
+      <window_info anchor="bottom" id="调试" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="控制板" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding>
+            <element signature="method#buildTree#0;class#Trees#0" />
+            <element signature="method#preOrder#0;class#Trees#0" />
+            <element signature="method#inOrder#0;class#Trees#0" />
+            <element signature="method#postOrder#0;class#Trees#0" />
+            <element signature="method#levelOrderTraversal#0;class#Trees#0" />
+            <element signature="method#levelOrder#0;class#Trees#0" />
+            <element signature="method#calcTreeNode1#0;class#Trees#0" />
+            <element signature="method#calcTreeNode2#0;class#Trees#0" />
+            <element signature="method#calcLeafCount1#0;class#Trees#0" />
+            <element signature="method#calcLeafCount2#0;class#Trees#0" />
+            <element signature="method#calcHeight#0;class#Trees#0" />
+            <element signature="method#calcKLevel#0;class#Trees#0" />
+            <element signature="method#search#0;class#Trees#0" />
+            <element signature="method#search2#0;class#Trees#0" />
+            <element signature="method#search3#0;class#Trees#0" />
+            <element signature="method#isSameTree#0;class#Trees#0" />
+            <element signature="method#isMirror#0;class#Trees#0" />
+            <element signature="method#buildTree1#0;class#Trees#0" />
+            <element signature="method#buildTree2#0;class#Trees#0" />
+            <element signature="method#buildTreeArray#0;class#Trees#0" />
+            <element signature="method#buildTreePreorder#0;class#Trees#0" />
+            <element signature="method#isBalanced#0;class#Trees#0" />
+            <element signature="method#treeStr#0;class#Trees#0" />
+            <element signature="method#preorderTree#0;class#Trees#0" />
+            <element signature="method#lowestCommonAncestor#0;class#Trees#0" />
+            <element signature="method#search4#0;class#Trees#0" />
+            <element signature="method#main#0;class#Trees#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
