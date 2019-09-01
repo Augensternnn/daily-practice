@@ -53,8 +53,18 @@ public class Trees {
         inOrder(root.right);
     }
         // 非递归
-    public static void in(Node root){
-
+    public static void inorderNoR(Node root){
+        Stack<Node> stack = new Stack<>();
+        Node cur = root;
+        while(!stack.empty() || cur != null){
+            while (cur != null){
+                stack.push(cur);
+                cur = cur.left;
+            }
+            Node top = stack.pop();
+            System.out.println(top.val);
+            cur = top.right;
+        }
     }
 
     // 后序遍历
@@ -68,8 +78,24 @@ public class Trees {
         System.out.println(root.val);
     }
         // 非递归
-    public static void post(Node root){
-
+    public static void postorderNoR(Node root){
+        Stack<Node> stack = new Stack<>();
+        Node cur = root;
+        Node last = null;       // 上一个被三次完整经过的结点
+        while(!stack.empty() || cur != null){
+            while (cur != null){
+                stack.push(cur);
+                cur = cur.left;
+            }
+            Node top = stack.peek();
+            if(top.right == null || top.right == last){
+                stack.pop();
+                System.out.println(top.val);
+                last = top;
+            }else{
+                cur = top.right;
+            }
+        }
     }
 
     // 层序遍历
@@ -90,7 +116,6 @@ public class Trees {
             }
         }
     }
-
     public static List<List<Character>> levelOrder(Node root){
         List<List<Character>> retList = new ArrayList<>();
         if(root == null){
@@ -364,6 +389,29 @@ public class Trees {
         return true;
     }
 
+    // 是否是完全二叉树
+    public static boolean isCompleteTree(Node root){
+        // 层序遍历，直到遇到null
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(root);
+        while(true){
+            Node front = queue.poll();
+            if(front == null){
+                break;
+            }
+            queue.add(front.left);
+            queue.add(front.right);
+        }
+        // 判断队列中剩余元素是否都是null
+        while(!queue.isEmpty()){
+            Node node = queue.poll();
+            if(node != null){
+                return false;
+            }
+        }
+        return true;
+    }
+
     // 根据二叉树创建字符串
     public static String treeStr(Node t){
         if(t == null){
@@ -418,6 +466,20 @@ public class Trees {
     }
 
     public static void main(String[] args) {
+        /*
+         TreeNode n1 = new TreeNode();
+        n1.val = 1;
+        n1.left = new TreeNode();
+        n1.left.val = 2;
+        n1.right = new TreeNode();
+        n1.right.val = 3;
+        n1.left.left = new TreeNode();
+        n1.left.left.val = 4;
+        //preorderNoR(n1);
+        //inorderNoR(n1);
+        postorderNoR(n1);
+         */
+
         /*
         List<Character> preorder1 = Arrays.asList('A', 'B', 'D', 'E', 'G', 'C', 'F', 'H');
         List<Character> inorder = Arrays.asList('D', 'B', 'G', 'E', 'A', 'C', 'F', 'H');

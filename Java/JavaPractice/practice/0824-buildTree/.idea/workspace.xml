@@ -17,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state relative-caret-position="418">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -26,13 +26,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Trees.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+            <state relative-caret-position="349">
+              <caret line="467" column="43" selection-start-line="467" selection-start-column="43" selection-end-line="467" selection-end-column="43" />
               <folding>
                 <element signature="method#buildTree#0;class#Trees#0" />
                 <element signature="method#preOrder#0;class#Trees#0" />
+                <element signature="method#preorderNoR#0;class#Trees#0" />
                 <element signature="method#inOrder#0;class#Trees#0" />
+                <element signature="method#inorderNoR#0;class#Trees#0" />
                 <element signature="method#postOrder#0;class#Trees#0" />
+                <element signature="method#postorderNoR#0;class#Trees#0" />
                 <element signature="method#levelOrderTraversal#0;class#Trees#0" />
                 <element signature="method#levelOrder#0;class#Trees#0" />
                 <element signature="method#calcTreeNode1#0;class#Trees#0" />
@@ -51,6 +54,7 @@
                 <element signature="method#buildTreeArray#0;class#Trees#0" />
                 <element signature="method#buildTreePreorder#0;class#Trees#0" />
                 <element signature="method#isBalanced#0;class#Trees#0" />
+                <element signature="method#isCompleteTree#0;class#Trees#0" />
                 <element signature="method#treeStr#0;class#Trees#0" />
                 <element signature="method#preorderTree#0;class#Trees#0" />
                 <element signature="method#lowestCommonAncestor#0;class#Trees#0" />
@@ -78,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="3" />
     <option name="width" value="906" />
     <option name="height" value="1044" />
@@ -94,7 +98,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../0827-heap" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -143,15 +147,16 @@
       <workItem from="1566833780687" duration="590000" />
       <workItem from="1566872316272" duration="23000" />
       <workItem from="1567049572454" duration="594000" />
+      <workItem from="1567233634081" duration="1521000" />
+      <workItem from="1567235254970" duration="11000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23511000" />
+    <option name="totallyTimeSpent" value="25043000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
-    <editor active="true" />
+    <frame x="2" y="0" width="604" height="696" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5440141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -192,20 +197,23 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        <state relative-caret-position="418">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Trees.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        <state relative-caret-position="349">
+          <caret line="467" column="43" selection-start-line="467" selection-start-column="43" selection-end-line="467" selection-end-column="43" />
           <folding>
             <element signature="method#buildTree#0;class#Trees#0" />
             <element signature="method#preOrder#0;class#Trees#0" />
+            <element signature="method#preorderNoR#0;class#Trees#0" />
             <element signature="method#inOrder#0;class#Trees#0" />
+            <element signature="method#inorderNoR#0;class#Trees#0" />
             <element signature="method#postOrder#0;class#Trees#0" />
+            <element signature="method#postorderNoR#0;class#Trees#0" />
             <element signature="method#levelOrderTraversal#0;class#Trees#0" />
             <element signature="method#levelOrder#0;class#Trees#0" />
             <element signature="method#calcTreeNode1#0;class#Trees#0" />
@@ -224,6 +232,7 @@
             <element signature="method#buildTreeArray#0;class#Trees#0" />
             <element signature="method#buildTreePreorder#0;class#Trees#0" />
             <element signature="method#isBalanced#0;class#Trees#0" />
+            <element signature="method#isCompleteTree#0;class#Trees#0" />
             <element signature="method#treeStr#0;class#Trees#0" />
             <element signature="method#preorderTree#0;class#Trees#0" />
             <element signature="method#lowestCommonAncestor#0;class#Trees#0" />
