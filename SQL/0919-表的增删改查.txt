@@ -1,0 +1,74 @@
+-- 新增：create
+-- 		语法
+INSERT[INTO]table_name[(column[,column]...)]VALUES
+(value_list)[,(value_list)]...
+value_list:value,[,value]...
+-- 		例:创建一张学生表 
+drop table if exists student;
+create table student(
+	id int,
+	sn int comment'学号',
+	name varchar(20) comment'姓名',
+	qq_mail varchar(20) comment'QQ邮箱'
+);
+-- 		单行数据全列插入
+-- 插入时，value_list 数量必须和定义表的列的数量、顺序一致
+insert into student values(100,10000,'唐三藏',NULL);
+insert into student values(101,10001,'孙悟空',NULL);
+-- 		多行数据指定列插入
+-- value_list 数量必须和指定列数量、顺序一致
+insert into student(id,sn,name) values
+(102,20001,'曹孟德'),
+(103,20002,'孙仲谋');
+
+-- 查询（retrieve）
+-- 		语法
+SELECT 
+	[DISTINCT] {* | {column [,column] ...}
+	[FROM table_name]
+	[WHERE...]
+	[ORDER BY column [ASC | DESC], ...]
+	LIMIT...
+-- 		例：
+-- 创建考试成绩表 
+drop table if exists exam_result;
+create table exam_result(
+	id int,
+	name varchar(20),
+	chinese decimal(3,1),
+	math decimal(3,1),
+	english decimal(3,1)
+);
+--插入测试数据 
+insert into exam_result(name,chinese,math,english) values
+('唐三藏',67,98,56),
+('孙悟空',87.5,78,77),
+('猪悟能',88,98.5,90),
+('曹孟德',82,84,67),
+('刘玄德',55.5,85,45),
+('孙权',70,73,78.5),
+('宋公明',75,65,30);
+-- 		全列查询
+-- 通常情况下不建议使用*进行全列查询 
+-- 1.查询的列越多，意味着需要传输的数据量越大；
+-- 2.可能会影响到索引的使用
+SELECT * FROM exam_result;
+-- 		指定列查询
+-- 指定列查询时，查询列表的顺序不需要按定义表的顺序来
+select id,name,english from exam_result;
+-- 		查询字段为表达式
+-- 表达式不包含字段
+select id,name,10 from exam_result;
+-- 表达式包含一个字段
+select id,name,english+10 from exam_result;
+-- 表达式包含多个字段
+select id,name,chinese+math+english from exam_result;
+-- 		语法
+-- 		语法
+-- 		语法
+-- 		语法
+-- 		语法
+-- 		语法
+-- 		语法
+-- 		语法
+-- 		语法
