@@ -11,15 +11,20 @@ create table student(
 	name varchar(20) comment'姓名',
 	qq_mail varchar(20) comment'QQ邮箱'
 );
+
 -- 		单行数据全列插入
 -- 插入时，value_list 数量必须和定义表的列的数量、顺序一致
 insert into student values(100,10000,'唐三藏',NULL);
 insert into student values(101,10001,'孙悟空',NULL);
+
 -- 		多行数据指定列插入
 -- value_list 数量必须和指定列数量、顺序一致
 insert into student(id,sn,name) values
 (102,20001,'曹孟德'),
 (103,20002,'孙仲谋');
+
+
+
 
 -- 查询（retrieve）
 -- 		语法
@@ -39,6 +44,7 @@ create table exam_result(
 	math decimal(3,1),
 	english decimal(3,1)
 );
+
 --插入测试数据 
 insert into exam_result(name,chinese,math,english) values
 ('唐三藏',67,98,56),
@@ -48,14 +54,17 @@ insert into exam_result(name,chinese,math,english) values
 ('刘玄德',55.5,85,45),
 ('孙权',70,73,78.5),
 ('宋公明',75,65,30);
+
 -- 		全列查询
 -- 通常情况下不建议使用*进行全列查询 
 -- 1.查询的列越多，意味着需要传输的数据量越大；
 -- 2.可能会影响到索引的使用
 SELECT * FROM exam_result;
+
 -- 		指定列查询
 -- 指定列查询时，查询列表的顺序不需要按定义表的顺序来
 select id,name,english from exam_result;
+
 -- 		查询字段为表达式
 -- 表达式不包含字段
 select id,name,10 from exam_result;
@@ -63,8 +72,17 @@ select id,name,10 from exam_result;
 select id,name,english+10 from exam_result;
 -- 表达式包含多个字段
 select id,name,chinese+math+english from exam_result;
--- 		语法
--- 		语法
+
+-- 		别名
+-- 语法
+-- 为查询结果中的列指定别名，即：返回的结果集中，以别名作为该列的名称
+SELECT column [AS] alias_name [...] FROM table_name;
+-- 结果集中：表头的列名=别名
+select id,name,chinese+math+english 总分 from exam_result;
+
+-- 		去重（distinct）
+-- 使用 distinct 关键字可对某列数据进行去重
+select distinct math from exam_result;
 -- 		语法
 -- 		语法
 -- 		语法
