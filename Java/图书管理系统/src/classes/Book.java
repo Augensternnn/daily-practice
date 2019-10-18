@@ -61,4 +61,8 @@ public class Book {
         currentCount--;
         borrowedCount++;
     }
+
+    public void returnBook(){
+        currentCount++;
+    }
 }

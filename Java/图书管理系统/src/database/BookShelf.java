@@ -23,7 +23,6 @@ public class BookShelf {
                 return book;
             }
         }
-
         throw new NoSuchBookException(ISBN);
     }
 
@@ -31,7 +30,13 @@ public class BookShelf {
         bookList.add(book);
     }
 
-    public List<Book> queryBooks() {
-        return new ArrayList<>(bookList);
+    public List<Book> queryBooks(Where<Book> where) {
+        List<Book> ret = new ArrayList<>();
+        for(Book book : bookList){
+            if(where == null || where.test(book)){
+                ret.add(book);
+            }
+        }
+        return ret;
     }
 }

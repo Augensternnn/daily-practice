@@ -1,5 +1,6 @@
 package classes;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Record {
@@ -16,5 +17,18 @@ public class Record {
     public boolean is(User user, String ISBN) {
         return userId.equals(user.getId())
                 && bookISBN.equals(ISBN);
+    }
+
+    public String getUserId(){
+        return userId;
+    }
+
+    public String getBookISBN(){
+        return bookISBN;
+    }
+
+    public String getBorrowedAt(){
+        SimpleDateFormat fmt = new SimpleDateFormat("YYYY-MM-dd HH:mm:ss");
+        return fmt.format(borrowedAt);
     }
 }

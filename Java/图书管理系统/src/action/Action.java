@@ -1,10 +1,13 @@
 package action;
 
+import classes.Record;
 import classes.User;
 import classes.Book;
 import database.BookShelf;
 import database.RecordShelf;
+import database.Where;
 import exceptions.BorrowedOutException;
+import exceptions.NotBorrowedException;
 import exceptions.YetBorrowedException;
 import exceptions.NoSuchBookException;
 
@@ -39,7 +42,17 @@ public class Action {
 
     public static List<Book> queryBooks() {
         BookShelf bookShelf = BookShelf.getInstance();
-        return bookShelf.queryBooks();
+        return bookShelf.queryBooks(null);
+    }
+
+    public static List<Book> queryBooksByWhere(Where<Book> where) {
+        BookShelf bookShelf = BookShelf.getInstance();
+        return bookShelf.queryBooks(where);
+    }
+
+    public static List<Record> queryRecords() {
+        RecordShelf recordShelf = RecordShelf.getInstance();
+        return recordShelf.queryRecords(null);
     }
 
     // 1. ISBN 对应的书存在
@@ -57,6 +70,15 @@ public class Action {
         }
         book.borrowBook();
         recordShelf.putRecord(user, ISBN);
+        return book;
+    }
+
+    public static Book returnBook(User user, String ISBN) throws NoSuchBookException, NotBorrowedException {
+        BookShelf bookShelf = BookShelf.getInstance();
+        Book book = bookShelf.search(ISBN);
+        RecordShelf recordShelf = RecordShelf.getInstance();
+        recordShelf.remove(user, ISBN);
+        book.returnBook();
         return book;
     }
 }
