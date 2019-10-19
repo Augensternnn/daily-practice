@@ -1,15 +1,15 @@
 package action;
 
+import classes.Book;
 import classes.Record;
 import classes.User;
-import classes.Book;
 import database.BookShelf;
 import database.RecordShelf;
 import database.Where;
 import exceptions.BorrowedOutException;
+import exceptions.NoSuchBookException;
 import exceptions.NotBorrowedException;
 import exceptions.YetBorrowedException;
-import exceptions.NoSuchBookException;
 
 import java.util.List;
 
@@ -82,4 +82,3 @@ public class Action {
         return book;
     }
 }
-
