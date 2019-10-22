@@ -1,0 +1,99 @@
+-- 图书管理系统
+-- 1.图书表
+create table book(
+    id int primary key,
+    name varchar(20),
+    author varchar(20),
+    price decimal(11,2),
+    category_id int,
+    foreign key (category_id) references category(id)
+    );
+
+-- 2.学生表
+create table student(
+    id int primary key,
+    name varchar(20)
+    );
+
+-- 3.图书分类表
+create table category(
+    id int primary key,
+    name varchar(20)
+    );
+
+-- 4.图书借阅信息表
+create table borrow_info(
+    id int primary key,
+    start_time timestamp null,
+    ent_time timestamp null,
+    book_id int,
+    student_id int,
+    foreign key (book_id) references book(id),
+    foreign key (student_id) references student(id)
+    );
+	
+-- 问题：
+-- 1.查询某个分类下的图书借阅信息。例：计算机
+select * from book b join category c on b.category_id = c.id where c.name = '计算机';
+
+SELECT
+	b.id,b.name,b.author,b.price,c.name,c.id
+FROM
+	book b
+	left JOIN category c ON b.category_id = c.id ;
+	
+-- 查询某个分类下的图书借阅信息
+SELECT
+	b.id,
+	b.NAME book_name,
+	b.author,
+	b.price,
+	c.NAME category_name,
+	c.id,
+	bi.start_time,
+	bi.end_time 
+FROM
+	book b
+	JOIN category c ON b.category_id = c.id
+	JOIN borrow_info bi ON bi.book_id = b.id 
+WHERE
+	c.NAME = '计算机';
+	
+
+-- 查询“艺术”分类下，价格在30-40元之间的图书借阅信息
+SELECT
+	b.id,
+	b.NAME book_name,
+	b.author,
+	b.price,
+	c.NAME category_name,
+	c.id,
+	bi.start_time,
+	bi.end_time 
+FROM
+	book b
+	JOIN category c ON b.category_id = c.id
+	JOIN borrow_info bi ON bi.book_id = b.id 
+WHERE
+	c.NAME = '艺术' 
+	AND b.price > 30 
+	AND b.price < 40;
+	
+	
+	
+-- 查询在某个时间之后的图书借阅信息
+SELECT
+	b.id,
+	b.NAME book_name,
+	b.author,
+	b.price,
+	c.NAME category_name,
+	c.id,
+	bi.start_time,
+	bi.end_time 
+FROM
+	book b
+	JOIN category c ON b.category_id = c.id
+	JOIN borrow_info bi ON bi.book_id = b.id 
+WHERE
+	bi.start_time > '2019-7-01 00:00:00';
