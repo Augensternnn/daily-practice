@@ -1,0 +1,68 @@
+-- 写一个学生和老师的关系：多对多
+drop table if exists course;
+create table course(
+	courses varchar(20) primary key
+);
+drop table if exists student;
+create table student(
+	learned_course varchar(20) primary key,
+	id int,
+	name int,
+	student_course varchar(20),
+	foreign key (student_course) references course(courses)
+);
+drop table if exists teacher;
+create table teacher(
+	teached_course varchar(20) primary key,
+	name varchar(20),
+	teacher_course varchar(20),
+	foreign key (teached_course) references course(courses)
+);
+drop table if exists student_teacher;
+create table student_teacher(
+	course_student varchar(20),
+	course_teacher varchar(20),
+	foreign key (course_student) references student(learned_course),
+	foreign key (course_teacher) references student(teached_course_course)
+);
+
+select * from course cou, score sco where cou.id = sco.course_id and
+sco.score >= 60 and cou.name = '英文';
+
+select * from course cou inner join score sco on cou.id = sco.course_id and
+sco.score >= 60 and cou.name = '英文';
+
+select count(0) from course cou inner join score sco on cou.id = sco.course_id and
+sco.score >= 60 and cou.name = '英文';
+
+select sum(sco.score) from course cou inner join score sco on cou.id = sco.course_id and
+sco.score >= 60 and cou.name = '英文';
+
+select stu.name,cou.name,sco.score from course cou, score sco,student stu where cou.id = sco.course_id and stu.id = sco.student_id and
+sco.score >= 60 and cou.name = '英文';
+
+select stu.name student_name,cou.name course_name,sco.score from course cou, score sco,student stu where cou.id = sco.course_id and stu.id = sco.student_id and
+sco.score >= 60 and cou.name = '英文';
+
+select stu.name,sco.score 
+from course cou, score sco,student stu 
+where cou.id = sco.course_id and stu.id = sco.student_id 
+and avg(sco.score) >= 60;
+
+select * from student stu left join score sco on stu.id = sco.student_id;
+
+select * from student stu right join score sco on stu.id = sco.student_id;
+
+SELECT
+ stu.id,
+ stu.sn,
+ stu.NAME,
+ stu.qq_mail,
+ sco.score,
+ sco.course_id,
+ cou.NAME
+FROM
+ student stu
+ LEFT JOIN score sco on stu.id = sco.student_id
+ LEFT JOIN course cou on cou.id = sco.course_id
+ order by stu.id;
