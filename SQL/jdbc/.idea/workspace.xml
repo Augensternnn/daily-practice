@@ -29,7 +29,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DEMO/DBUtilTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
+            <state relative-caret-position="345">
               <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -140,7 +140,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,6 +162,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,16 +262,17 @@
       <workItem from="1572151444078" duration="26000" />
       <workItem from="1572249059190" duration="6153000" />
       <workItem from="1572397263178" duration="63000" />
+      <workItem from="1572743217473" duration="41000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14299000" />
+    <option name="totallyTimeSpent" value="14340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="656" height="696" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2625418" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27090302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -496,7 +497,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DEMO/DBUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
+        <state relative-caret-position="345">
           <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
