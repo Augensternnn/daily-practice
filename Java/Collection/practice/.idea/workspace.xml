@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ae90f64-111b-4ee6-bf1f-e909e9e143d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Practices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../递归/src/CalcE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../递归/src/CalcPi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../递归/src/Factorial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../SQL/jdbc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SQL/jdbc/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,14 +19,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Practices.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="98" column="40" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="40" />
+            <state relative-caret-position="359">
+              <caret line="98" column="43" selection-start-line="98" selection-start-column="43" selection-end-line="98" selection-end-column="43" />
               <folding>
                 <element signature="method#find#0;class#Practices#0" />
                 <element signature="method#calcDigit#0;class#Practices#0" />
                 <element signature="method#foreach#0;class#Practices#0" />
                 <element signature="method#displayMutipyCation#0;class#Practices#0" />
                 <element signature="method#reverse#0;class#Practices#0" />
+                <element signature="docComment;method#decToHex#0;class#Practices#0" />
+                <element signature="method#decToHex#0;class#Practices#0" />
               </folding>
             </state>
           </provider>
@@ -62,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="939" />
     <option name="width" value="984" />
     <option name="height" value="1044" />
@@ -77,6 +75,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -126,14 +125,16 @@
       <workItem from="1572397333279" duration="1619000" />
       <workItem from="1572416552534" duration="25000" />
       <workItem from="1572422810780" duration="1066000" />
+      <workItem from="1572743337036" duration="1245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2710000" />
+    <option name="totallyTimeSpent" value="3955000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="626" y="0" width="656" height="696" extended-state="0" />
+    <frame x="626" y="0" width="656" height="696" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.45652175" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -172,14 +173,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Practices.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="98" column="40" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="40" />
+        <state relative-caret-position="359">
+          <caret line="98" column="43" selection-start-line="98" selection-start-column="43" selection-end-line="98" selection-end-column="43" />
           <folding>
             <element signature="method#find#0;class#Practices#0" />
             <element signature="method#calcDigit#0;class#Practices#0" />
             <element signature="method#foreach#0;class#Practices#0" />
             <element signature="method#displayMutipyCation#0;class#Practices#0" />
             <element signature="method#reverse#0;class#Practices#0" />
+            <element signature="docComment;method#decToHex#0;class#Practices#0" />
+            <element signature="method#decToHex#0;class#Practices#0" />
           </folding>
         </state>
       </provider>
