@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69c48f29-ef2d-4500-b1b2-c327914a541c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一练/test1108/Parenthesis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/每日一练/test1108/Parenthesis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test1107/Reverse_Alignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1107/Reverse_Alignment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test1107/SodaWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1107/SodaWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test1109/BuyApple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collection/Longest_DigitsString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collection/Parenthesis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collection/Reverse_Alignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collection/Reverse_Alignment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collection/SodaWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collection/SodaWater.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test1107/Reverse_Alignment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test1109/BuyApple.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="30" lean-forward="true" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -53,6 +63,7 @@
         <option value="$PROJECT_DIR$/src/test1107/Test.java" />
         <option value="$PROJECT_DIR$/src/test1107/SodaWater.java" />
         <option value="$PROJECT_DIR$/src/test1107/Reverse_Alignment.java" />
+        <option value="$PROJECT_DIR$/src/test1109/BuyApple.java" />
       </list>
     </option>
   </component>
@@ -69,6 +80,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -86,13 +98,12 @@
               <item name="每日一练" type="b2602c69:ProjectViewProjectNode" />
               <item name="每日一练" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test1107" type="462c0819:PsiDirectoryNode" />
+              <item name="test1109" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -122,13 +133,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="FindKMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test1106.FindKMax" />
+  <component name="RunManager" selected="Application.BuyApple">
+    <configuration name="BuyApple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test1109.BuyApple" />
       <module name="每日一练" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test1106.*" />
+          <option name="PATTERN" value="test1109.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuyApple" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Parenthesis" />
         <item itemvalue="Application.SodaWater" />
         <item itemvalue="Application.FindKth" />
-        <item itemvalue="Application.FindKMax" />
       </list>
     </recent_temporary>
   </component>
@@ -213,17 +224,18 @@
       <workItem from="1573287089625" duration="1701000" />
       <workItem from="1573291729492" duration="578000" />
       <workItem from="1573311342169" duration="1823000" />
+      <workItem from="1573354331532" duration="910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26437000" />
+    <option name="totallyTimeSpent" value="27347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="628" y="0" width="656" height="696" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.46645108" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.46488294" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -232,7 +244,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16489361" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16489361" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -321,6 +333,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1109/BuyApple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="30" lean-forward="true" selection-end-line="26" />
         </state>
       </provider>
     </entry>
