@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69c48f29-ef2d-4500-b1b2-c327914a541c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test1109/BuyApple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collection/Longest_DigitsString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collection/Parenthesis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collection/Reverse_Alignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collection/Reverse_Alignment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collection/SodaWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collection/SodaWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test1110/MagicBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test1110/StackToQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test1111/Calc_NAppears.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test1111/Candies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/每日一练/test1109/BuyApple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/每日一练/test1109/BuyApple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test1108/Longest_DigitsString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1108/Longest_DigitsString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test1108/Parenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1108/Parenthesis.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,19 +24,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test1107/Reverse_Alignment.java">
+        <entry file="file://$PROJECT_DIR$/src/test1111/Candies.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="304">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test1111/Calc_NAppears.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test1108/Longest_DigitsString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test1109/BuyApple.java">
+        <entry file="file://$PROJECT_DIR$/src/test1108/Parenthesis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="30" lean-forward="true" selection-end-line="26" />
+            <state relative-caret-position="332">
+              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+              <folding>
+                <element signature="e#284#295#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,12 +85,20 @@
         <option value="$PROJECT_DIR$/src/test1106/FindKMax.java" />
         <option value="$PROJECT_DIR$/src/test1106/Palindrome.java" />
         <option value="$PROJECT_DIR$/src/test1106/FindKth.java" />
-        <option value="$PROJECT_DIR$/src/test1108/Parenthesis.java" />
-        <option value="$PROJECT_DIR$/src/test1108/Longest_DigitsString.java" />
         <option value="$PROJECT_DIR$/src/test1107/Test.java" />
         <option value="$PROJECT_DIR$/src/test1107/SodaWater.java" />
         <option value="$PROJECT_DIR$/src/test1107/Reverse_Alignment.java" />
         <option value="$PROJECT_DIR$/src/test1109/BuyApple.java" />
+        <option value="$PROJECT_DIR$/src/test1110/Test.java" />
+        <option value="$PROJECT_DIR$/src/test1110/MagicBag.java" />
+        <option value="$PROJECT_DIR$/src/test1110/StackToQueue.java" />
+        <option value="$PROJECT_DIR$/src/test1111/Test.java" />
+        <option value="$PROJECT_DIR$/src/test1111/Candies.java" />
+        <option value="$PROJECT_DIR$/src/test1111/Calc_NAppears.java" />
+        <option value="$PROJECT_DIR$/src/test1108/Test.java" />
+        <option value="$PROJECT_DIR$/src/test1108/Derived.java" />
+        <option value="$PROJECT_DIR$/src/test1108/Longest_DigitsString.java" />
+        <option value="$PROJECT_DIR$/src/test1108/Parenthesis.java" />
       </list>
     </option>
   </component>
@@ -81,7 +116,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -98,12 +132,19 @@
               <item name="每日一练" type="b2602c69:ProjectViewProjectNode" />
               <item name="每日一练" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test1109" type="462c0819:PsiDirectoryNode" />
+              <item name="test1108" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="每日一练" type="b2602c69:ProjectViewProjectNode" />
+              <item name="每日一练" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test1111" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -119,6 +160,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
@@ -133,13 +175,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BuyApple">
-    <configuration name="BuyApple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test1109.BuyApple" />
+  <component name="RunManager" selected="Application.Derived">
+    <configuration name="Calc_NAppears" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test1111.Calc_NAppears" />
       <module name="每日一练" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test1109.*" />
+          <option name="PATTERN" value="test1111.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,21 +189,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindKth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test1106.FindKth" />
-      <module name="每日一练" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test1106.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Parenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test1108.Parenthesis" />
+    <configuration name="Derived" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test1108.Derived" />
       <module name="每日一练" />
       <extension name="coverage">
         <pattern>
@@ -173,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SodaWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test1107.SodaWater" />
+    <configuration name="MagicBag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test1110.MagicBag" />
       <module name="每日一练" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test1107.*" />
+          <option name="PATTERN" value="test1110.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,12 +215,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test1107.Test" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test1110.Test" />
       <module name="每日一练" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test1107.*" />
+          <option name="PATTERN" value="test1110.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test1111.Test" />
+      <module name="每日一练" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test1111.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BuyApple" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Parenthesis" />
-        <item itemvalue="Application.SodaWater" />
-        <item itemvalue="Application.FindKth" />
+        <item itemvalue="Application.Derived" />
+        <item itemvalue="Application.Calc_NAppears" />
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.MagicBag" />
+        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -225,17 +267,21 @@
       <workItem from="1573291729492" duration="578000" />
       <workItem from="1573311342169" duration="1823000" />
       <workItem from="1573354331532" duration="910000" />
+      <workItem from="1573444447010" duration="7361000" />
+      <workItem from="1573486339518" duration="1938000" />
+      <workItem from="1573529869427" duration="6869000" />
+      <workItem from="1573553201057" duration="2816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27347000" />
+    <option name="totallyTimeSpent" value="46331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="628" y="0" width="656" height="696" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.46488294" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.62541807" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -244,7 +290,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16489361" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.05319149" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -281,27 +327,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test1108.java" />
-    <entry file="file://$PROJECT_DIR$/src/test1108/Longest_DigitsString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test1108/Parenthesis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test1106/MatrixSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test1106/FindKth.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -315,17 +340,47 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test1107/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/test1110/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/test1109/BuyApple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1110/MagicBag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1110/StackToQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1111/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/test1106/Palindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="826">
+        <state relative-caret-position="694">
           <caret line="65" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test1107/SodaWater.java">
+    <entry file="file://$PROJECT_DIR$/src/test1106/MatrixSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+        <state relative-caret-position="-90">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -336,10 +391,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test1109/BuyApple.java">
+    <entry file="file://$PROJECT_DIR$/src/test1107/SodaWater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="30" lean-forward="true" selection-end-line="26" />
+        <state relative-caret-position="295">
+          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1108/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/test1111/Candies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1108/Derived.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1111/Calc_NAppears.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1108/Longest_DigitsString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1108/Parenthesis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding>
+            <element signature="e#284#295#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -33,3 +33,27 @@ public class Longest_DigitsString {
         System.out.println(maxStr);
     }
 }
+
+     */
+
+    /*
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        while (in.hasNext()){
+            String s = in.nextLine();
+            int max=0, count=0, end=0;
+            for(int i = 0; i < s.length(); i++){
+                if(s.charAt(i) >= '0' && s.charAt(i) <= '9'){
+                    count++;
+                    if(max < count){
+                        max = count;
+                        end = i;
+                    }
+                }else
+                    count = 0;
+            }
+            System.out.println(s.substring(end-max+1, end+1));
+        }
+    }
+     */
+}
