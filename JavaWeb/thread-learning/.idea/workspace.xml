@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="17eea1b4-48e5-420a-a1c7-d8f112209eb1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/practice/src/Complexity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/practice/src/Initialize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/表/链表/src/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/表/顺序表/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/表/顺序表/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/表/顺序表/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/表/顺序表/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/表/顺序表/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/表/顺序表/src/SeqList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/表/顺序表/顺序表.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson1/CreateThread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson2/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson2/ThreadAdvantage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../每日一练/src/test1109/DeletePublicCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/practice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson1/CreateThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson1/CreateThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson1/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson1/Sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../每日一练/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../每日一练/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../每日一练/out/production/每日一练/test1108/Derived.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../每日一练/out/production/每日一练/test1108/Parenthesis.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../每日一练/out/production/每日一练/test1108/Parenthesis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../每日一练/out/production/每日一练/test1109/BuyApple.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../每日一练/out/production/每日一练/test1109/BuyApple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../每日一练/src/test1108/Longest_DigitsString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../每日一练/src/test1108/Longest_DigitsString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../每日一练/src/test1108/Parenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../每日一练/src/test1108/Parenthesis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../每日一练/src/test1109/BuyApple.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../每日一练/src/test1109/BuyApple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../每日一练/src/test1110/MagicBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../每日一练/src/test1110/MagicBag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../每日一练/src/test1110/StackToQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../每日一练/src/test1110/StackToQueue.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lesson2/MyThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#95#359#0" />
+                <element signature="e#262#498#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lesson2/ThreadAdvantage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/lesson1/CreateThread.java" />
+        <option value="$PROJECT_DIR$/src/lesson1/Sequence.java" />
+        <option value="$PROJECT_DIR$/src/lesson1/CreateThread2.java" />
+        <option value="$PROJECT_DIR$/src/lesson2/MyThread.java" />
+        <option value="$PROJECT_DIR$/src/lesson2/ThreadAdvantage.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/../../Java/Collection/表/顺序表/顺序表.iml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="945" />
+    <option name="width" value="984" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="thread-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread-learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thread-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thread-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java/Collection/practice" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MyThread">
+    <configuration name="CreateThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson1.CreateThread" />
+      <module name="thread-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson2.MyThread" />
+      <module name="thread-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson1.Sequence" />
+      <module name="thread-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyThread" />
+        <item itemvalue="Application.Sequence" />
+        <item itemvalue="Application.CreateThread" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17eea1b4-48e5-420a-a1c7-d8f112209eb1" name="Default Changelist" comment="" />
+      <created>1573040759617</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573040759617</updated>
+      <workItem from="1573040762352" duration="3934000" />
+      <workItem from="1573090637593" duration="25000" />
+      <workItem from="1573623534699" duration="6777000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10736000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="630" y="0" width="656" height="696" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5334448" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3280142" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/lesson2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson1/CreateThread2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson1/CreateThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="25" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson1/Sequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson2/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#95#359#0" />
+            <element signature="e#262#498#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson2/ThreadAdvantage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
