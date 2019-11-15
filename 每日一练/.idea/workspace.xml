@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69c48f29-ef2d-4500-b1b2-c327914a541c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test1109/DeletePublicCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一练/test1108/Derived.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一练/test1108/Parenthesis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/每日一练/test1108/Parenthesis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一练/test1109/BuyApple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/每日一练/test1109/BuyApple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test1108/Longest_DigitsString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1108/Longest_DigitsString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test1108/Parenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1108/Parenthesis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test1109/BuyApple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1109/BuyApple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test1110/MagicBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1110/MagicBag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test1110/StackToQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1110/StackToQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/Collection/practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/Collection/practice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/thread-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test1111/Calc_NAppears.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1111/Calc_NAppears.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test1111/Candies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1111/Candies.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,14 +19,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test1110/StackToQueue.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test1111/Candies.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="476">
+              <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test1111/Calc_NAppears.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
               <folding>
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,16 +65,16 @@
         <option value="$PROJECT_DIR$/src/test1107/Reverse_Alignment.java" />
         <option value="$PROJECT_DIR$/src/test1110/Test.java" />
         <option value="$PROJECT_DIR$/src/test1111/Test.java" />
-        <option value="$PROJECT_DIR$/src/test1111/Candies.java" />
         <option value="$PROJECT_DIR$/src/test1108/Test.java" />
         <option value="$PROJECT_DIR$/src/test1108/Derived.java" />
         <option value="$PROJECT_DIR$/src/test1108/Parenthesis.java" />
         <option value="$PROJECT_DIR$/src/test1108/Longest_DigitsString.java" />
-        <option value="$PROJECT_DIR$/src/test1111/Calc_NAppears.java" />
         <option value="$PROJECT_DIR$/src/test1109/BuyApple.java" />
         <option value="$PROJECT_DIR$/src/test1109/DeletePublicCharacter.java" />
         <option value="$PROJECT_DIR$/src/test1110/MagicBag.java" />
         <option value="$PROJECT_DIR$/src/test1110/StackToQueue.java" />
+        <option value="$PROJECT_DIR$/src/test1111/Candies.java" />
+        <option value="$PROJECT_DIR$/src/test1111/Calc_NAppears.java" />
       </list>
     </option>
   </component>
@@ -88,13 +90,38 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="每日一练" type="b2602c69:ProjectViewProjectNode" />
+              <item name="每日一练" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="每日一练" type="b2602c69:ProjectViewProjectNode" />
+              <item name="每日一练" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="每日一练" type="b2602c69:ProjectViewProjectNode" />
+              <item name="每日一练" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test1111" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaWeb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -216,11 +243,12 @@
       <workItem from="1573553201057" duration="2816000" />
       <workItem from="1573611578926" duration="8161000" />
       <workItem from="1573623385695" duration="120000" />
+      <workItem from="1573690884482" duration="4055000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54612000" />
+    <option name="totallyTimeSpent" value="58667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="630" y="0" width="656" height="696" extended-state="0" />
@@ -316,13 +344,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test1108/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/test1108/Derived.java" />
-    <entry file="file://$PROJECT_DIR$/src/test1111/Candies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test1108/Parenthesis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -344,16 +365,6 @@
           <folding>
             <element signature="e#710#1159#0" />
             <element signature="e#1164#1695#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test1111/Calc_NAppears.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -382,6 +393,23 @@
           <folding>
             <element signature="e#250#251#0" expanded="true" />
             <element signature="e#283#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1111/Candies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1111/Calc_NAppears.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

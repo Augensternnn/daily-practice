@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17eea1b4-48e5-420a-a1c7-d8f112209eb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/practice/src/Complexity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/practice/src/Initialize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/表/链表/src/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/表/顺序表/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/表/顺序表/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/表/顺序表/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/表/顺序表/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/表/顺序表/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/表/顺序表/src/SeqList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/表/顺序表/顺序表.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson1/CreateThread2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/ThreadAdvantage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../每日一练/src/test1109/DeletePublicCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/practice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson1/CreateThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson1/CreateThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson1/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson1/Sequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../每日一练/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../每日一练/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../每日一练/out/production/每日一练/test1108/Derived.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../每日一练/out/production/每日一练/test1108/Parenthesis.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../每日一练/out/production/每日一练/test1108/Parenthesis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../每日一练/out/production/每日一练/test1109/BuyApple.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../每日一练/out/production/每日一练/test1109/BuyApple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../每日一练/src/test1108/Longest_DigitsString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../每日一练/src/test1108/Longest_DigitsString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../每日一练/src/test1108/Parenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../每日一练/src/test1108/Parenthesis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../每日一练/src/test1109/BuyApple.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../每日一练/src/test1109/BuyApple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../每日一练/src/test1110/MagicBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../每日一练/src/test1110/MagicBag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../每日一练/src/test1110/StackToQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../每日一练/src/test1110/StackToQueue.java" afterDir="false" />
-    </list>
+    <list default="true" id="17eea1b4-48e5-420a-a1c7-d8f112209eb1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,13 +17,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lesson2/MyThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="152">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#175#176#0" expanded="true" />
                 <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#95#359#0" />
-                <element signature="e#262#498#0" />
               </folding>
             </state>
           </provider>
@@ -96,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="945" />
     <option name="width" value="984" />
     <option name="height" value="1044" />
@@ -136,6 +107,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java/Collection/practice" />
@@ -222,14 +194,15 @@
       <workItem from="1573040762352" duration="3934000" />
       <workItem from="1573090637593" duration="25000" />
       <workItem from="1573623534699" duration="6777000" />
+      <workItem from="1573690845378" duration="11000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10736000" />
+    <option name="totallyTimeSpent" value="10747000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="630" y="0" width="656" height="696" extended-state="1" />
+    <frame x="630" y="0" width="656" height="696" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5334448" />
@@ -267,13 +240,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lesson2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lesson2.java" />
     <entry file="file://$PROJECT_DIR$/src/lesson1/CreateThread2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -308,13 +275,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lesson2/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="152">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#175#176#0" expanded="true" />
             <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#95#359#0" />
-            <element signature="e#262#498#0" />
           </folding>
         </state>
       </provider>

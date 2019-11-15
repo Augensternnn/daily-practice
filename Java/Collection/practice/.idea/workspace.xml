@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ae90f64-111b-4ee6-bf1f-e909e9e143d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Complexity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Initialize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../表/链表/src/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../表/顺序表/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../表/顺序表/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../表/顺序表/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../表/顺序表/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../表/顺序表/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../表/顺序表/src/SeqList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../表/顺序表/顺序表.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../JavaWeb/thread-learning/src/lesson1/CreateThread2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../JavaWeb/thread-learning/src/lesson2/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../JavaWeb/thread-learning/src/lesson2/ThreadAdvantage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../每日一练/src/test1109/DeletePublicCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../JavaWeb/thread-learning/src/lesson1/CreateThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaWeb/thread-learning/src/lesson1/CreateThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../JavaWeb/thread-learning/src/lesson1/Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaWeb/thread-learning/src/lesson1/Sequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../每日一练/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../每日一练/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../每日一练/out/production/每日一练/test1108/Derived.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../每日一练/out/production/每日一练/test1108/Parenthesis.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../每日一练/out/production/每日一练/test1108/Parenthesis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../每日一练/out/production/每日一练/test1109/BuyApple.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../每日一练/out/production/每日一练/test1109/BuyApple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../每日一练/src/test1108/Longest_DigitsString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../每日一练/src/test1108/Longest_DigitsString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../每日一练/src/test1108/Parenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../每日一练/src/test1108/Parenthesis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../每日一练/src/test1109/BuyApple.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../每日一练/src/test1109/BuyApple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../每日一练/src/test1110/MagicBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../每日一练/src/test1110/MagicBag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../每日一练/src/test1110/StackToQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../每日一练/src/test1110/StackToQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaWeb/thread-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaWeb/thread-learning/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,7 +37,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Complexity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
+            <state relative-caret-position="344">
               <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
               <folding>
                 <element signature="method#bubbleSort#0;class#Complexity#0" />
@@ -92,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="939" />
     <option name="width" value="984" />
     <option name="height" value="1044" />
@@ -104,32 +79,13 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="practices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practices" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../每日一练" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -187,15 +143,15 @@
       <workItem from="1572743337036" duration="1245000" />
       <workItem from="1572828970571" duration="162000" />
       <workItem from="1573625073268" duration="3061000" />
+      <workItem from="1573690848381" duration="32000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7178000" />
+    <option name="totallyTimeSpent" value="7210000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="626" y="0" width="656" height="696" extended-state="1" />
-    <editor active="true" />
+    <frame x="626" y="0" width="656" height="696" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.45652175" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -263,7 +219,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Complexity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
+        <state relative-caret-position="344">
           <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
           <folding>
             <element signature="method#bubbleSort#0;class#Complexity#0" />
