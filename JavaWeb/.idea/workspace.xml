@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2a22ca5-9dfa-450e-9d62-41b053685110" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../每日一练/src/DataStruct/Numerical_conversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一练/src/test1114/DeleteNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一练/src/test1114/MiniKOfNDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一练/src/test1114/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/thread-learning/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../每日一练/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1110/MagicBag.class" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1110/MagicBag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1110/StackToQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1110/StackToQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1111/Calc_NAppears.class" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1111/Calc_NAppears.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1111/Candies.class" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1111/Candies.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,14 +19,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Test.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -34,7 +41,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -60,17 +66,32 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lesson1" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="thread-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="thread-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/thread-learning" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -99,16 +120,17 @@
       <updated>1573623510503</updated>
       <workItem from="1573623511675" duration="21000" />
       <workItem from="1573780035398" duration="20000" />
+      <workItem from="1573905941688" duration="103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41000" />
+    <option name="totallyTimeSpent" value="144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33063865" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1851253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -144,6 +166,47 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Test.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-learning/src/lesson1/CreateThread.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-learning/src/lesson1/CreateThread2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-learning/src/lesson1/Sequence.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-learning/src/lesson2/InterruptThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1102" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-learning/src/lesson2/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-learning/src/lesson2/StopThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-learning/src/lesson2/ThreadAdvantage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1311" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-learning/src/lesson3/InterruptThread.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-learning/src/lesson3/UnsafeThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="10" selection-end-line="29" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17eea1b4-48e5-420a-a1c7-d8f112209eb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lesson2/InterruptThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/StopThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson3/InterruptThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson3/UnsafeThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson2/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread-learning/lesson2/MyThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson2/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson2/ThreadAdvantage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/ThreadAdvantage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../每日一练/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../每日一练/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="17eea1b4-48e5-420a-a1c7-d8f112209eb1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +26,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lesson3/UnsafeThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="19">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#160#656#0" />
               </folding>
             </state>
           </provider>
@@ -74,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="942" />
     <option name="width" value="984" />
     <option name="height" value="1044" />
@@ -86,32 +74,13 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thread-learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thread-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thread-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../每日一练" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -225,15 +194,15 @@
       <workItem from="1573623534699" duration="6777000" />
       <workItem from="1573690845378" duration="11000" />
       <workItem from="1573780056988" duration="13520000" />
+      <workItem from="1573883944185" duration="39000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24267000" />
+    <option name="totallyTimeSpent" value="24306000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="628" y="0" width="656" height="696" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5334448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -347,11 +316,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lesson3/UnsafeThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="19">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#160#656#0" />
           </folding>
         </state>
       </provider>
