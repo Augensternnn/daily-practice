@@ -36,5 +36,12 @@ public class Test {
         }
 
     }
+
+    static class TTTT<T>{
+        private T t;
+        public void settValue(T t){
+
+        }
+    }
 }
 
