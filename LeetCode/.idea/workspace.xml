@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30146ff6-0954-440b-8a54-11f20d80a71f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AddTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一练/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/thread-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson4/FileOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson4/FileOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson4/Sington.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson4/Sington.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../每日一练/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1114/MiniKOfNDigit.class" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1114/MiniKOfNDigit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1118/GrayCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1118/GrayCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../每日一练/src/test1114/MiniKOfNDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/src/test1114/MiniKOfNDigit.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/TwoSum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="38" column="48" lean-forward="true" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+              <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -31,11 +40,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AddTwoNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="54" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+            <state relative-caret-position="361">
+              <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+              <folding>
+                <element signature="e#202#252#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LongestSubstring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1109#1720#0" />
+                <element signature="e#1738#2167#0" />
+                <element signature="e#2188#3024#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,12 +84,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/AddTwoNumbers.java" />
+        <option value="$PROJECT_DIR$/src/LongestSubstring.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-183" />
-    <option name="width" value="984" />
+    <option name="x" value="846" />
+    <option name="width" value="1065" />
     <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -72,26 +100,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -120,6 +129,20 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestSubstring" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LongestSubstring" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -132,16 +155,19 @@
       <updated>1573974003384</updated>
       <workItem from="1573974007929" duration="4935000" />
       <workItem from="1574135816154" duration="3915000" />
+      <workItem from="1574222267365" duration="14566000" />
+      <workItem from="1574238186064" duration="10000" />
+      <workItem from="1574248943445" duration="631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8850000" />
+    <option name="totallyTimeSpent" value="24057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.51657236" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.36287627" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -150,8 +176,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3548951" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37587413" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -160,6 +186,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32517484" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -175,10 +202,17 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="830">
+          <caret line="659" selection-start-line="659" selection-end-line="659" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="38" column="48" lean-forward="true" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -188,8 +222,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AddTwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+        <state relative-caret-position="361">
+          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+          <folding>
+            <element signature="e#202#252#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LongestSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1109#1720#0" />
+            <element signature="e#1738#2167#0" />
+            <element signature="e#2188#3024#0" />
+          </folding>
         </state>
       </provider>
     </entry>
