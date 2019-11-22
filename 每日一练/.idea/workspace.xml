@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69c48f29-ef2d-4500-b1b2-c327914a541c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/src/LongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/thread-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson4/FileOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson4/FileOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson4/Sington.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson4/Sington.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/LongestPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一练/test1114/MiniKOfNDigit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/每日一练/test1114/MiniKOfNDigit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一练/test1118/GrayCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/每日一练/test1118/GrayCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test1114/MiniKOfNDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1114/MiniKOfNDigit.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,11 +29,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
               <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test1106/Palindrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -96,7 +95,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1035" />
+    <option name="x" value="867" />
     <option name="width" value="1065" />
     <option name="height" value="1044" />
   </component>
@@ -107,13 +106,38 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="每日一练" type="b2602c69:ProjectViewProjectNode" />
+              <item name="每日一练" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="每日一练" type="b2602c69:ProjectViewProjectNode" />
+              <item name="每日一练" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="每日一练" type="b2602c69:ProjectViewProjectNode" />
+              <item name="每日一练" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test1106" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LeetCode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -242,16 +266,18 @@
       <workItem from="1574135728738" duration="84000" />
       <workItem from="1574243016457" duration="3823000" />
       <workItem from="1574248889873" duration="46000" />
+      <workItem from="1574307051785" duration="1076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85389000" />
+    <option name="totallyTimeSpent" value="86465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.38343558" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.38318512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -430,13 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test1106/Palindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test1114/DeleteNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
@@ -513,6 +532,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1106/Palindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
