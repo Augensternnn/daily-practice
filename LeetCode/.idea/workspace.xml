@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30146ff6-0954-440b-8a54-11f20d80a71f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/JoinDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/ThreadDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/ThreadStateTransfer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson6/SequencePrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson6/SequencePrintV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReverseInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../每日一练/src/test1120/AddLongInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../每日一练/src/test1120/DrawSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/thread-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/thread-learning/out/production/thread-learning/ThreadDemo$MyRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/out/production/thread-learning/ThreadDemo$MyRunnable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/thread-learning/out/production/thread-learning/ThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/out/production/thread-learning/ThreadDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/ThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/LongestPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/LongestPalindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../每日一练/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../每日一练/out/production/每日一练/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/out/production/每日一练/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../每日一练/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/src/Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="30146ff6-0954-440b-8a54-11f20d80a71f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ReverseInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state>
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -57,7 +39,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/math/BigInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="745">
+            <state relative-caret-position="174">
               <caret line="438" column="18" selection-start-line="438" selection-start-column="18" selection-end-line="438" selection-end-column="18" />
             </state>
           </provider>
@@ -184,11 +166,12 @@
       <workItem from="1574306715163" duration="2489000" />
       <workItem from="1574428781203" duration="1723000" />
       <workItem from="1574438378735" duration="771000" />
+      <workItem from="1574478838897" duration="65000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29040000" />
+    <option name="totallyTimeSpent" value="29105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
@@ -297,6 +280,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReverseInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/NumberFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -304,16 +294,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReverseInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/math/BigInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="745">
+        <state relative-caret-position="174">
           <caret line="438" column="18" selection-start-line="438" selection-start-column="18" selection-end-line="438" selection-end-column="18" />
         </state>
       </provider>
