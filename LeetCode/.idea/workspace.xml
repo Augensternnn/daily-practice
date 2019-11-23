@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30146ff6-0954-440b-8a54-11f20d80a71f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/JoinDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/ThreadDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/ThreadStateTransfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson6/SequencePrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson6/SequencePrintV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReverseInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一练/src/test1120/AddLongInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一练/src/test1120/DrawSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/thread-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/thread-learning/out/production/thread-learning/ThreadDemo$MyRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/out/production/thread-learning/ThreadDemo$MyRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/thread-learning/out/production/thread-learning/ThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/out/production/thread-learning/ThreadDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/ThreadDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/LongestPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/LongestPalindrome.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../每日一练/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../每日一练/out/production/每日一练/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/out/production/每日一练/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../每日一练/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/src/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,14 +32,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LongestPalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+            <state>
+              <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
               <folding>
+                <element signature="e#1639#1640#0" expanded="true" />
                 <element signature="e#1697#1698#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ReverseInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/math/BigInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="745">
+              <caret line="438" column="18" selection-start-line="438" selection-start-column="18" selection-end-line="438" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/NumberFormatException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="63" column="47" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -49,12 +91,13 @@
         <option value="$PROJECT_DIR$/src/AddTwoNumbers.java" />
         <option value="$PROJECT_DIR$/src/LongestSubstring.java" />
         <option value="$PROJECT_DIR$/src/LongestPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/ReverseInteger.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="867" />
-    <option name="width" value="1065" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="813" />
+    <option name="width" value="1116" />
     <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -64,32 +107,13 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../每日一练" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -98,7 +122,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -112,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestPalindrome">
+  <component name="RunManager" selected="Application.ReverseInteger">
     <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LongestPalindrome" />
       <module name="LeetCode" />
@@ -127,8 +151,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseInteger" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseInteger" />
         <item itemvalue="Application.LongestPalindrome" />
         <item itemvalue="Application.LongestSubstring" />
       </list>
@@ -150,14 +182,17 @@
       <workItem from="1574238186064" duration="10000" />
       <workItem from="1574248943445" duration="631000" />
       <workItem from="1574306715163" duration="2489000" />
+      <workItem from="1574428781203" duration="1723000" />
+      <workItem from="1574438378735" duration="771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26546000" />
+    <option name="totallyTimeSpent" value="29040000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="578" y="0" width="710" height="696" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.39570552" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -168,7 +203,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35460994" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34965035" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37237763" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -244,13 +279,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="967">
+          <caret line="582" column="48" selection-start-line="582" selection-start-column="48" selection-end-line="582" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LongestPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+        <state>
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
           <folding>
+            <element signature="e#1639#1640#0" expanded="true" />
             <element signature="e#1697#1698#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="63" column="47" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReverseInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/math/BigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="438" column="18" selection-start-line="438" selection-start-column="18" selection-end-line="438" selection-end-column="18" />
         </state>
       </provider>
     </entry>

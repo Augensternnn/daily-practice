@@ -26,6 +26,7 @@ public class ThreadDemo {
 
      */
 
+    /*
     private static class MyRunnable implements Runnable{
 //        public volatile boolean isQuit = false;
 //        @Override
@@ -56,7 +57,6 @@ public class ThreadDemo {
             System.out.println(Thread.currentThread().getName() + "：啊！险些误了大事");
         }
     }
-
     public static void main(String[] args) throws InterruptedException {
         MyRunnable target = new MyRunnable();
         Thread thread = new Thread(target, "李四");
@@ -65,6 +65,35 @@ public class ThreadDemo {
         Thread.sleep(10 * 1000);
         System.out.println(Thread.currentThread().getName() + "：老板来电话了，得赶紧通知李四对方是个骗子！");
 //        target.isQuit = true;
+        thread.interrupt();
+    }
+
+     */
+
+    private static class MyRunnable implements Runnable{
+
+        @Override
+        public void run() {
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                System.out.println("通过异常收到了中断情况");
+            }
+            for(int i = 0; i < 10; i++)
+                System.out.println(Thread.currentThread().isInterrupted());
+
+//            for(int i = 0; i < 10; i++)
+//                System.out.println(Thread.interrupted());       // 清楚中断标志
+
+//            for(int i = 0; i < 10; i++)
+//                System.out.println(Thread.currentThread().isInterrupted());       // 不清除中断标志
+        }
+    }
+
+    public static void main(String[] args) {
+        MyRunnable target = new MyRunnable();
+        Thread thread = new Thread(target, "李四");
+        thread.start();
         thread.interrupt();
     }
 

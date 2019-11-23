@@ -1,9 +1,9 @@
 public class Test {
+    private static void testMethod(){
+        System.out.println("testMethod");
+    }
+
     public static void main(String[] args) {
-        String x = "fmn";
-        x.toUpperCase();
-        String y = x.replace('f', 'F');
-        y = y + "wxy";
-        System.out.println(y);
+        ((Test)null).testMethod();
     }
 }
