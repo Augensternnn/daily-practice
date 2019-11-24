@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2a22ca5-9dfa-450e-9d62-41b053685110" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../每日一练/src/DataStruct/Numerical_conversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../每日一练/src/test1114/DeleteNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../每日一练/src/test1114/MiniKOfNDigit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../每日一练/src/test1114/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/thread-learning/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../每日一练/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1110/MagicBag.class" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1110/MagicBag.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1110/StackToQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1110/StackToQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1111/Calc_NAppears.class" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1111/Calc_NAppears.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1111/Candies.class" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1111/Candies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +15,7 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -40,6 +31,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -84,14 +76,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/thread-learning" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -121,16 +112,17 @@
       <workItem from="1573623511675" duration="21000" />
       <workItem from="1573780035398" duration="20000" />
       <workItem from="1573905941688" duration="103000" />
+      <workItem from="1574479614066" duration="11000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144000" />
+    <option name="totallyTimeSpent" value="155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1851253" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1851253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />

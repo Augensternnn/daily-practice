@@ -18,6 +18,7 @@ public class SafeThread {
 //                        COUNT++;
                         // 第一种方法：静态类对象锁定
                         increment();
+                        decrement();
                         // 第二种方法：对实例对象锁定
 //                        synchronized (object){      // 对于启动的20个线程，锁的是同一个
 //                            COUNT++;

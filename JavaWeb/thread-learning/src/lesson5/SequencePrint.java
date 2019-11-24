@@ -1,4 +1,6 @@
-package lesson6;
+package lesson5;
+
+import lesson1.Sequence;
 
 /**
  * 三个线程A、B、C，分别打印字符串A、B、C
@@ -10,7 +12,6 @@ package lesson6;
  * ...
  * 以上总共10次
  */
-
 public class SequencePrint {
     private volatile static String INDEX = "A";
 
@@ -21,12 +22,11 @@ public class SequencePrint {
                 try {
                     for(int i = 0; i < 10; i++){
                         synchronized (SequencePrint.class){
-                            while (!INDEX.equals("A")){
+                            while (!INDEX.equals("A"))
                                 SequencePrint.class.wait();
-                            }
                             System.out.println(INDEX);
                             INDEX = "B";
-                            SequencePrint.class.notify();
+                            SequencePrint.class.notifyAll();
                         }
                     }
                 } catch (InterruptedException e) {

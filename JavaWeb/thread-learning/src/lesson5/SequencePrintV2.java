@@ -1,4 +1,4 @@
-package lesson6;
+package lesson5;
 
 /**
  * 三个线程A、B、C，分别打印字符串A、B、C
@@ -15,10 +15,12 @@ public class SequencePrintV2 {
     private volatile static int INDEX;
 
     public static void main(String[] args) {
+
         new Thread(new Task("A")).start();
         new Thread(new Task("B")).start();
         new Thread(new Task("C")).start();
     }
+
     static class Task implements Runnable{
         private String name;
 
@@ -42,6 +44,7 @@ public class SequencePrintV2 {
                         SequencePrintV2.class.notifyAll();
                     }
                 }
+
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
