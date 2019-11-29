@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69c48f29-ef2d-4500-b1b2-c327914a541c" name="Default Changelist" comment="" />
+    <list default="true" id="69c48f29-ef2d-4500-b1b2-c327914a541c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test1128/Gift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test1128/PartitionLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/复习/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/复习/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,11 +46,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test1127/ScoreOrder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="172">
               <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test1128/Gift.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test1128/PartitionLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+              <folding>
+                <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#135#136#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,10 +139,12 @@
         <option value="$PROJECT_DIR$/src/test1127/JudgeSubstring.java" />
         <option value="$PROJECT_DIR$/src/test1127/ScoreOrder.java" />
         <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/src/test1128/Gift.java" />
+        <option value="$PROJECT_DIR$/src/test1128/PartitionLinkedList.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="879" />
     <option name="width" value="1050" />
     <option name="height" value="1044" />
@@ -127,7 +156,36 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="每日一练" type="b2602c69:ProjectViewProjectNode" />
+              <item name="每日一练" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="每日一练" type="b2602c69:ProjectViewProjectNode" />
+              <item name="每日一练" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="每日一练" type="b2602c69:ProjectViewProjectNode" />
+              <item name="每日一练" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test1128" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="每日一练" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -157,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ScoreOrder">
+  <component name="RunManager" selected="Application.PartitionLinkedList">
     <configuration name="CalcZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test1115.CalcZero" />
       <module name="每日一练" />
@@ -184,22 +242,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EatShell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test1122.EatShell" />
+    <configuration name="JudgeSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test1127.JudgeSubstring" />
       <module name="每日一练" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test1122.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JudgeSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test1127.JudgeSubstring" />
+    <configuration name="PartitionLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test1128.PartitionLinkedList" />
       <module name="每日一练" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test1128.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -219,11 +277,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PartitionLinkedList" />
         <item itemvalue="Application.ScoreOrder" />
         <item itemvalue="Application.JudgeSubstring" />
         <item itemvalue="Application.DNA" />
         <item itemvalue="Application.CalcZero" />
-        <item itemvalue="Application.EatShell" />
       </list>
     </recent_temporary>
   </component>
@@ -285,14 +343,16 @@
       <workItem from="1574826988053" duration="236000" />
       <workItem from="1574827556753" duration="408000" />
       <workItem from="1574902035770" duration="121000" />
+      <workItem from="1574917526128" duration="1703000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112591000" />
+    <option name="totallyTimeSpent" value="114294000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <frame x="586" y="0" width="700" height="696" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.6869159" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -303,8 +363,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.052447554" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.27097902" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21808511" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.26950353" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -346,7 +406,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test1125/DNA.java</url>
           <line>5</line>
-          <properties class="test1125.DNA" method="main">
+          <properties class="test1125.DNA">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="4" />
@@ -634,6 +694,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1128/Gift.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1128/PartitionLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
