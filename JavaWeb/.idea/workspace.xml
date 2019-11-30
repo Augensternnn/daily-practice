@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2a22ca5-9dfa-450e-9d62-41b053685110" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/复习/src/DateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/复习/src/ExecutorsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/复习/src/MyBlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/复习/src/MyThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/复习/src/MyTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java/复习/src/TimerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一练/src/test1129/Decipher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一练/src/test1129/RabbitSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/复习/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/复习/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../每日一练/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1128/PartitionLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1128/PartitionLinkedList.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="945" />
     <option name="width" value="984" />
     <option name="height" value="1044" />
@@ -31,8 +41,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -76,6 +84,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -113,16 +123,17 @@
       <workItem from="1573780035398" duration="20000" />
       <workItem from="1573905941688" duration="103000" />
       <workItem from="1574479614066" duration="11000" />
+      <workItem from="1575082811609" duration="410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155000" />
+    <option name="totallyTimeSpent" value="565000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1851253" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18835893" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
