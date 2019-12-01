@@ -2,17 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69c48f29-ef2d-4500-b1b2-c327914a541c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Java/复习/src/DateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/复习/src/ExecutorsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/复习/src/MyBlockingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/复习/src/MyThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/复习/src/MyTimer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java/复习/src/TimerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test1129/Decipher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test1129/RabbitSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/复习/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/复习/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson6/DateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson6/ExecutorsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson6/MyBlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson6/MyThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson6/MyTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson6/MyTimer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson6/TimerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test1130/BuyBead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test1130/Plus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/thread-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一练/test1128/PartitionLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/每日一练/test1128/PartitionLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/每日一练/test1129/Decipher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/每日一练/test1129/Decipher.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,11 +93,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test1129/Decipher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
+            <state relative-caret-position="150">
               <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test1130/BuyBead.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test1130/Plus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="35" column="4" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -164,6 +186,8 @@
         <option value="$PROJECT_DIR$/src/test1128/PartitionLinkedList.java" />
         <option value="$PROJECT_DIR$/src/test1129/RabbitSum.java" />
         <option value="$PROJECT_DIR$/src/test1129/Decipher.java" />
+        <option value="$PROJECT_DIR$/src/test1130/BuyBead.java" />
+        <option value="$PROJECT_DIR$/src/test1130/Plus.java" />
       </list>
     </option>
   </component>
@@ -180,6 +204,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,13 +222,7 @@
               <item name="每日一练" type="b2602c69:ProjectViewProjectNode" />
               <item name="每日一练" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test1128" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="每日一练" type="b2602c69:ProjectViewProjectNode" />
-              <item name="每日一练" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test1129" type="462c0819:PsiDirectoryNode" />
+              <item name="test1130" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="每日一练" type="b2602c69:ProjectViewProjectNode" />
@@ -212,15 +232,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LeetCode" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -244,7 +262,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Decipher">
+  <component name="RunManager" selected="Application.BuyBead">
+    <configuration name="BuyBead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test1130.BuyBead" />
+      <module name="每日一练" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test1130.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Decipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test1129.Decipher" />
       <module name="每日一练" />
@@ -254,13 +285,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JudgeSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test1127.JudgeSubstring" />
-      <module name="每日一练" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -306,11 +330,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuyBead" />
         <item itemvalue="Application.Decipher" />
         <item itemvalue="Application.RabbitSum" />
         <item itemvalue="Application.PartitionLinkedList" />
         <item itemvalue="Application.ScoreOrder" />
-        <item itemvalue="Application.JudgeSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -375,17 +399,19 @@
       <workItem from="1574917526128" duration="1703000" />
       <workItem from="1574994706004" duration="1767000" />
       <workItem from="1574996491291" duration="963000" />
+      <workItem from="1575094967636" duration="1787000" />
+      <workItem from="1575096772744" duration="1791000" />
+      <workItem from="1575098582586" duration="203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117024000" />
+    <option name="totallyTimeSpent" value="120805000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.6869159" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.32174617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -394,8 +420,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21808511" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.26923078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31118882" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26923078" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -405,6 +431,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32692307" />
+      <window_info active="true" anchor="bottom" id="Thumbnails" order="13" visible="true" weight="0.33333334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -751,8 +778,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test1129/Decipher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
+        <state relative-caret-position="150">
           <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1130/BuyBead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1130/Plus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="35" column="4" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
         </state>
       </provider>
     </entry>

@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30146ff6-0954-440b-8a54-11f20d80a71f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson6/DateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson6/ExecutorsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson6/MyBlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson6/MyThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson6/MyTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson6/MyTimer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/lesson6/TimerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一练/src/test1130/BuyBead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../每日一练/src/test1130/Plus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/thread-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../每日一练/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1129/Decipher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1129/Decipher.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LongestPalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="825">
               <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
               <folding>
                 <element signature="e#1639#1640#0" expanded="true" />
@@ -32,17 +46,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ReverseInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="625">
               <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/math/BigInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1674">
+            <state relative-caret-position="10075">
               <caret line="438" column="18" selection-start-line="438" selection-start-column="18" selection-end-line="438" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AddTwoNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-161">
+              <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+              <folding>
+                <element signature="e#202#252#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,8 +96,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="813" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-186" />
     <option name="width" value="1116" />
     <option name="height" value="1044" />
   </component>
@@ -82,13 +108,38 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AddTwoNumbers.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaWeb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -160,16 +211,19 @@
       <workItem from="1574428781203" duration="1723000" />
       <workItem from="1574438378735" duration="771000" />
       <workItem from="1574478838897" duration="673000" />
+      <workItem from="1575098266156" duration="299000" />
+      <workItem from="1575098586263" duration="61000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29713000" />
+    <option name="totallyTimeSpent" value="30073000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <frame x="-124" y="0" width="744" height="696" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.39570552" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.39531124" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -234,16 +288,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AddTwoNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
-          <folding>
-            <element signature="e#202#252#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LongestSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
@@ -261,9 +305,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LongestPalindrome.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/NumberFormatException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret line="63" column="47" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LongestPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
           <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
           <folding>
             <element signature="e#1639#1640#0" expanded="true" />
@@ -274,22 +325,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ReverseInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="625">
           <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="63" column="47" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/math/BigInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
+        <state relative-caret-position="10075">
           <caret line="438" column="18" selection-start-line="438" selection-start-column="18" selection-end-line="438" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AddTwoNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161">
+          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+          <folding>
+            <element signature="e#202#252#0" />
+          </folding>
         </state>
       </provider>
     </entry>
