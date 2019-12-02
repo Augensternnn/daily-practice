@@ -1,5 +1,6 @@
 package lesson6;
 
+    // 不要这个了，重写MyTimer3
 import java.util.concurrent.PriorityBlockingQueue;
 
 public class MyTimer2 {
