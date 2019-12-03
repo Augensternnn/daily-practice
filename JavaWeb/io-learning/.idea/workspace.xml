@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31cf66d8-71ff-4269-be57-5a8a1ec3abbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/junit-4.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../thread-learning/src/lesson6/TimerTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../每日一练/src/NumClassify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../每日一练/src/test1201/BalanceTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../thread-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../thread-learning/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../thread-learning/src/lesson6/MyTimer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../thread-learning/src/lesson6/MyTimer2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../每日一练/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../每日一练/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../每日一练/out/production/每日一练/test1130/BuyBead.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../每日一练/out/production/每日一练/test1130/BuyBead.class" afterDir="false" />
-    </list>
+    <list default="true" id="31cf66d8-71ff-4269-be57-5a8a1ec3abbb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FileDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="104" column="25" lean-forward="true" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
+            <state relative-caret-position="273">
+              <caret line="104" column="25" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-69" />
     <option name="width" value="1122" />
     <option name="height" value="1047" />
@@ -76,29 +65,16 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="io-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="io-learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/junit-4.10.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../每日一练" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -200,6 +176,7 @@
       <workItem from="1575188718695" duration="1327000" />
       <workItem from="1575190063971" duration="1791000" />
       <workItem from="1575191874254" duration="858000" />
+      <workItem from="1575343350264" duration="30000" />
     </task>
     <servers />
   </component>
@@ -236,10 +213,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3976000" />
+    <option name="totallyTimeSpent" value="4006000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-46" y="0" width="748" height="698" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.15278901" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -281,8 +258,8 @@
     <entry file="file://$PROJECT_DIR$/src/FileTest.java" />
     <entry file="file://$PROJECT_DIR$/src/FileDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="104" column="25" lean-forward="true" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
+        <state relative-caret-position="273">
+          <caret line="104" column="25" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
