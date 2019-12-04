@@ -81,13 +81,13 @@ class Cloth implements Serializable{
         this.brand = brand;
     }
 
-    @Override
-    public String toString() {
-        return "Cloth{" +
-                "name='" + name + '\'' +
-                ", brand='" + brand + '\'' +
-                '}';
-    }
+//    @Override
+//    public String toString() {
+//        return "Cloth{" +
+//                "name='" + name + '\'' +
+//                ", brand='" + brand + '\'' +
+//                '}';
+//    }
 
     public void setName(String name) {
         this.name = name;
