@@ -14,13 +14,14 @@ public class ObjectSerializeTest {
         cloths.add(new Cloth("B", "阿迪"));
         p.setCloths(cloths);
 
+        // 深拷贝：使用对象输入输出流进行对象序列化
+        // 前提：对象（包含对象中的复杂对象）实现Serializable接口
 
-
-
-
+        // 序列化
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         ObjectOutputStream oos = new ObjectOutputStream(baos);
         oos.writeObject(p);
+
         // 反序列化
         ByteArrayInputStream bais = new ByteArrayInputStream(
                 baos.toByteArray());
@@ -30,6 +31,3 @@ public class ObjectSerializeTest {
         System.out.println(copy);
     }
 }
-// 深拷贝：使用对象输入输出流进行对象序列化
-// 前提：对象（包含对象中的复杂对象）实现Serializable接口
-// 序列化

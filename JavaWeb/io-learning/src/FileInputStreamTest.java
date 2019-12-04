@@ -112,14 +112,14 @@ public class FileInputStreamTest {
             InputStreamReader isr = new InputStreamReader(
                     fis, "GBK");
             // 在不知道是什么类型时：
-//            InputStreamReader isrr = new InputStreamReader(fis, StandardCharsets.US_ASCII);
-//            char[] chars = new char[1024];
-//            int len = 0;
-//            while((len=isr.read(chars)) != -1){
-//                System.out.println(new String(chars,0,len));
-//            }
-//        } catch (IOException e) {
-//            e.printStackTrace();
+            InputStreamReader isrr = new InputStreamReader(fis, StandardCharsets.US_ASCII);
+            char[] chars = new char[1024];
+            int len = 0;
+            while((len=isr.read(chars)) != -1){
+                System.out.println(new String(chars,0,len));
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }
