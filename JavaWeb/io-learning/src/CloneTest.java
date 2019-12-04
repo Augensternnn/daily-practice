@@ -72,7 +72,7 @@ class Person implements Cloneable, Serializable {
     }
 }
 
-class Cloth{
+class Cloth implements Serializable{
     private String name;
     private String brand;
 

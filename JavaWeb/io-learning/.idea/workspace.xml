@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cf66d8-71ff-4269-be57-5a8a1ec3abbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CloneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CopyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileInputStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectSerializeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bit/ResourceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/io-learning/FileDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice/FileDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../每日一练/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../每日一练/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CloneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CloneTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +19,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ObjectSerializeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
+            <state relative-caret-position="295">
               <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -42,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CloneTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="195">
+              <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1107#1108#0" expanded="true" />
@@ -112,12 +101,12 @@
         <option value="$PROJECT_DIR$/src/com/bit/ResourceTest.java" />
         <option value="$PROJECT_DIR$/src/CopyTest.java" />
         <option value="$PROJECT_DIR$/src/FileInputStreamTest.java" />
-        <option value="$PROJECT_DIR$/src/CloneTest.java" />
         <option value="$PROJECT_DIR$/src/ObjectSerializeTest.java" />
+        <option value="$PROJECT_DIR$/src/CloneTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-63" />
     <option name="width" value="1122" />
     <option name="height" value="1047" />
@@ -188,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CloneTest">
+  <component name="RunManager" selected="JUnit.ObjectSerializeTest.test1">
     <configuration name="CloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CloneTest" />
       <module name="io-learning" />
@@ -216,10 +205,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResourceTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ObjectSerializeTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="io-learning" />
-      <option name="PACKAGE_NAME" value="com.bit" />
-      <option name="MAIN_CLASS_NAME" value="com.bit.ResourceTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ObjectSerializeTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -238,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ObjectSerializeTest.test1" />
         <item itemvalue="Application.CloneTest" />
         <item itemvalue="JUnit.FileInputStreamTest.test6" />
         <item itemvalue="JUnit.CopyTest.test1" />
         <item itemvalue="JUnit.ResourceTest.test2" />
-        <item itemvalue="JUnit.ResourceTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -266,17 +255,11 @@
       <workItem from="1575436842440" duration="1789000" />
       <workItem from="1575438651388" duration="1792000" />
       <workItem from="1575440469025" duration="1788000" />
-      <workItem from="1575442275250" duration="872000" />
+      <workItem from="1575442275250" duration="1000000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FileInputStreamTest_test1 - 2019.12.04 at 13h 22m 42s.xml">
-      <configuration name="FileInputStreamTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FileInputStreamTest_test2 - 2019.12.04 at 13h 26m 44s.xml">
-      <configuration name="FileInputStreamTest.test2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FileInputStreamTest_test5 - 2019.12.04 at 13h 40m 08s.xml">
       <configuration name="FileInputStreamTest.test5" configurationId="JUnit" />
     </history-entry>
@@ -301,13 +284,18 @@
     <history-entry file="FileInputStreamTest_test6 - 2019.12.04 at 14h 41m 08s.xml">
       <configuration name="FileInputStreamTest.test6" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ObjectSerializeTest_test1 - 2019.12.04 at 15h 06m 30s.xml">
+      <configuration name="ObjectSerializeTest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ObjectSerializeTest_test1 - 2019.12.04 at 15h 07m 03s.xml">
+      <configuration name="ObjectSerializeTest.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15488000" />
+    <option name="totallyTimeSpent" value="15616000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-42" y="0" width="748" height="698" extended-state="1" />
-    <editor active="true" />
+    <frame x="-42" y="0" width="748" height="698" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.38803557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -318,7 +306,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30212015" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30212015" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -407,8 +395,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CloneTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="195">
+          <caret line="74" column="35" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1107#1108#0" expanded="true" />
@@ -431,7 +419,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ObjectSerializeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
+        <state relative-caret-position="295">
           <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
