@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69c48f29-ef2d-4500-b1b2-c327914a541c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/io-learning/src/StringWriterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/src/practice/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test1207/JudgePasswordQualify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test1207/ShouXingNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/io-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/io-learning/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/thread-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test1208/AddNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test1208/Draw.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/每日一练/test1206/TransformIntWithIP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/每日一练/test1206/TransformIntWithIP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test1206/TransformIntWithIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test1206/TransformIntWithIP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/每日一练/test1207/JudgePasswordQualify.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/每日一练/test1207/JudgePasswordQualify.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,22 +20,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test1202/Upgrade.java">
+        <entry file="file://$PROJECT_DIR$/src/test1201/BalanceTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="39" selection-start-line="2" selection-end-line="39" />
+            <state relative-caret-position="775">
+              <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+              <folding>
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#165#166#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test1202/HighScore.java">
+        <entry file="file://$PROJECT_DIR$/src/test1130/Plus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="825">
+              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test1130/BuyBead.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -48,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test1206/FindX.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" selection-start-line="2" selection-end-line="28" selection-end-column="1" />
+            <state relative-caret-position="100">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -75,11 +80,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test1207/JudgePasswordQualify.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+            <state relative-caret-position="950">
+              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test1208/Draw.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test1208/AddNum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-276">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -104,8 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test1107/Test.java" />
-        <option value="$PROJECT_DIR$/src/test1107/SodaWater.java" />
         <option value="$PROJECT_DIR$/src/test1110/Test.java" />
         <option value="$PROJECT_DIR$/src/test1111/Test.java" />
         <option value="$PROJECT_DIR$/src/test1108/Test.java" />
@@ -155,13 +185,14 @@
         <option value="$PROJECT_DIR$/src/test1206/TransformIntWithIP.java" />
         <option value="$PROJECT_DIR$/src/test1207/ShouXingNum.java" />
         <option value="$PROJECT_DIR$/src/test1207/JudgePasswordQualify.java" />
+        <option value="$PROJECT_DIR$/src/test1208/Draw.java" />
+        <option value="$PROJECT_DIR$/src/test1208/AddNum.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="402" />
-    <option name="y" value="69" />
-    <option name="width" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="673" />
+    <option name="width" value="1253" />
     <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -189,7 +220,7 @@
               <item name="每日一练" type="b2602c69:ProjectViewProjectNode" />
               <item name="每日一练" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test1207" type="462c0819:PsiDirectoryNode" />
+              <item name="test1208" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,13 +258,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JudgePasswordQualify">
-    <configuration name="FindX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test1206.FindX" />
+  <component name="RunManager" selected="Application.AddNum">
+    <configuration name="AddNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test1208.AddNum" />
       <module name="每日一练" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test1206.*" />
+          <option name="PATTERN" value="test1208.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -241,12 +272,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HighScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test1202.HighScore" />
+    <configuration name="Draw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test1208.Draw" />
       <module name="每日一练" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test1202.*" />
+          <option name="PATTERN" value="test1208.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -295,11 +326,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddNum" />
+        <item itemvalue="Application.Draw" />
         <item itemvalue="Application.JudgePasswordQualify" />
         <item itemvalue="Application.ShouXingNum" />
         <item itemvalue="Application.TransformIntWithIP" />
-        <item itemvalue="Application.FindX" />
-        <item itemvalue="Application.HighScore" />
       </list>
     </recent_temporary>
   </component>
@@ -387,16 +418,18 @@
       <workItem from="1575705726920" duration="1786000" />
       <workItem from="1575707539797" duration="1785000" />
       <workItem from="1575709346291" duration="250000" />
+      <workItem from="1575770068806" duration="900000" />
+      <workItem from="1575771833739" duration="1787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143518000" />
+    <option name="totallyTimeSpent" value="146205000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.28037384" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.288162" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -405,8 +438,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3374126" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26398602" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33510637" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.25874126" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -462,18 +495,18 @@
           </properties>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test1208/AddNum.java</url>
+          <line>5</line>
+          <properties class="test1208.AddNum" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test1108/Derived.java" />
-    <entry file="file://$PROJECT_DIR$/src/test1110/MagicBag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test1110/StackToQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -599,13 +632,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test1122/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test1122/AddNums.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -768,17 +794,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test1130/BuyBead.java">
+    <entry file="file://$PROJECT_DIR$/src/NumClassify.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="100">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test1130/Plus.java">
+    <entry file="file://$PROJECT_DIR$/src/test1202/Upgrade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1202/HighScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -793,37 +832,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NumClassify.java">
+    <entry file="file://$PROJECT_DIR$/src/test1130/Plus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test1202/Upgrade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="39" selection-start-line="2" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test1202/HighScore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="825">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test1206/FindX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -846,8 +865,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test1207/JudgePasswordQualify.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        <state relative-caret-position="950">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1130/BuyBead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1208/Draw.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test1208/AddNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
