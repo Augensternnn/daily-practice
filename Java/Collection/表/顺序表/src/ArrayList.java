@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class ArrayList {
     private int size = 0;
     private int[] array;
@@ -41,5 +43,54 @@ public class ArrayList {
         size++;
     }
 
+    // 删除下标 index 所在处数据元素
+    // 要求：对 index 进行合法性检验
+    // 最坏情况：index == 0 时，时间复杂度为 O(n)
+    public void erase(int index){
+        // [0, size-1]
+        if(index < 0 || index > size){
+            System.out.printf("index输入不合法，取值范围应为：[0, %d]%n", size-1);
+            return;
+        }
 
+        // 从前往后遍历，将 [index+1, size-1] 内数据往前移动一格
+        for(int i = index + 1; i <= size - 1; i++){
+            array[i-1] = array[i];
+        }
+        size--;
+        array[size] = 0;    // 可做可不做
+    }
+
+    private void ensureCapacity(){
+        if(size < array.length){
+            return;
+        }
+
+        // 进行扩容
+        // 1.申请新空间，通常大小为原来的 1.5 倍或 2 倍
+        int oldCapacity = array.length;
+        int newCapacity = oldCapacity + oldCapacity / 2;
+        int[] newArray = new int[newCapacity];
+        // 2.搬家
+        for(int i = 0; i < size; i++){
+            newArray[i] = array[i];
+        }
+        // 3.通知大家新地址
+        array = newArray;
+        // 4.释放老空间， GC 会回收
+    }
+
+    public String toString(){
+        return Arrays.toString(Arrays.copyOf(array, size));
+    }
+
+    public static void main(String[] args) {
+        int[] array = { 1, 2, 3, 4, 5 };
+        ArrayList arrayList = new ArrayList(array);
+        System.out.println(arrayList.toString());
+        arrayList.insert(5, 106);	// 报错
+        System.out.println(arrayList.toString());
+        arrayList.erase(1);
+        System.out.println(arrayList.toString());
+    }
 }
