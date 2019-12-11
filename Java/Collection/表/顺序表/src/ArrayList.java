@@ -67,17 +67,15 @@ public class ArrayList {
         }
 
         // 进行扩容
-        // 1.申请新空间，通常大小为原来的 1.5 倍或 2 倍
+        // 申请新空间，通常大小为原来的 1.5 倍或 2 倍
         int oldCapacity = array.length;
         int newCapacity = oldCapacity + oldCapacity / 2;
         int[] newArray = new int[newCapacity];
-        // 2.搬家
         for(int i = 0; i < size; i++){
             newArray[i] = array[i];
         }
-        // 3.通知大家新地址
         array = newArray;
-        // 4.释放老空间， GC 会回收
+        // 释放老空间， GC 会回收
     }
 
     public String toString(){
