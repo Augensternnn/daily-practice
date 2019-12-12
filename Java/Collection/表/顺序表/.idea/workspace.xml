@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ace0f8c-0efc-44cb-8519-8e365484e7a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Topic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Topic.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +44,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
+            <state relative-caret-position="3175">
               <caret line="127" column="5" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
             </state>
           </provider>
@@ -55,11 +53,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Topic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="247">
+              <caret line="89" selection-start-line="89" selection-end-line="89" />
               <folding>
-                <element signature="e#76#77#0" expanded="true" />
-                <element signature="e#99#100#0" expanded="true" />
+                <element signature="method#reverseList2#0;class#Solution#0" />
               </folding>
             </state>
           </provider>
@@ -96,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="948" />
     <option name="width" value="987" />
     <option name="height" value="1044" />
@@ -109,8 +106,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,6 +122,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -165,16 +162,18 @@
       <workItem from="1575956225143" duration="552000" />
       <workItem from="1576021362963" duration="1442000" />
       <workItem from="1576023016934" duration="211000" />
+      <workItem from="1576165323619" duration="1710000" />
+      <workItem from="1576167075655" duration="594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6363000" />
+    <option name="totallyTimeSpent" value="8667000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="632" y="0" width="658" height="696" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25666666" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.265" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -230,31 +229,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3175">
+          <caret line="127" column="5" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1675">
           <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
-          <folding>
-            <element signature="e#2053#2054#0" expanded="true" />
-            <element signature="e#2119#2120#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="127" column="5" selection-start-line="127" selection-start-column="5" selection-end-line="127" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Topic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="247">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
           <folding>
-            <element signature="e#76#77#0" expanded="true" />
-            <element signature="e#99#100#0" expanded="true" />
+            <element signature="method#reverseList2#0;class#Solution#0" />
           </folding>
         </state>
       </provider>
