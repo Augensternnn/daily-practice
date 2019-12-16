@@ -1,3 +1,5 @@
+import org.omg.PortableServer.LIFESPAN_POLICY_ID;
+
 import java.util.List;
 
 class ListNode{
@@ -116,6 +118,81 @@ class Solution{
         }
         return slow;
     }
+
+    // 链表中倒数第 K 个结点
+    public ListNode FindKthToTail(ListNode head,int k) {
+        int len = 0;
+        for(ListNode cur = head; cur != null; cur = cur.next) {
+            len++;
+        }
+        if(len < k)
+            return null;
+        int n = len - k;
+        ListNode index = head;
+        for(int i = 0; i < n; i++){
+            index = index.next;
+        }
+        return index;
+    }
+    public ListNode FindKthToTail1(ListNode head,int k) {
+        ListNode front = head;
+        ListNode back = head;
+        for(int i = 0; i < k; i++){
+            if(front == null)
+                return null;
+            front = front.next;
+        }
+        while (front != null){
+            front = front.next;
+            back = back.next;
+        }
+        return back;
+    }
+
+    // 合并两个有序链表
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        if(l1 == null){
+            return l2;
+        }
+        if(l2 == null){
+            return l1;
+        }
+        ListNode cur1 = l1;
+        ListNode cur2 = l2;
+        ListNode newList = null;
+        ListNode last = null;
+        while (cur1 != null && cur2 != null){
+            if(cur1.val <= cur2.val){
+                ListNode next = cur1.next;
+                if(newList == null){
+                    cur1.next = null;
+                    newList = cur1;
+                }else {
+                    cur1.next = null;
+                    last.next = cur1;
+                }
+                last = cur1;
+                cur1 = next;
+            }else {
+                ListNode next = cur2.next;
+                if(newList == null){
+                    cur2.next = null;
+                    newList = cur2;
+                }else {
+                    cur2.next = null;
+                    last.next = cur2;
+                }
+                last = cur2;
+                cur2 = next;
+            }
+        }
+        if(cur1 != null){
+            last.next = cur1;
+        }else {
+            last.next = cur2;
+        }
+        return newList;
+    }
 }
 
 public class Topic {
@@ -157,8 +234,37 @@ public class Topic {
         display(result);
     }
 
+    public static void test1() {
+        ListNode n1 = new ListNode(6);
+        ListNode n2 = new ListNode(1);
+        ListNode n3 = new ListNode(2);
+        ListNode n4 = new ListNode(6);
+        ListNode n5 = new ListNode(3);
+        ListNode n6 = new ListNode(6);
+        n1.next = n2; n2.next = n3; n3.next = n4; n4.next = n5; n5.next = n6;
+
+        Solution s = new Solution();
+        ListNode result = s.removeElements(n1, 6);
+    }
+
+    public static void test2() {
+        ListNode n1 = new ListNode(6);
+        ListNode n2 = new ListNode(1);
+        ListNode n3 = new ListNode(2);
+        ListNode n4 = new ListNode(6);
+        ListNode n5 = new ListNode(3);
+        ListNode n6 = new ListNode(6);
+        n1.next = n2; n2.next = n3; n3.next = n4; n4.next = n5; n5.next = n6;
+
+        Solution s = new Solution();
+        ListNode result = s.removeElements(n1, 6);
+    }
+
     public static void main(String[] args) {
         testReverseList();
         testRemoveElements();
+
+        test1();
+        test2();
     }
 }
