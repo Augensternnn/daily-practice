@@ -1,41 +1,34 @@
+import java.util.List;
+
 class ListNode{
     int val;
     ListNode next;
+
     public ListNode(int x){
         val = x;
+    }
+
+    public String toString(){
+        return String.format("Node(%d)", val);
     }
 }
 
 class Solution{
-    // 逆置/反转
-    public ListNode reverseList(ListNode head) {
+    // 逆置 / 反转
+    public ListNode reverseList(ListNode head){
         ListNode newList = null;
         ListNode cur = head;
         while (cur != null){
             ListNode next = cur.next;
-            // 头插
             cur.next = newList;
             newList = cur;
-            // 让 cur 往后遍历
             cur = next;
         }
         return newList;
     }
-    public ListNode reverseList1(ListNode head) {
-        ListNode n1 = null;
-        ListNode n2 = head;
-        while (n2 != null){
-            ListNode n3 = n2.next;
-            n2.next = n1;
-            n1 = n2;
-            n2 = n3;
-        }
-        return n1;
-    }
-    public ListNode reverseList2(ListNode head) {
-        if (head == null){
+    public ListNode reverseList1(ListNode head){
+        if(head == null)
             return null;
-        }
         ListNode n1 = null;
         ListNode n2 = head;
         ListNode n3 = head.next;
@@ -56,10 +49,9 @@ class Solution{
         1）先不管第一个结点，把后边需要删除的删除完再处理第一个结点
         2）创建一个结点，让结点的 .next = 原来第一个结点
      */
-    public ListNode removeElements(ListNode head, int val) {
-        if (head == null){
+    public ListNode removeElements(ListNode head, int val){
+        if(head == null)
             return null;
-        }
         ListNode cur = head.next;
         ListNode prev = head;
         while (cur != null){
@@ -73,7 +65,7 @@ class Solution{
             head = head.next;
         return head;
     }
-    public ListNode removeElements1(ListNode head, int val) {
+    public ListNode removeElements1(ListNode head, int val){
         ListNode fakeHead = new ListNode(0);
         fakeHead.next = head;
         ListNode prev = fakeHead;
@@ -87,7 +79,7 @@ class Solution{
         }
         return fakeHead.next;
     }
-    public ListNode removeElements2(ListNode head, int val) {
+    public ListNode removeElements2(ListNode head, int val){
         ListNode newList = null;
         ListNode last = null;       //  记录 newList 最后一个结点
         ListNode cur = head;
@@ -110,7 +102,22 @@ class Solution{
         }
         return newList;
     }
+
+    // 链表的中间结点
+    public ListNode middleNode(ListNode head){
+        ListNode fast = head;
+        ListNode slow = head;
+        while (fast != null){
+            fast = fast.next;
+            if(fast == null)
+                break;
+            slow = slow.next;
+            fast = fast.next;
+        }
+        return slow;
+    }
 }
+
 public class Topic {
     public static void display(ListNode head) {
         for (ListNode n = head; n != null; n = n.next) {

@@ -1,6 +1,6 @@
 class Node{
     public int value;       // 保存结点中的数据
-    public Node next;        // 指向下一个结点的引用
+    public Node next;        // 指向下一个结点的引用，特殊值null
     public Node(int value){
         this.value = value;
         this.next = null;
@@ -28,29 +28,25 @@ public class LinkedList {
         return n1;
     }
 
-    public static Node pushFront(Node head, int value){
-        // 1. 申请新结点
-        Node node = new Node(value);
-        // 2. 更新 newNode 的 next
-        node.next = head;
-        // 3. 更新 head
-        // head = newNode; // 做了没问题，但实际没有产生任何影响，通常不做
-        return node;
+    public static Node pushFront(Node head, int val){
+        Node newNode = new Node(val);
+        newNode.next = head;
+        // 更新head
+//        head = newNode;     // 做了没问题，但实际没有产生任何影响，通常不做
+        return  newNode;
     }
-    public static Node pushBack(Node head, int value){
-        if (head == null) {
-            // 对空链表头插
-            return pushFront(head, value);
-        } else {
+    public static Node pushBack(Node head, int val){
+        if(head == null){
+            // 对空链表尾插
+            return pushFront(head, val);
+        }else {
             // 对非空链表尾插
-            // 1. 申请新结点，并且让 next = null
-            Node newNode = new Node(value);
-            // 2. 找到当前的最后一个结点
+            Node newNode = new Node(val);
             Node last = getLast(head);
-            // 3. 让当前的最后一个结点的 next = newNode
             last.next = newNode;
             return head;
         }
+
         /*
         Node node = new Node(value);
         if(head == null){
@@ -79,29 +75,36 @@ public class LinkedList {
     }
     public static Node popBack(Node head){
         if(head == null){
-            System.out.println("参数不合法，无法删除空链表的结点");
+            System.out.println("参数不合法，无法删除空链表结点");
             return null;
         }
         if(head.next == null){
-            // 链表中只有一个结点
-            // 视为头删解决
-            // 释放原最后一个结点（GC 负责）
+            // 链表中只有一个结点，视为头删解决
+            // 释放原最后一个结点（GC会负责）
             return null;
         }else {
-            // 1. 找倒数第二个结点
             Node lastLast = getLastLast(head);
-            // 2. 让倒数第二个结点的 next = null
             lastLast.next = null;
-            // 3. 释放原最后一个结点（GC 负责）
+            // 释放原最后一个结点（GC会负责）
             return head;
         }
     }
-    private static Node getLastLast(Node head){
-        Node node = head;
-        while (node.next.next !=  null){
-            node = node.next;
+    public static Node popBack1(Node head){
+        if(head == null || head.next == null)
+            return null;
+        Node cur = head;
+        while (cur.next.next != null){
+            cur = cur.next;
         }
-        return node;
+        cur.next = null;
+        return head;
+    }
+    public static Node getLastLast(Node head){
+        Node cur = head;
+        while (cur.next.next != null){
+            cur = cur.next;
+        }
+        return cur;
     }
 
     public static void main(String[] args) {
