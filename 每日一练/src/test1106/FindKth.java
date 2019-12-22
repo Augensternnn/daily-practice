@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 public class FindKth {
     public static void main(String[] args) {
-        int[] arr = {1, 3, 5, 2, 2};
+        int[] arr = {1, 3, 5, 2, 5};
         System.out.println(findKth(arr, 5, 3));
     }
     public static int findKth(int[] arr, int n, int k){
