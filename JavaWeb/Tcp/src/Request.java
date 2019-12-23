@@ -57,13 +57,10 @@ public class Request {
         return headers;
     }
 
-    public void setHeaders(Map<String, String> headers) {
-        this.headers = headers;
-    }
-
-    public Map<String, String> getParameters() {
-        return parameters;
-    }
+ 
+ 
+ 
+ 
 
    
 	
