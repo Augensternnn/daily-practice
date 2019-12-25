@@ -41,8 +41,6 @@ public class Request {
         return url;
     }
 
-    public void setUrl(String url) {
-        this.url = url;
-    }
+    
 	
 }
