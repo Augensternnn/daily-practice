@@ -1,4 +1,4 @@
-import java.util.HashMap;
+﻿import java.util.HashMap;
 import java.util.Map;
 
 public class Request {
@@ -33,13 +33,20 @@ public class Request {
         return method;
     }
 
-    public void setMethod(String method) {
-        this.method = method;
-    }
+   
 
-    public String getUrl() {
-        return url;
-    }
+
+
+
+
+
+
+
+
+
+
+
+
 
     
 	

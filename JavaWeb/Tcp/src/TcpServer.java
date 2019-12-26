@@ -1,4 +1,4 @@
-import java.io.*;
+﻿import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -17,11 +17,17 @@ public class TcpServer {
             while ((data = reader.readLine()) != null) {
                 System.out.println(data);
                 pw.println("已经收到数据【"+data+"】");
+
+
+
             }
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
         }
     }
+
+
+
 }
 
