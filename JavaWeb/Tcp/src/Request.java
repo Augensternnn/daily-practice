@@ -29,9 +29,16 @@ public class Request {
         return parameters.get(key);
     }
 
-    public String getMethod() {
-        return method;
-    }
+  
+
+
+
+
+
+
+
+
+
 
    
 
