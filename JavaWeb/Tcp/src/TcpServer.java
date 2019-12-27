@@ -14,13 +14,10 @@ public class TcpServer {
             OutputStream os = socket.getOutputStream();
             PrintWriter pw = new PrintWriter(os, true);
             String data = null;
-            while ((data = reader.readLine()) != null) {
-                System.out.println(data);
-                pw.println("已经收到数据【"+data+"】");
+           
 
 
 
-            }
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
