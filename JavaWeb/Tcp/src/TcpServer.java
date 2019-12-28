@@ -10,7 +10,9 @@ public class TcpServer {
             Socket socket = server.accept();
             InputStream inputStream = socket.getInputStream();
             InputStreamReader isr = new InputStreamReader(inputStream);
-            BufferedReader reader = new BufferedReader(isr);
+            
+
+
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
