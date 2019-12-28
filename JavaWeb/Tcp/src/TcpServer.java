@@ -11,13 +11,6 @@ public class TcpServer {
             InputStream inputStream = socket.getInputStream();
             InputStreamReader isr = new InputStreamReader(inputStream);
             BufferedReader reader = new BufferedReader(isr);
-            OutputStream os = socket.getOutputStream();
-            PrintWriter pw = new PrintWriter(os, true);
-            String data = null;
-           
-
-
-
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
