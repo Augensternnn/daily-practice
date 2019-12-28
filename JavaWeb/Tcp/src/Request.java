@@ -20,8 +20,15 @@ public class Request {
     public String getHeader(String key){
         return headers.get(key);
     }
-    // 添加请求参数
-    public void addParameter(String key, String value){
-        parameters.put(key, value);
-    }	
+  
+
+
+
+
+
+
+
+
+
+
 }
