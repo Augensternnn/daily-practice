@@ -23,38 +23,5 @@ public class Request {
     // 添加请求参数
     public void addParameter(String key, String value){
         parameters.put(key, value);
-    }
-    // 获取请求参数
-    public String getParameter(String key){
-        return parameters.get(key);
-    }
-
-  
-
-
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-	
+    }	
 }
