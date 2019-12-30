@@ -17,18 +17,6 @@ public class Request {
         headers.put(key, value);
     }
     // 获取某个请求头
-    public String getHeader(String key){
-        return headers.get(key);
-    }
-  
-
-
-
-
-
-
-
-
-
+    
 
 }
