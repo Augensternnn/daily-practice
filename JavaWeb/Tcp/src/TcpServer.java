@@ -9,9 +9,6 @@ public class TcpServer {
             ServerSocket server = new ServerSocket(PORT);
             Socket socket = server.accept();
             InputStream inputStream = socket.getInputStream();
-            InputStreamReader isr = new InputStreamReader(inputStream);
-            
-
 
         } catch (IOException e) {
             e.printStackTrace();
