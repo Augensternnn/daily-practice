@@ -12,11 +12,13 @@ public class Request {
     private Map<String, String> headers = new HashMap<>();
     // 请求参数
     private Map<String, String> parameters = new HashMap<>();
-    // 添加请求头
+   
+
+
     public void addHeader(String key, String value){
         headers.put(key, value);
     }
-    // 获取某个请求头
+    
     
 
 }
