@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30146ff6-0954-440b-8a54-11f20d80a71f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeastOneDupDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PalindromeNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/LongestPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/LongestPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +50,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.LeastOneDupDigits">
+  <component name="RunManager" selected="Application.ThreeSum">
     <configuration name="LeastOneDupDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeastOneDupDigits" />
       <module name="LeetCode" />
@@ -76,8 +79,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreeSum" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.LeastOneDupDigits" />
         <item itemvalue="Application.ReverseInteger" />
         <item itemvalue="Application.LongestPalindrome" />
@@ -119,6 +130,9 @@
       <workItem from="1575098266156" duration="299000" />
       <workItem from="1575098586263" duration="61000" />
       <workItem from="1577890588705" duration="2692000" />
+      <workItem from="1578037199910" duration="215000" />
+      <workItem from="1578048857224" duration="1578000" />
+      <workItem from="1578066149639" duration="1626000" />
     </task>
     <servers />
   </component>
@@ -126,22 +140,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="175" key="GridCell.Tab.0.bottom" timestamp="1577893345129">
+    <state width="1237" height="174" key="GridCell.Tab.0.bottom" timestamp="1578067786093">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1577893345129" />
-    <state width="1237" height="175" key="GridCell.Tab.0.center" timestamp="1577893345129">
+    <state width="1237" height="174" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1578067786093" />
+    <state width="1237" height="174" key="GridCell.Tab.0.center" timestamp="1578067786093">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1577893345129" />
-    <state width="1237" height="175" key="GridCell.Tab.0.left" timestamp="1577893345128">
+    <state width="1237" height="174" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1578067786093" />
+    <state width="1237" height="174" key="GridCell.Tab.0.left" timestamp="1578067786090">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1577893345128" />
-    <state width="1237" height="175" key="GridCell.Tab.0.right" timestamp="1577893345129">
+    <state width="1237" height="174" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1578067786090" />
+    <state width="1237" height="174" key="GridCell.Tab.0.right" timestamp="1578067786093">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="175" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1577893345129" />
+    <state width="1237" height="174" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1578067786093" />
     <state width="531" height="188" key="GridCell.Tab.1.bottom" timestamp="1577892107848">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -158,6 +172,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="531" height="188" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1577892107848" />
+    <state x="297" y="153" key="run.anything.popup" timestamp="1578050285053">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="297" y="153" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1578050285053" />
     <state x="654" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1577891765114">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
