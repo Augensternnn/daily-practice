@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="af871bb1-0176-412f-8d38-a8cbdf63a41f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Node.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Topic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../JavaWeb/net-learning/out/production/net-learning/HttpServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../JavaWeb/net-learning/out/production/net-learning/HttpServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../JavaWeb/net-learning/out/production/net-learning/HttpServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../JavaWeb/net-learning/out/production/net-learning/HttpServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../JavaWeb/net-learning/out/production/net-learning/TcpClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../JavaWeb/net-learning/out/production/net-learning/TcpClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../JavaWeb/net-learning/src/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../JavaWeb/net-learning/src/HttpServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,30 +31,10 @@
   </component>
   <component name="ProjectId" id="1UztKc0fEblOAOGdPmGV5107Hhx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="链表" type="b2602c69:ProjectViewProjectNode" />
-              <item name="链表" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -110,6 +96,7 @@
       <workItem from="1576378630456" duration="116000" />
       <workItem from="1576378870147" duration="898000" />
       <workItem from="1576456508483" duration="1918000" />
+      <workItem from="1578235673181" duration="2089000" />
     </task>
     <servers />
   </component>
