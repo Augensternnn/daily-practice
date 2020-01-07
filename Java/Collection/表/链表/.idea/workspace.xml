@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="af871bb1-0176-412f-8d38-a8cbdf63a41f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Topic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../JavaWeb/net-learning/out/production/net-learning/HttpServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../JavaWeb/net-learning/out/production/net-learning/HttpServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../JavaWeb/net-learning/out/production/net-learning/HttpServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../JavaWeb/net-learning/out/production/net-learning/HttpServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../JavaWeb/net-learning/out/production/net-learning/TcpClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../JavaWeb/net-learning/out/production/net-learning/TcpClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../JavaWeb/net-learning/src/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../JavaWeb/net-learning/src/HttpServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +33,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../JavaWeb/net-learning" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -97,10 +90,17 @@
       <workItem from="1576378870147" duration="898000" />
       <workItem from="1576456508483" duration="1918000" />
       <workItem from="1578235673181" duration="2089000" />
+      <workItem from="1578273497263" duration="559000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1578276639917">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1578276639917" />
   </component>
 </project>
