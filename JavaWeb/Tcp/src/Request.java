@@ -11,8 +11,7 @@ public class Request {
     // 请求头
     private Map<String, String> headers = new HashMap<>();
 
-    //请求参数
-    private Map<String, String> parameters = new HashMap<>();
+    
 
 
     
