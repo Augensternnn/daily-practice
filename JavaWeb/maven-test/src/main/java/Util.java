@@ -11,7 +11,9 @@ import java.util.Arrays;
 public class Util {
 
     public static void main(String[] args) throws BadHanyuPinyinOutputFormatCombination {
+		
 ////        System.out.println(Util.class.getClassLoader().getResource("test.txt").getPath());
+
 //        HanyuPinyinOutputFormat format = new HanyuPinyinOutputFormat();
 //        format.setCaseType(HanyuPinyinCaseType.LOWERCASE);      // 是否需要大小写
 //        format.setToneType(HanyuPinyinToneType.WITHOUT_TONE);   // 是否要音调
