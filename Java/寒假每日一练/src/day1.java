@@ -82,18 +82,17 @@ public class day1 {
         int j = 0;
         if(k < 0){
             return;
-        }else if(k >= 0 && k < nums.length){
+        }else if((k>=0 && k<nums.length) || (k>nums.length)){
+            if(k > nums.length){
+                k = k - nums.length;
+            }
             for(int i = nums.length-k; i < nums.length; i++){
                 arr[j++] = nums[i];
             }
             for(int i = 0; i < nums.length-k; i++){
                 arr[j++] = nums[i];
             }
-        }else if(k > nums.length){
-            for(int i = nums.length-1; i >= 0; i--){
-                arr[j++] = nums[i];
-            }
-        }else {
+        }else if(k == nums.length){
             arr = nums;
         }
         for(int i = 0; i < nums.length; i++){
@@ -109,12 +108,13 @@ public class day1 {
         }
         System.out.print(x%10);
     }
+
     public static void main(String[] args) {
         Cat.sleep();
         mystery(1234);
         System.out.println();
         System.out.println(toLowerCase("LOVELY"));
-        int[] nums = {1, 2,3};
+        int[] nums = {1, 2, 3};
         rotate(nums, 4);
     }
 }
