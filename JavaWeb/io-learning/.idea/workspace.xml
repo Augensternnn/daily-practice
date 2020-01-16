@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31cf66d8-71ff-4269-be57-5a8a1ec3abbb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/寒假每日一练/src/day3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/寒假每日一练/src/day4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/寒假每日一练/src/day5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/寒假每日一练/out/production/寒假每日一练/day2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/寒假每日一练/out/production/寒假每日一练/day2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/寒假每日一练/src/day1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/寒假每日一练/src/day1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/寒假每日一练/src/day2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/寒假每日一练/src/day2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,6 +164,7 @@
       <workItem from="1575687611959" duration="1188000" />
       <workItem from="1575701521436" duration="205000" />
       <workItem from="1576638832395" duration="47000" />
+      <workItem from="1579154936588" duration="103000" />
     </task>
     <servers />
   </component>

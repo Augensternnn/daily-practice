@@ -64,7 +64,7 @@ public class day1 {
         System.out.println(llll);
     }
 
-    // 将字符串中的大写字母转换成小写字母
+    // 709.将字符串中的大写字母转换成小写字母
     public static String toLowerCase(String str) {
         String s = "";
         for(int i = 0; i < str.length(); i++){
@@ -76,7 +76,7 @@ public class day1 {
         return s;
     }
 
-    // 将数组中的元素向右移动 k 个位置，其中 k 是非负数
+    // 189.将数组中的元素向右移动 k 个位置，其中 k 是非负数
     public static void rotate(int[] nums, int k) {
         int[] arr = new int[nums.length];
         int j = 0;
