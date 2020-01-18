@@ -1,20 +1,35 @@
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
 public class day5 {
-    // 925.长按键入
-//    public static boolean isLongPressedName(String name, String typed) {
-//
-//    }
+    // 217.存在重复元素
+    public boolean containsDuplicate(int[] nums) {
+        // 方法一
+        return Arrays.stream(nums).distinct().count() != nums.length;
 
-    String str = new String("hello");
-    char[] ch = {'a','b'};
-
-    public static void main(String[] args) {
-        day5 ex = new day5();
-        ex.change(ex.str,ex.ch);
-        System.out.println(ex.str+" and ");
-        System.out.println(ex.ch);
+        // 方法二：set可去重
+//        Set<Integer> res = new HashSet<>();
+//        for(int i : nums)
+//            res.add(i);
+//        return res.size()<nums.length ? true : false;
     }
-    public void change(String str,char ch[]){
-        str="test ok";
-        ch[0]='c';
+
+    // 925.长按键入
+    public boolean isLongPressedName(String name, String typed) {
+        if(name.length() > typed.length())
+            return false;
+        int i=0, j=0;
+        while (i<name.length() && j<typed.length()){
+            if(name.charAt(i) == typed.charAt(j)){
+                i++;
+                j++;
+            }else if(j>0 && typed.charAt(j) == typed.charAt(j-1)){
+                j++;
+            }else {
+                return false;
+            }
+        }
+        return i==name.length();
     }
 }
