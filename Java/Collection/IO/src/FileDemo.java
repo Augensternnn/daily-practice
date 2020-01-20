@@ -18,6 +18,9 @@ public class FileDemo {
 
         // 路径分隔符：Windows下使用 \ ，Unix/Linux 系统下使用 /
         // 在使用路径分隔符时：采用File类的一个常量 public static final String separator 来描述
+        // 例：
+        // G:\Github\practice\Java
+        // G: +File.separator+ Github +File.separator+ practice +File.separator+ Java
         System.out.println(File.separator);
 
         // 绝对路径：目录下的绝对位置，即：完整的描述文件位置的路径
@@ -182,4 +185,5 @@ public class FileDemo {
             System.out.println(file);
         }
     }
+
 }
