@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31cf66d8-71ff-4269-be57-5a8a1ec3abbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Java/寒假每日一练/src/day3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/寒假每日一练/src/day4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/寒假每日一练/src/day5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/寒假每日一练/out/production/寒假每日一练/day2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/寒假每日一练/out/production/寒假每日一练/day2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/寒假每日一练/src/day1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/寒假每日一练/src/day1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/寒假每日一练/src/day2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/寒假每日一练/src/day2.java" afterDir="false" />
-    </list>
+    <list default="true" id="31cf66d8-71ff-4269-be57-5a8a1ec3abbb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,11 +20,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-63" />
-    <option name="width" value="1122" />
-    <option name="height" value="1047" />
   </component>
   <component name="ProjectId" id="1V8dnpsidrgk7nukxZ0g5B9jmjw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -165,6 +153,7 @@
       <workItem from="1575701521436" duration="205000" />
       <workItem from="1576638832395" duration="47000" />
       <workItem from="1579154936588" duration="103000" />
+      <workItem from="1579489511796" duration="57000" />
     </task>
     <servers />
   </component>
@@ -204,6 +193,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="228" y="5" key="#Project_Structure" timestamp="1579489527480">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="228" y="5" key="#Project_Structure/0.0.1280.689@0.0.1280.689" timestamp="1579489527480" />
     <state x="449" y="85" key="FileChooserDialogImpl" timestamp="1576638869520">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -212,77 +205,5 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="56" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1576638878823" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>io-learning</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

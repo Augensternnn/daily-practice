@@ -1,3 +1,5 @@
+import org.junit.Test;
+
 import java.io.*;
 
 // Description：序列化和反序列化的实现
@@ -43,6 +45,7 @@ public class Serialize {
         System.out.println("person 对象反序列化成功");
         return person;
     }
+
 }
 
 class Person implements Serializable{
@@ -106,4 +109,5 @@ class Person implements Serializable{
                 '}';
     }
 }
+
 

@@ -1,6 +1,7 @@
 import org.junit.Test;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 
 public class StreamDemo {
     // 流：一组有顺序、有起点和终点的字节集合，即数据在两设备间的传输
@@ -194,7 +195,128 @@ public class StreamDemo {
 
     }
 
-    public static void main(String[] args) {
+
+    @Test   // 读取文件：字节流
+    public void test8(){
+        try {
+            System.out.println(System.getProperty("user.dir"));
+            // 这里相对路径：指在一个项目中，相对其他文件的路径
+            File f = new File("test.txt");     // 可以写 相对路径 或 绝对路径
+            System.out.println(f.exists());
+
+            FileInputStream fis = new FileInputStream(f);
+            byte[] bytes = new byte[1024];
+            int len = 0;
+            while ((len=fis.read(bytes))!=-1){
+                String s = new String(bytes,0, len);
+                System.out.println(s);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test   // 读取文件：字符流
+    public void test9(){
+        try {
+            System.out.println(System.getProperty("user.dir"));
+            File f = new File("test.txt");
+            System.out.println(f.exists());
+
+            FileReader fr = new FileReader(f);
+            char[] chars = new char[1024];
+            int len = 0;
+            while ((len=fr.read(chars))!=-1){
+                String s = new String(chars,0,len);
+                System.out.println(s);
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test   // 读取文件：BufferedInputStream
+    public void test10(){
+        try {
+            System.out.println(System.getProperty("user.dir"));
+            File f = new File("test.txt");
+            System.out.println(f.exists());
+
+            FileInputStream fis = new FileInputStream(f);
+            BufferedInputStream bis = new BufferedInputStream(fis);
+
+            byte[] bytes = new byte[1024];
+            int len = 0;
+            while ((len=bis.read(bytes))!=-1){
+                String s = new String(bytes,0,len);
+                System.out.println(s);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test   // 读取文件：BufferedReader
+    public void test11(){
+        try {
+            System.out.println(System.getProperty("user.dir"));
+            File f = new File("test.txt");
+            System.out.println(f.exists());
+
+            FileReader fr = new FileReader(f);
+            BufferedReader br = new BufferedReader(fr);
+
+            String s;
+            while ((s=br.readLine())!=null)
+                System.out.println(s);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test   // 写
+    public void test12(){
+        try {
+            System.out.println(System.getProperty("user.dir"));
+            File f = new File("test.txt");
+            System.out.println(f.exists());
+
+            FileWriter fw = new FileWriter(f);
+            BufferedWriter bw = new BufferedWriter(fw);
+
+            bw.write("LYT");
+            bw.write("123\n");
+            bw.newLine();
+            bw.write("456");
+            bw.flush();     // 对缓冲区的数据直接执行写入操作，“刷新”到文件中
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void test13(){
+        try {
+            System.out.println(System.getProperty("user.dir"));
+            File f = new File("test.txt");
+            System.out.println(f.exists());
+
+            FileInputStream fis = new FileInputStream(f);
+            // 读取文件可以指定一种编码
+            // 保存文件时是GBK编码，读取时也需要使用相应编码
+            InputStreamReader isr = new InputStreamReader(fis,"GBK");
+            // 在不知道是什么类型时：
+            InputStreamReader isrr = new InputStreamReader(fis, StandardCharsets.US_ASCII);
+            char[] chars = new char[1024];
+            int len = 0;
+            while((len=isr.read(chars)) != -1){
+                System.out.println(new String(chars,0,len));
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 }
