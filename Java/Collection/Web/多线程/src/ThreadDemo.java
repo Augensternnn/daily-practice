@@ -70,4 +70,21 @@ public class ThreadDemo {
         Thread.sleep(3*1000);
         System.out.println(System.currentTimeMillis());
     }
+
+    @Test   // wait()
+    public void test3() throws InterruptedException {
+        Object object = new Object();
+        synchronized (object){
+            System.out.println("等待中...");
+            object.wait();  // 执行wait()之后就一直等待下去
+            System.out.println("等待已过...");
+        }
+        System.out.println("main方法结束...");
+    }
+
+    @Test   // notify()
+    public void test4(){
+
+    }
+    class  
 }
