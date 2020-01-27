@@ -10,8 +10,6 @@ public class day4 {
             String lastWord = str[str.length-1];
             return lastWord.length();
         }
-
-
     }
 
     // 88.合并两个有序数组
@@ -45,11 +43,8 @@ public class day4 {
     }
 
     public static void main(String[] args) {
-//        int i = switchit(4);
-//        System.out.println("value=" + i);
-        int[] n1 = {1,2,4,5,6,0};
-        int[] n2 = {3};
-        merge(n1,5,n2,1);
+        int i = switchit(4);
+        System.out.println("value=" + i);   // 8
     }
     public static int switchit(int x){
         int j = 1;

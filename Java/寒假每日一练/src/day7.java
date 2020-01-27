@@ -35,7 +35,4 @@ public class day7 {
         return -1;
     }
 
-    public static void main(String[] args) {
-
-    }
 }
