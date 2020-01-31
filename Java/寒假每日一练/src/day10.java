@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class day10 {
     // 8.字符串转换整数(atoi )
     public static int myAtoi(String str) {
-        if(str=="")
+        if(str=="" || str==" ")
             return 0;
         String s = str.replace(" ","");
         if(s=="")
@@ -48,10 +48,8 @@ public class day10 {
     }
 
     public static void main(String[] args) {
-//        String s = "";
-//        int n = myAtoi(s);
-//        System.out.println(n);
-        int[] nums = {5,6,7,8,9,1};
-
+        String s = " ";
+        int n = myAtoi(s);
+        System.out.println(n);
     }
 }
