@@ -2,17 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17eea1b4-48e5-420a-a1c7-d8f112209eb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../io-learning/src/StringWriterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../每日一练/src/test1207/ShouXingNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../io-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../io-learning/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/FileOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/SafeThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/Sington.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/StopThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/ThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/CreateThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/CreateThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$MyRunnable_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$MyRunnable_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$MyRunnable_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$MyRunnable_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$MyRunnable_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$MyRunnable_3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$MyRunnable_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$MyRunnable_4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$MyRunnable_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$MyRunnable_5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MessageQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MultiThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyThread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyThread1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyThread2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyThread2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyThread3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyThread3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/SafetyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/SynchronizedDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/SynchronizedDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/ThreadAdvantage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/ThreadAdvantage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/ThreadAdvantage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/ThreadAdvantage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/ThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/ThreadDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/UnsafeThread$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/UnsafeThread$Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/UnsafeThread$Counter_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/UnsafeThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/CreateThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/CreateThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/InterruptThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/InterruptThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/MultiThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/SafetyThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/SynchronizedDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/SynchronizedDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/ThreadAdvantage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/ThreadAdvantage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/ThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/UnsafeThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../每日一练/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../每日一练/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../每日一练/out/production/每日一练/test1206/TransformIntWithIP.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../每日一练/out/production/每日一练/test1206/TransformIntWithIP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../每日一练/src/test1206/TransformIntWithIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../每日一练/src/test1206/TransformIntWithIP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/META-INF/thread-learning.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson2/InterruptThread$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread-learning/lesson2/InterruptThread$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson2/InterruptThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread-learning/lesson2/InterruptThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson2/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread-learning/lesson2/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson2/ThreadAdvantage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread-learning/lesson2/ThreadAdvantage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson3/InterruptThread$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread-learning/lesson3/InterruptThread$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson3/InterruptThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread-learning/lesson3/InterruptThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson3/UnsafeThread$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread-learning/lesson3/UnsafeThread$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson3/UnsafeThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread-learning/lesson3/UnsafeThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson4/SafeThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread-learning/lesson4/SafeThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson2/InterruptThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/InterruptThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson2/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson2/ThreadAdvantage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/ThreadAdvantage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3/InterruptThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson3/InterruptThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson3/UnsafeThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson3/UnsafeThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson4/SafeThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson4/SafeThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson4/SynchronizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson4/SynchronizedTest.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,32 +83,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lesson6/TimerTest2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1925">
-              <caret line="81" column="11" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/practice/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="24" />
-              <folding>
-                <element signature="e#133#134#0" expanded="true" />
-                <element signature="e#168#169#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -72,62 +94,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/lesson1/CreateThread.java" />
-        <option value="$PROJECT_DIR$/src/lesson1/Sequence.java" />
-        <option value="$PROJECT_DIR$/src/lesson1/CreateThread2.java" />
-        <option value="$PROJECT_DIR$/src/lesson2/MyThread.java" />
-        <option value="$PROJECT_DIR$/src/lesson2/ThreadAdvantage.java" />
-        <option value="$PROJECT_DIR$/src/lesson2/StopThread.java" />
-        <option value="$PROJECT_DIR$/src/lesson2/InterruptThread.java" />
-        <option value="$PROJECT_DIR$/src/lesson3/InterruptThread.java" />
-        <option value="$PROJECT_DIR$/src/lesson3/UnsafeThread.java" />
-        <option value="$PROJECT_DIR$/src/Test.java" />
-        <option value="$PROJECT_DIR$/src/ThreadDemo.java" />
-        <option value="$PROJECT_DIR$/src/JoinDemo.java" />
-        <option value="$PROJECT_DIR$/src/ThreadStateTransfer.java" />
-        <option value="$PROJECT_DIR$/src/ThreadDemo2.java" />
-        <option value="$PROJECT_DIR$/src/lesson6/SequencePrint.java" />
-        <option value="$PROJECT_DIR$/src/lesson6/SequencePrintV2.java" />
-        <option value="$PROJECT_DIR$/src/lesson4/SynchronizedTest.java" />
-        <option value="$PROJECT_DIR$/src/lesson4/SafeThread.java" />
-        <option value="$PROJECT_DIR$/src/lesson4/Sington.java" />
-        <option value="$PROJECT_DIR$/src/lesson4/FileOperator.java" />
-        <option value="$PROJECT_DIR$/src/memory/StringInMemory.java" />
-        <option value="$PROJECT_DIR$/src/memory/IntegerInMemory.java" />
-        <option value="$PROJECT_DIR$/src/memory/ChainInMemory.java" />
-        <option value="$PROJECT_DIR$/src/lesson5/Notify.java" />
-        <option value="$PROJECT_DIR$/src/lesson5/SequencePrint.java" />
-        <option value="$PROJECT_DIR$/src/lesson5/SequencePrintV2.java" />
-        <option value="$PROJECT_DIR$/src/lesson6/MyBlockingQueue.java" />
-        <option value="$PROJECT_DIR$/src/lesson6/ExecutorsTest.java" />
-        <option value="$PROJECT_DIR$/src/lesson6/MyThreadPool.java" />
-        <option value="$PROJECT_DIR$/src/TimerTest.java" />
-        <option value="$PROJECT_DIR$/src/lesson6/TimerTest.java" />
-        <option value="$PROJECT_DIR$/src/lesson6/DateTest.java" />
-        <option value="$PROJECT_DIR$/src/lesson6/MyTimer.java" />
-        <option value="$PROJECT_DIR$/src/lesson6/MyTimer3.java" />
-        <option value="$PROJECT_DIR$/src/lesson6/MyTimer2.java" />
-        <option value="$PROJECT_DIR$/src/lesson6/TimerTest2.java" />
-        <option value="$PROJECT_DIR$/src/practice/Test.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="879" />
-    <option name="width" value="1050" />
-    <option name="height" value="1044" />
-  </component>
+  <component name="ProjectId" id="1XC8uLHS9mdddAPu8rhAxkcDPts" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -137,7 +111,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../每日一练" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java/Collection/Web/多线程" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -156,25 +130,13 @@
       <recent name="G:\Github\practice\JavaWeb\thread-learning\lib" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.ExecutorsTest">
-    <configuration name="ExecutorsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson6.ExecutorsTest" />
+  <component name="RunManager" selected="Application.SynchronizedTest">
+    <configuration name="FileOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson4.FileOperator" />
       <module name="thread-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson6.*" />
+          <option name="PATTERN" value="lesson4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,19 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoinDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JoinDemo" />
-      <module name="thread-learning" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringInMemory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="memory.StringInMemory" />
+    <configuration name="SafeThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson4.SafeThread" />
       <module name="thread-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="memory.*" />
+          <option name="PATTERN" value="lesson4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,29 +157,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadDemo2" />
+    <configuration name="Sington" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson4.Sington" />
       <module name="thread-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadStateTransfer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadStateTransfer" />
+    <configuration name="SynchronizedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson4.SynchronizedTest" />
       <module name="thread-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnsafeThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson3.UnsafeThread" />
+      <module name="thread-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExecutorsTest" />
-        <item itemvalue="Application.StringInMemory" />
-        <item itemvalue="Application.ThreadDemo2" />
-        <item itemvalue="Application.ThreadStateTransfer" />
-        <item itemvalue="Application.JoinDemo" />
+        <item itemvalue="Application.SynchronizedTest" />
+        <item itemvalue="Application.Sington" />
+        <item itemvalue="Application.FileOperator" />
+        <item itemvalue="Application.SafeThread" />
+        <item itemvalue="Application.UnsafeThread" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -263,354 +255,53 @@
       <workItem from="1575687305970" duration="893000" />
       <workItem from="1575701516863" duration="592000" />
       <workItem from="1575703914874" duration="422000" />
+      <workItem from="1580538939544" duration="1309000" />
+      <workItem from="1580541188291" duration="139000" />
+      <workItem from="1580542202713" duration="7364000" />
+      <workItem from="1580557063342" duration="5745000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65958000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.45072463" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28014183" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3280142" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lesson2.java" />
-    <entry file="file://$PROJECT_DIR$/src/lesson1/CreateThread2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding>
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson1/CreateThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson1/Sequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson2/MyThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <element signature="e#257#512#0" />
-            <element signature="e#521#908#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson2/ThreadAdvantage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding>
-            <element signature="docComment;method#main#0;class#ThreadAdvantage#0" />
-            <element signature="method#randomList#0;class#ThreadAdvantage#0" />
-            <element signature="e#1149#1434#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson2/InterruptThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
-          <folding>
-            <element signature="e#53#752#0" />
-            <element signature="e#1185#1851#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson2/StopThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson3/InterruptThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson3/UnsafeThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="28" column="11" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="28" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JoinDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson6/SequencePrintV2.java" />
-    <entry file="file://$PROJECT_DIR$/src/ThreadStateTransfer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ThreadDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
-          <folding>
-            <element signature="e#30#1309#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ThreadDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="130" column="19" selection-start-line="130" selection-start-column="19" selection-end-line="130" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson4/SynchronizedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="91" column="1" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson4/SafeThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-400">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="e#1520#1521#0" expanded="true" />
-            <element signature="e#1543#1544#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson4/Sington.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
-          <folding>
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#655#662#0" />
-            <element signature="e#1817#1818#0" expanded="true" />
-            <element signature="e#1879#1880#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson4/FileOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson5.java" />
-    <entry file="file://$PROJECT_DIR$/src/memory/IntegerInMemory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/memory/ChainInMemory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson6/SequencePrint.java" />
-    <entry file="file://$PROJECT_DIR$/src/lesson5/Notify.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="78" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson5/SequencePrintV2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/memory/StringInMemory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson5/SequencePrint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson6/MyThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
-          <folding>
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson6/MyBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson6/DateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson6/ExecutorsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson6/MyTimer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="12" column="65" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson6/MyTimer2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lesson6/TimerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice.java" />
-    <entry file="file://$PROJECT_DIR$/src/lesson6/TimerTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1925">
-          <caret line="81" column="11" selection-start-line="81" selection-start-column="11" selection-end-line="81" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/practice/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="24" />
-          <folding>
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="733" y="99" key="FileChooserDialogImpl" timestamp="1580543238370">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="733" y="99" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1580543238370" />
+    <state width="612" height="134" key="GridCell.Tab.0.bottom" timestamp="1580562771650">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="612" height="134" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1580562771650" />
+    <state width="612" height="134" key="GridCell.Tab.0.center" timestamp="1580562771650">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="612" height="134" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1580562771650" />
+    <state width="612" height="134" key="GridCell.Tab.0.left" timestamp="1580562771650">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="612" height="134" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1580562771650" />
+    <state width="612" height="134" key="GridCell.Tab.0.right" timestamp="1580562771650">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="612" height="134" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1580562771650" />
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1580548038902">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1580548038902" />
+    <state width="1237" height="208" key="GridCell.Tab.1.center" timestamp="1580548038901">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1580548038901" />
+    <state width="1237" height="208" key="GridCell.Tab.1.left" timestamp="1580548038901">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1580548038901" />
+    <state width="1237" height="208" key="GridCell.Tab.1.right" timestamp="1580548038902">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1580548038902" />
   </component>
   <component name="masterDetails">
     <states>

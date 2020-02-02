@@ -3,7 +3,8 @@ import org.junit.Test;
 import java.util.Random;
 
 public class ThreadDemo {
-    public static void main(String[] args) {
+    @Test
+    public void test(){
         Thread thread = new Thread(()->{
             for(int i = 0; i < 10; i++){
                 try {
@@ -114,6 +115,70 @@ public class ThreadDemo {
         System.out.println("main方法结束");
     }
 
+    public static void main(String[] args) throws InterruptedException {
+        // 启动 0-9 编号的10个线程，每个线程打印他的编号
+        for(int i=0; i<10; i++){
+            final int j = i;
+            Runnable r = new Runnable() {
+                @Override
+                public void run() {
+                    // 启动0-9编号的10个线程，每个线程打印他的编号
+                    try {
+                        Thread.sleep(1000*j);
+                        System.out.println(j);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            };
+            Thread t = new Thread(r);
+            t.start();
+        }
+
+
+
+        // join()
+        Thread thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("啦啦啦啦");
+            }
+        });
+        thread.start();
+        // 不调用join时，创建线程会耗时较长，下边的main方法的代码会先执行
+        // 如果调用join，表示thread（线程的引用）会加入当前线程（JavaMain主线程），等待thread执行完毕再执行后边代码
+        thread.join();      // 阻塞方法
+        System.out.println("哈哈哈哈哈");
+        /*
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("啦啦啦啦啦");
+            }
+        }).start();
+        // 下边代码常常先执行，因为以上创建线程部分很耗时
+        System.out.println("哈哈哈哈哈");
+         */
+
+        /*
+        Runnable runnable = new Runnable() {
+            @Override
+            public void run() {
+
+            }
+        };
+        Thread thread = new Thread(runnable);
+        thread.start();
+    }
+    等价于：
+    new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("啦啦啦");
+            }
+        }).start();
+         */
+    }
 }
 class  MyThread2 implements Runnable{   // notify()
     private boolean flag;

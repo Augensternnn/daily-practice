@@ -2,8 +2,7 @@ import org.junit.Test;
 
 public class SynchronizedDemo {
     // 锁的SynchronizedDemo对象
-    public synchronized void method1(){
-    }
+    public synchronized void method1(){}
     @Test
     public void test1(){
         SynchronizedDemo demo = new SynchronizedDemo();
@@ -13,8 +12,7 @@ public class SynchronizedDemo {
     }
 
     // 锁的Synchronized类的对象
-    public synchronized  static void method2(){
-    }
+    public synchronized  static void method2(){}
     @Test
     public void test2(){
         // 进入方法会锁SynchronizedDemo.class指向对象中的锁
@@ -47,8 +45,8 @@ public class SynchronizedDemo {
         demo.method4();
     }
 
-
     public static void main(String[] args) {
+        System.out.println();
         MyThread1 mt = new MyThread1();
         Thread t1 = new Thread(mt,"黄牛A");
         Thread t2 = new Thread(mt,"黄牛B");

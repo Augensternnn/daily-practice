@@ -55,6 +55,28 @@ public class CreateThread {
         Thread t3 = new Thread("这是我的名字1");
         Thread t4 = new Thread(new MyRunnable(), "这是我的名字2");
     }
+
+    @Test
+    public void test7(){
+        int num = 10;
+        MyRunner myRunner = new MyRunner();
+        myRunner.setI(num);
+        for(int i = 0; i < 10; i++){
+            Thread thread = new Thread(myRunner);
+            thread.start();
+        }
+    }
+
+//    // 创建10个线程
+//    for(int i = 0; i < 10; i++){
+//        new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//
+//            }
+//        }).start();
+//    }
+
 }
 
 class MyThread extends Thread{
@@ -68,5 +90,18 @@ class MyRunnable implements Runnable{
     @Override
     public void run() {
         System.out.println(Thread.currentThread().getName()+"线程运行的代码2");
+    }
+}
+
+class MyRunner implements Runnable{
+    private int i;
+
+    @Override
+    public void run() {
+        System.out.println(i);
+    }
+
+    public void setI(int i){
+        this.i=i;
     }
 }

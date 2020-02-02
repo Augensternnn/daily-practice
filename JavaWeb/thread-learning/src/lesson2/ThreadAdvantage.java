@@ -75,11 +75,9 @@ public class ThreadAdvantage {
                      // Thread.activeCount() > 1：在idea上执行不了，用cmd执行javac可以
                     // 因为 idea 会自动生成一些线程，有一些线程在执行别的事情，故活动的线程（包括idea创建的线程）>1 始终存在
                     // Thread.activeCount() > 2：将 main线程、idea创建的线程同时运行，这一条件过滤掉
-            /*
-            while (Thread.activeCount() > 2){
-                Thread.yield();
-            }
-             */
+//            while (Thread.activeCount() > 2){
+//                Thread.yield();
+//            }
                 // 方法二：调用线程加入/等待操作：join
                 // 将线程声明出来，后循环遍历，每个地方加一个join，调用阻塞
         for(Thread thread : threads){

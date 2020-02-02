@@ -14,20 +14,20 @@ public class SynchronizedTest {
         }
     }
 
-//    public static void main(String[] args) {
-//        new Thread(new Runnable() {
-//            @Override
-//            public void run() {
-//                method1();
-//            }
-//        }).start();
-//        new Thread(new Runnable() {
-//            @Override
-//            public void run() {
-//                method2();
-//            }
-//        }).start();
-//    }
+    public static void main(String[] args) {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                method1();
+            }
+        }).start();
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                method2();
+            }
+        }).start();
+    }
 
 //    public static void main(String[] args) {
 //        MyObject object = new MyObject();
@@ -46,34 +46,34 @@ public class SynchronizedTest {
 //        }).start();
 //    }
 
-    public static void main(String[] args) {
-        MyObject object = new MyObject();
-        MyObject object2 = new MyObject();
-
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                object.method1();
+//    public static void main(String[] args) {
+//        MyObject object = new MyObject();
+//        MyObject object2 = new MyObject();
+//
+//        new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+////                object.method1();
 //                synchronized (object){
 //                    System.out.println(Thread.currentThread().getName());
 //                    while(true){
 //
 //                    }
 //                }
-            }
-        }).start();
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                synchronized (object){
-                    System.out.println(Thread.currentThread().getName());
-                    while(true){
-
-                    }
-                }
-            }
-        }).start();
-    }
+//            }
+//        }).start();
+//        new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                synchronized (object){
+//                    System.out.println(Thread.currentThread().getName());
+//                    while(true){
+//
+//                    }
+//                }
+//            }
+//        }).start();
+//    }
 }
 
 class MyObject{

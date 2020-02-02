@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2a22ca5-9dfa-450e-9d62-41b053685110" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Java/Collection/Web/多线程/src/MultiThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/Collection/Web/多线程/src/MultiThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/thread-learning/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +18,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="945" />
-    <option name="width" value="984" />
-    <option name="height" value="1044" />
-  </component>
   <component name="ProjectId" id="1V8dfnVf7wCZIHzFCewUCw76nav" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -33,7 +30,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/io-learning" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
@@ -67,6 +64,8 @@
       <workItem from="1575082811609" duration="462000" />
       <workItem from="1575182389298" duration="15000" />
       <workItem from="1576638779320" duration="45000" />
+      <workItem from="1580541718429" duration="483000" />
+      <workItem from="1580545253301" duration="77000" />
     </task>
     <servers />
   </component>
@@ -74,9 +73,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="699" y="80" key="FileChooserDialogImpl" timestamp="1576638822894">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580542180805">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="699" y="80" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1576638822894" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1580542180805" />
+    <state x="699" y="80" key="FileChooserDialogImpl" timestamp="1580542199277">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="699" y="80" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1580542199277" />
   </component>
 </project>

@@ -23,6 +23,7 @@ public class MyThread {
         // 下边代码常常先执行，因为以上创建线程部分很耗时
         System.out.println("哈哈哈哈哈");
          */
+
         /*
         Runnable runnable = new Runnable() {
             @Override

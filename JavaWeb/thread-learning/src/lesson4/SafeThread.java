@@ -8,12 +8,12 @@ public class SafeThread {
     public static void main(String[] args) {
         // 开启20个线程，每个线程对COUNT进行++操作，进行10000次
         // 预期结果：200000
-        Object object = new Object();
+//        Object object = new Object();
         for (int i = 0; i < 20; i++) {
             new Thread(new Runnable() {
                 @Override
                 public void run() {
-//                    Object object = new Object();
+//                    Object object = new Object();     // object定义在这里就不安全
                     for (int j = 0; j < 10000; j++) {
 //                        COUNT++;
                         // 第一种方法：静态类对象锁定
