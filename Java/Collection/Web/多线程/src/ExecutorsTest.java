@@ -1,10 +1,7 @@
-package lesson6;
-
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class ExecutorsTest {
-
     //    private static final ExecutorService EXE = Executors.newSingleThreadExecutor();
     private static final ExecutorService EXE = Executors.newFixedThreadPool(5);
 //    private static final ExecutorService EXE = Executors.newCachedThreadPool();       // 可以缓存的线程池，可以新生成线程池，也可以复用

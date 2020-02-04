@@ -38,9 +38,9 @@ public class MyBlockingQueue<E> {
         // 添加元素
                 // 多线程版本：超过容量则不能添加，一直等待；小于数组容量才可以添加
         public synchronized void offer(E element){
-//                // 锁类对象可以满足功能，但注意：若在多线程环境下使用这个类会有问题
-//                // 多线程环境下代表：多个线程new了这个阻塞队列，这时阻塞队列在不同线程里调用offer，会产生同步互斥（因为作用级别在类上）
-//                // 故应只对当前的对象产生影响
+                // 锁类对象可以满足功能，但注意：若在多线程环境下使用这个类会有问题
+                // 多线程环境下代表：多个线程new了这个阻塞队列，这时阻塞队列在不同线程里调用offer，会产生同步互斥（因为作用级别在类上）
+                // 故应只对当前的对象产生影响
 //                synchronized(MyBlockingQueue.class){}
                 try {
                         while (size == elements.length){

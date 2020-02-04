@@ -2,64 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17eea1b4-48e5-420a-a1c7-d8f112209eb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/FileOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/SafeThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/Sington.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/StopThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/ThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/CreateThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/CreateThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$MyRunnable_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$MyRunnable_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$MyRunnable_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$MyRunnable_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$MyRunnable_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$MyRunnable_3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$MyRunnable_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$MyRunnable_4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$MyRunnable_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread$MyRunnable_5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/InterruptThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MessageQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MultiThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyRunnable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Test/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Test/lib/junit-4.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Test/src/About_String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Test/src/Insert_In_Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Test/src/Int.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/ExecutorsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/MyBlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/MyTimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/SequencePrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/TimerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyObject.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyThread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyThread1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyThread2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyThread2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyThread3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyThread3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/SafetyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/SynchronizedDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/SynchronizedDemo$2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/SynchronizedDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/SynchronizedDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/ThreadAdvantage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/ThreadAdvantage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/ThreadAdvantage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/ThreadAdvantage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/ThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/ThreadDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/UnsafeThread$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/UnsafeThread$Counter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/UnsafeThread$Counter_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/UnsafeThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/CreateThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/CreateThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/InterruptThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/InterruptThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/MultiThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/SafetyThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/SynchronizedDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/SynchronizedDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/ThreadAdvantage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/ThreadAdvantage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/ThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/UnsafeThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/ThreadPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/META-INF/thread-learning.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson2/InterruptThread$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread-learning/lesson2/InterruptThread$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson2/InterruptThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread-learning/lesson2/InterruptThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson2/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread-learning/lesson2/MyThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson2/ThreadAdvantage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread-learning/lesson2/ThreadAdvantage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson3/InterruptThread$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread-learning/lesson3/InterruptThread$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson3/InterruptThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread-learning/lesson3/InterruptThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson3/UnsafeThread$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread-learning/lesson3/UnsafeThread$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson3/UnsafeThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread-learning/lesson3/UnsafeThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson4/SafeThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread-learning/lesson4/SafeThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson2/InterruptThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/InterruptThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson2/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson2/ThreadAdvantage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/ThreadAdvantage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3/InterruptThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson3/InterruptThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3/UnsafeThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson3/UnsafeThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson4/SafeThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson4/SafeThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson4/SynchronizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson4/SynchronizedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/JoinDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/ThreadDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/ThreadDemo$MyRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/ThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/ThreadDemo2$MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/ThreadDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/ThreadStateTransfer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson6/ExecutorsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread-learning/lesson6/ExecutorsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson6/TimerTest2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson6/TimerTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread-learning/lesson6/TimerTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/practice/Test$MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/practice/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JoinDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreadDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreadDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreadStateTransfer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson6/ExecutorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/ExecutorsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson6/MyBlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/MyBlockingQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson6/TimerTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/TimerTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +93,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java/Collection/Web/多线程" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -130,79 +112,85 @@
       <recent name="G:\Github\practice\JavaWeb\thread-learning\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SynchronizedTest">
-    <configuration name="FileOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.FileOperator" />
+  <component name="RunManager" selected="JUnit.IntegerInMemory.test4_1">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="thread-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SafeThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.SafeThread" />
+    <configuration name="IntegerInMemory.test1_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="thread-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.*" />
+          <option name="PATTERN" value="memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="memory" />
+      <option name="MAIN_CLASS_NAME" value="memory.IntegerInMemory" />
+      <option name="METHOD_NAME" value="test1_1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sington" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.Sington" />
+    <configuration name="IntegerInMemory.test1_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="thread-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.*" />
+          <option name="PATTERN" value="memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="memory" />
+      <option name="MAIN_CLASS_NAME" value="memory.IntegerInMemory" />
+      <option name="METHOD_NAME" value="test1_2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.SynchronizedTest" />
+    <configuration name="IntegerInMemory.test2_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="thread-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.*" />
+          <option name="PATTERN" value="memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="memory" />
+      <option name="MAIN_CLASS_NAME" value="memory.IntegerInMemory" />
+      <option name="METHOD_NAME" value="test2_1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnsafeThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson3.UnsafeThread" />
+    <configuration name="IntegerInMemory.test4_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="thread-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson3.*" />
+          <option name="PATTERN" value="memory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="memory" />
+      <option name="MAIN_CLASS_NAME" value="memory.IntegerInMemory" />
+      <option name="METHOD_NAME" value="test4_1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SynchronizedTest" />
-        <item itemvalue="Application.Sington" />
-        <item itemvalue="Application.FileOperator" />
-        <item itemvalue="Application.SafeThread" />
-        <item itemvalue="Application.UnsafeThread" />
+        <item itemvalue="JUnit.IntegerInMemory.test4_1" />
+        <item itemvalue="JUnit.IntegerInMemory.test2_1" />
+        <item itemvalue="JUnit.IntegerInMemory.test1_2" />
+        <item itemvalue="JUnit.IntegerInMemory.test1_1" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -259,6 +247,9 @@
       <workItem from="1580541188291" duration="139000" />
       <workItem from="1580542202713" duration="7364000" />
       <workItem from="1580557063342" duration="5745000" />
+      <workItem from="1580729501787" duration="5879000" />
+      <workItem from="1580740206614" duration="2820000" />
+      <workItem from="1580743124237" duration="1735000" />
     </task>
     <servers />
   </component>
@@ -266,42 +257,46 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="733" y="99" key="FileChooserDialogImpl" timestamp="1580543238370">
+    <state x="733" y="99" key="FileChooserDialogImpl" timestamp="1580743048926">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="733" y="99" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1580543238370" />
-    <state width="612" height="134" key="GridCell.Tab.0.bottom" timestamp="1580562771650">
+    <state x="733" y="99" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1580743048926" />
+    <state width="612" height="204" key="GridCell.Tab.0.bottom" timestamp="1580744802410">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="612" height="134" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1580562771650" />
-    <state width="612" height="134" key="GridCell.Tab.0.center" timestamp="1580562771650">
+    <state width="612" height="204" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1580744802410" />
+    <state width="612" height="204" key="GridCell.Tab.0.center" timestamp="1580744802410">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="612" height="134" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1580562771650" />
-    <state width="612" height="134" key="GridCell.Tab.0.left" timestamp="1580562771650">
+    <state width="612" height="204" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1580744802410" />
+    <state width="612" height="204" key="GridCell.Tab.0.left" timestamp="1580744802410">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="612" height="134" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1580562771650" />
-    <state width="612" height="134" key="GridCell.Tab.0.right" timestamp="1580562771650">
+    <state width="612" height="204" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1580744802410" />
+    <state width="612" height="204" key="GridCell.Tab.0.right" timestamp="1580744802410">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="612" height="134" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1580562771650" />
-    <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1580548038902">
+    <state width="612" height="204" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1580744802410" />
+    <state width="612" height="204" key="GridCell.Tab.1.bottom" timestamp="1580744802263">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1580548038902" />
-    <state width="1237" height="208" key="GridCell.Tab.1.center" timestamp="1580548038901">
+    <state width="612" height="204" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1580744802263" />
+    <state width="612" height="204" key="GridCell.Tab.1.center" timestamp="1580744802262">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1580548038901" />
-    <state width="1237" height="208" key="GridCell.Tab.1.left" timestamp="1580548038901">
+    <state width="612" height="204" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1580744802262" />
+    <state width="612" height="204" key="GridCell.Tab.1.left" timestamp="1580744802262">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1580548038901" />
-    <state width="1237" height="208" key="GridCell.Tab.1.right" timestamp="1580548038902">
+    <state width="612" height="204" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1580744802262" />
+    <state width="612" height="204" key="GridCell.Tab.1.right" timestamp="1580744802262">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1580548038902" />
+    <state width="612" height="204" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1580744802262" />
+    <state x="28" y="0" key="new project wizard" timestamp="1580743058419">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="28" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1580743058419" />
   </component>
   <component name="masterDetails">
     <states>
