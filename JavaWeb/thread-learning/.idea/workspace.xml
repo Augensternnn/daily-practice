@@ -2,46 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17eea1b4-48e5-420a-a1c7-d8f112209eb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Test/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Test/lib/junit-4.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Test/src/About_String.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Test/src/Insert_In_Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Test/src/Int.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/ExecutorsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/MyBlockingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/MyTimer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/SequencePrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/TimerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyThread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/MyThread1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/SynchronizedDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/SynchronizedDemo$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/SynchronizedDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/out/production/多线程/SynchronizedDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Web/多线程/src/ThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Test/out/production/Test/About_String.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Test/out/production/Test/About_String.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/Collection/Test/src/About_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/Collection/Test/src/About_String.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/JoinDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/ThreadDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/ThreadDemo$MyRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/ThreadDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/ThreadDemo2$MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/ThreadDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/ThreadStateTransfer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson6/ExecutorsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread-learning/lesson6/ExecutorsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson6/TimerTest2$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/lesson6/TimerTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thread-learning/lesson6/TimerTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/practice/Test$MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thread-learning/practice/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JoinDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreadDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreadDemo2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreadStateTransfer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson6/ExecutorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/ExecutorsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson6/MyBlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/MyBlockingQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson6/TimerTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/TimerTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practice/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,6 +213,8 @@
       <workItem from="1580729501787" duration="5879000" />
       <workItem from="1580740206614" duration="2820000" />
       <workItem from="1580743124237" duration="1735000" />
+      <workItem from="1580795019784" duration="343000" />
+      <workItem from="1580797102299" duration="120000" />
     </task>
     <servers />
   </component>
