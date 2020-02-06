@@ -63,4 +63,32 @@ public class Int {
         Integer i2 = new Integer(128);
         Assert.assertTrue(i1 == i2);
     }
+
+    public static void main(String[] args) {
+        int i1 = 10;
+        int i2 = 10;
+        int i3 = 128;
+        int i4 = 128;
+
+        Integer i5 = 10;
+        Integer i6 = 10;
+        Integer i7 = 128;
+        Integer i8 = 128;
+        Integer i9 = new Integer(10);
+        Integer i10 = new Integer(128);
+                                        // 运行结果
+        // int 与 int 比较
+        System.out.println(i1==i2);     // true
+        System.out.println(i3==i4);     // true
+        // int 与 Integer 比较
+        System.out.println(i1==i5);     // true
+        System.out.println(i3==i7);     // true
+        System.out.println(i1==i9);     // true
+        System.out.println(i3==i10);    // true
+        // Integer 与 Integer 比较
+        System.out.println(i5==i6);     // true
+        System.out.println(i7==i8);     // false
+        System.out.println(i5==i9);     // false
+        System.out.println(i7==i10);    // false
+    }
 }
