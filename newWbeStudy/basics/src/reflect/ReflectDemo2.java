@@ -128,7 +128,4 @@ public class ReflectDemo2 {
         String className = personClass.getName();
         System.out.println(className);
     }
-
-
-
 }
