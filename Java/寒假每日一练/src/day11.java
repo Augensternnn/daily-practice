@@ -18,24 +18,48 @@ public class day11 {
     }
 
     // 443.压缩字符串
-//    public int compress(char[] chars) {
-//        Arrays.sort(chars);
-//        int res=1,tmp=1;
-//        for(int i = 0; i < chars.length; i++){
-//            if(chars[i+1] == chars[i]){
-//                tmp++;
-//            }else {
-//                chars[res] = (char)tmp;
-//            }
-//        }
-//    }
+    public static int compress(char[] chars) {
+        if(chars.length == 1){
+            return 1;
+        }else {
+            Arrays.sort(chars);
+            int res=0,tmp=1,i=1;
+
+            while (i<chars.length){
+                if(chars[i-1] == chars[i]){
+                    tmp++;
+                    i++;
+                }else {
+                    if(tmp == 1){
+                        res++;
+                    }else {
+                        String s = tmp+"";
+                        for(int j = 0; j < s.length(); j++){
+                            chars[++res] = s.charAt(j);
+                        }
+                    }
+                    tmp = 1;
+                    chars[++res] = chars[i];
+                    i++;
+                }
+            }
+            if(i==chars.length && tmp!=1){
+                String s = tmp+"";
+                for(int j = 0; j < s.length(); j++){
+                    chars[res++] = s.charAt(j);
+                }
+            }
+            System.out.println(chars);
+            return res;
+        }
+
+    }
 
     public static void main(String[] args) {
-        int num = 10;
-//        System.out.println(test(num));  // 30
-        char c = (char)(num+'0');
-        System.out.println(c);
 
+        char[] chars = {'a','a','b','b','c','c','c'};
+        int re = compress(chars);
+        System.out.println(re);
     }
     public static int test(int b){
         try {
