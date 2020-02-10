@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="c3p0-0.9.5.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/c3p0-0.9.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mchange-commons-java-0.2.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mysql-connector-java-5.1.37-bin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
