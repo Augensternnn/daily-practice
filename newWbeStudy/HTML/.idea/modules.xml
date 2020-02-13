@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HTML.iml" filepath="$PROJECT_DIR$/HTML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/HTML.iml" filepath="$PROJECT_DIR$/.idea/HTML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/html&amp;css/html&amp;css.iml" filepath="$PROJECT_DIR$/html&amp;css/html&amp;css.iml" />
     </modules>
   </component>
 </project>
