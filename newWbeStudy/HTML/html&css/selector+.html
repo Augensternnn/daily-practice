@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>扩展选择器</title>
+    <style>
+        div p{
+            color: red;
+        }
+        div>p{
+            border: 1px solid;
+        }
+        input[type='text']{
+            border: 3px solid;
+        }
+        /*初始化的状态*/
+        a:link{
+            color: pink;
+        }
+        /*鼠标悬浮状态*/
+        a:hover{
+            color: green;
+        }
+        /*正在访问状态*/
+        a:active{
+            color: yellow;
+        }
+        /*被访问过的状态*/
+        a:visited{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Java</p>
+    </div>
+    <p>程序猿</p>
+
+    <div>aaa</div>
+
+    <input type="text">
+    <input type="password">
+
+    <br>    <br>    <br>
+    <a href="#">扩展选择器</a>
+</body>
+</html>
