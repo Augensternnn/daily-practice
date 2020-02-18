@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+ <students>
+ 	<student number="haha_0001">
+		<name id="1234">
+			<xing>张</xing>
+			<ming>三</ming>
+		</name>
+		<age>24</age>
+		<sex>male</sex>
+	</student>
+
+	<student number="haha_0002">
+		<name>lisi</name>
+		<age>23</age>
+		<sex>male</sex>
+	</student>
+ </students>
