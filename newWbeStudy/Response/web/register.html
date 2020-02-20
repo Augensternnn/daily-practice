@@ -19,6 +19,8 @@
                 var date = new Date().getTime();
                 img.src = "/Response/checkCodeServlet?"+date;
             }
+            var link = document.getElementById("change");
+            link.onclick = img.onclick;
         }
 
     </script>

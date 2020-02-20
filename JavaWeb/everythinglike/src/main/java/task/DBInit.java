@@ -51,6 +51,7 @@ public class DBInit {
             statement = connection.createStatement();
             String[] sqls = readSQL();
             for(String sql : sqls){
+                System.out.println("执行sql操作："+sql);
                 //3.执行sql语句
                 statement.executeUpdate(sql);
             }
