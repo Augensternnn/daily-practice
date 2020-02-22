@@ -1,8 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a943f16d-ca36-4d71-81c2-40b552e46f64" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../JavaWeb/everythinglike/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/.idea/Example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/SE/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/SE/SE.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/SE/src/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/SE/src/reflect.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/SE/src/reflect/Pro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/SE/src/reflect/Reflect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/SE/src/reflect/Reflect2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet&amp;HTTP&amp;Request/.idea/Servlet&amp;HTTP&amp;Request.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/everythinglike/src/main/java/app/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/everythinglike/src/main/java/app/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/everythinglike/src/main/java/app/FileMeta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/everythinglike/src/main/java/app/FileMeta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/everythinglike/src/main/java/task/FileSave.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/everythinglike/src/main/java/task/FileSave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/everythinglike/src/main/java/util/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/everythinglike/src/main/java/util/DBUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/everythinglike/target/classes/app/FileMeta.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/everythinglike/target/classes/app/FileMeta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/everythinglike/target/classes/task/FileSave.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/everythinglike/target/classes/task/FileSave.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/everythinglike/target/classes/util/DBUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/everythinglike/target/classes/util/DBUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaWeb/everythinglike/target/everything-like.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaWeb/everythinglike/target/everything-like.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlet&amp;HTTP&amp;Request/LoginDemo/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Servlet&amp;HTTP&amp;Request/LoginDemo/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basics/out/production/basics/META-INF/basics.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basics/out/production/basics/annotation/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/out/production/basics/annotation/Worker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basics/src/annotation/MyAnno.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/src/annotation/MyAnno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basics/src/annotation/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../basics/src/annotation/Worker.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1Y7WzAzc6dZh94PBZvUBmUGszZf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JDBC" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a943f16d-ca36-4d71-81c2-40b552e46f64" name="Default Changelist" comment="" />
+      <created>1582294372204</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582294372204</updated>
+      <workItem from="1582294373576" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1582294398403">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1582294398403" />
   </component>
 </project>

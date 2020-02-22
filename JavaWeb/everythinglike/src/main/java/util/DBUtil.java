@@ -42,7 +42,7 @@ public class DBUtil {
                     //初始化操作，使用volatile关键字禁止指令重排序，建立内存屏障
                     SQLiteConfig config = new SQLiteConfig();
                     config.setDateStringFormat(Util.DATE_PATTERN);
-                    DATA_SOURCE = new SQLiteDataSource();
+                    DATA_SOURCE = new SQLiteDataSource(config);
                     ((SQLiteDataSource)DATA_SOURCE).setUrl(getUrl());
                 }
             }

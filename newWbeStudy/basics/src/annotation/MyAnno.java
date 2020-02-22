@@ -8,6 +8,5 @@ public @interface MyAnno {
     //String name() default "haha";
     /*Person per();   //枚举
     MyAnno2 anno2();    //注解
-
     String[] strs();*/
 }

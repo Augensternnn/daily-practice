@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5da461a-0a0e-4e12-94de-df4901b2ac1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../每日一练/src/DataStruct/Numerical_conversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../每日一练/src/test1114/DeleteNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../每日一练/src/test1114/MiniKOfNDigit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../每日一练/src/test1114/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaWeb/thread-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/thread-learning/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../每日一练/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1110/MagicBag.class" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1110/MagicBag.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1110/StackToQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1110/StackToQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1111/Calc_NAppears.class" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1111/Calc_NAppears.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1111/Candies.class" beforeDir="false" afterPath="$PROJECT_DIR$/../每日一练/out/production/每日一练/test1111/Candies.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaWeb/everythinglike/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newWbeStudy/Example/SE/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newWbeStudy/Example/SE/src/Reflect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newWbeStudy/Example/SE/src/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newWbeStudy/Example/SE/src/reflect.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/everythinglike/src/main/java/app/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/everythinglike/src/main/java/app/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/everythinglike/src/main/java/app/FileMeta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/everythinglike/src/main/java/app/FileMeta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/everythinglike/src/main/java/task/FileSave.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/everythinglike/src/main/java/task/FileSave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/everythinglike/src/main/java/util/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/everythinglike/src/main/java/util/DBUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/everythinglike/target/classes/app/FileMeta.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/everythinglike/target/classes/app/FileMeta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/everythinglike/target/classes/task/FileSave.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/everythinglike/target/classes/task/FileSave.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/everythinglike/target/classes/util/DBUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/everythinglike/target/classes/util/DBUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaWeb/everythinglike/target/everything-like.db" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaWeb/everythinglike/target/everything-like.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newWbeStudy/Servlet&amp;HTTP&amp;Request/LoginDemo/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../newWbeStudy/Servlet&amp;HTTP&amp;Request/LoginDemo/out/artifacts/LoginDemo_war_exploded/WEB-INF/classes/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newWbeStudy/basics/out/production/basics/META-INF/basics.kotlin_module" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,9 +27,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -36,67 +37,19 @@
     <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="Collection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="Collection" type="462c0819:PsiDirectoryNode" />
-              <item name="表" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaSE" type="462c0819:PsiDirectoryNode" />
-              <item name="图书管理系统" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../newWbeStudy/Example/SE" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -109,184 +62,17 @@
       <option name="presentableId" value="Default" />
       <updated>1573906047358</updated>
       <workItem from="1573906048474" duration="486000" />
+      <workItem from="1582282945470" duration="74000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="486000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18108326" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Collection/数组/src/AverageScore.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collection/数组/src/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collection/数组/src/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collection/类和对象/src/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2223" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collection/类和对象/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collection/表/链表/src/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1938" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collection/表/顺序表/src/SeqList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2964" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collection/递归/src/CalcE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collection/递归/src/CalcPi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collection/递归/src/Factorial.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaPractice/HelloWorldApp.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaPractice/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaPractice/CSDN/ClassAndObject.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaPractice/practice/0825-trees/src/buildTrees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="64" column="18" lean-forward="true" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaPractice/practice/0911-哈希桶/src/HashBucket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1216" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaSE/abstract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaSE/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaSE/calcE.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaSE/图书管理系统/src/action/Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="20" column="92" lean-forward="true" selection-start-line="20" selection-start-column="92" selection-end-line="20" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaSE/图书管理系统/src/classes/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaSE/图书管理系统/src/classes/Record.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaSE/图书管理系统/src/classes/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380">
-          <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaSE/图书管理系统/src/classes/Teacher.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaSE/图书管理系统/src/databases/BookShelf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaSE/图书管理系统/src/databases/RecordShelf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-874">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaSE/图书管理系统/图书管理系统.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1582283017317">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1582283017317" />
   </component>
 </project>

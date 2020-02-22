@@ -2,15 +2,12 @@
 <!DOCTYPE students SYSTEM "student.dtd">
 
 <!--<!DOCTYPE students [
-
 		<!ELEMENT students (student+) >
 		<!ELEMENT student (name,age,sex)>
 		<!ELEMENT name (#PCDATA)>
 		<!ELEMENT age (#PCDATA)>
 		<!ELEMENT sex (#PCDATA)>
 		<!ATTLIST student number ID #REQUIRED>
-
-
 		]>-->
 
 <students>

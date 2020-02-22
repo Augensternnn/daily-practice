@@ -7,7 +7,5 @@ public class Worker {
     public String name = "aaa";
     @MyAnno3
     public void show(){
-
-
     }
 }

@@ -11,6 +11,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.concurrent.Executors;
 
 /**
  * 保存文件、文件夹
@@ -29,13 +30,28 @@ public class FileSave implements ScanCallback {
                 locals.add(new FileMeta(child));
             }
         }
+
         //获取数据库保存的dir目录的下一级子文件和子文件夹(jdbc select)
         //TODO List<File>
+        List<FileMeta> metas = query(dir);
 
         //数据库有，本地没有-> 删除(delete)
+        for(FileMeta meta : metas){
+            if(!locals.contains(meta)){
+                //meta的删除：
+                //1.删除meta信息本身
+                //2.如果meta是目录，还要将meta所有的子文件和子文件夹都删除
+                //TODO delete
+                delete(meta);
+            }
+        }
 
         //本地有，数据库没有 -> 插入(insert)
-        //TODO
+        for(FileMeta meta : locals){
+            if(!metas.contains(meta)){
+                save(meta);
+            }
+        }
 
     }
 
@@ -79,9 +95,9 @@ public class FileSave implements ScanCallback {
 
     /**
      * 文件信息保存到数据库
-     * @param file
+     * @param meta
      */
-    private void save(File file){
+    private void save(FileMeta meta){
         Connection connection = null;
         PreparedStatement statement = null;
         try {
@@ -92,22 +108,16 @@ public class FileSave implements ScanCallback {
                     " values (?, ?, ?, ?, ?, ?,?)";
             //2.获取sql操作命令对象statement
             statement = connection.prepareStatement(sql);
-            statement.setString(1,file.getName());
-            statement.setString(2,file.getParent());
-            statement.setBoolean(3,file.isDirectory());
-            statement.setLong(4,file.length());
-            statement.setTimestamp(5,new Timestamp(file.lastModified()));
-            String pinyin = null;
-            String pinyin_first = null;
-            //文件名包含汉字，需要获取拼音和拼音首字母，并保存到数据库
-            if(PinyinUtil.containChinese(file.getName())){
-                String[] pinyins = PinyinUtil.get(file.getName());
-                pinyin = pinyins[0];
-                pinyin_first = pinyins[1];
-            }
-            statement.setString(6,pinyin);
-            statement.setString(7,pinyin_first);
-            System.out.println("执行文件保存操作："+sql);
+            statement.setString(1,meta.getName());
+            statement.setString(2,meta.getPath());
+            statement.setBoolean(3,meta.getDirectory());
+            statement.setLong(4,meta.getSize());
+            //数据库保存日期类型，可以按
+            statement.setString(5,meta.getLastModifiedText());
+//            statement.setTimestamp(5,new Timestamp(meta.getLastModified().getTime()));
+            statement.setString(6,meta.getPinyin());
+            statement.setString(7,meta.getPinyinFirst());
+            System.out.printf("insert name=%s, path=%s\n",meta.getName(),meta.getPath());
             //3.执行sql
             statement.executeUpdate();
         } catch (SQLException e) {
@@ -118,11 +128,63 @@ public class FileSave implements ScanCallback {
         }
     }
 
+    /**
+     * meta的删除
+     * 1.删除meta信息本身
+     * 2.如果meta是目录，还要将meta所有的子文件、子文件夹删除
+     * @param meta
+     */
+    public void delete(FileMeta meta){
+        Connection connection = null;
+        PreparedStatement ps = null;
+        try{
+            connection = DBUtil.getConnection();
+            String sql = "delete from file_meta where" +
+                    " (name=? and path=? and is_directory=?)";//删除文件自身
+            if(meta.getDirectory()){//如果是文件夹，还要删除文件夹的子文件和子文件夹
+                sql += " or path=?" +//匹配数据库文件夹的儿子
+                        " or path like ?";//匹配数据库文件夹的孙后辈
+            }
+            ps = connection.prepareStatement(sql);
+            ps.setString(1,meta.getName());
+            ps.setString(2,meta.getPath());
+            ps.setBoolean(3,meta.getDirectory());
+            if(meta.getDirectory()){
+                ps.setString(4,meta.getPath()+File.separator+meta.getName());
+                ps.setString(5,meta.getPath()+File.separator+meta.getName()+File.separator);
+            }
+            System.out.printf("删除文件信息，dir=%s\n",meta.getPath()+File.separator+meta.getName());
+            ps.executeUpdate();
+        }catch(Exception e){
+            throw new RuntimeException("删除文件信息出错，检查delete语句",e);
+        }finally {
+            DBUtil.close(connection,ps);
+        }
+    }
+
     public static void main(String[] args) {
-        DBInit.init();
+        /*DBInit.init();
         File file = new File("C:\\Users\\Administrator\\Desktop\\图片1.png");
         FileSave fileSave = new FileSave();
         fileSave.save(file);
-        fileSave.query(file.getParentFile());
+        fileSave.query(file.getParentFile());*/
+        List<FileMeta> locals = new ArrayList<>();
+        locals.add(new FileMeta("新建文件夹","G:\\Github\\practice\\JavaWeb\\maven-test",true,0,new Date()));
+        locals.add(new FileMeta("中华人民共和国","G:\\Github\\practice\\JavaWeb\\maven-test",true,0,new Date()));
+        locals.add(new FileMeta("阿凡达.txt","G:\\Github\\practice\\JavaWeb\\maven-test\\中华人民共和国",true,0,new Date()));
+
+        List<FileMeta> metas = new ArrayList<>();
+        metas.add(new FileMeta("新建文件夹","G:\\Github\\practice\\JavaWeb\\maven-test",true,0,new Date()));
+        metas.add(new FileMeta("中华人民共和国2","G:\\Github\\practice\\JavaWeb\\maven-test",true,0,new Date()));
+        metas.add(new FileMeta("阿凡达.txt","G:\\Github\\practice\\JavaWeb\\maven-test\\中华人民共和国2",true,0,new Date()));
+        //集合中是否包含某个元素，不一定代表传入这个对象在Java内存中是同一个对象的引用
+        //满足一定条件(集合中的元素类型需要重写hashCode和equals --> 业务需要哪些属性来判断元素同一个)，
+        // list.contains方法可以返回true
+//        Boolean contains = locals.contains(new FileMeta(new File("")));
+        for(FileMeta meta : locals){
+            if(!metas.contains(meta)){
+                System.out.println(meta);
+            }
+        }
     }
 }

@@ -5,6 +5,7 @@ import util.Util;
 
 import java.io.File;
 import java.util.Date;
+import java.util.Objects;
 
 public class FileMeta {
     //文件名称
@@ -118,5 +119,20 @@ public class FileMeta {
 
     public void setDirectory(Boolean directory) {
         isDirectory = directory;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        FileMeta meta = (FileMeta) o;
+        return Objects.equals(name, meta.name) &&
+                Objects.equals(path, meta.path) &&
+                Objects.equals(isDirectory, meta.isDirectory);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, path, isDirectory);
     }
 }
