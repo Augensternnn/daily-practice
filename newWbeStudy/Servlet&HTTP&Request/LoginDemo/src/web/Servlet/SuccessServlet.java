@@ -15,7 +15,7 @@ public class SuccessServlet extends HttpServlet {
         //获取request域中共享的user对象
         User user = (User) request.getAttribute("user");
 
-        if(user != null){
+        if(user != null){//防止空指针异常
             //给页面写一句话
 
             //设置页面编码

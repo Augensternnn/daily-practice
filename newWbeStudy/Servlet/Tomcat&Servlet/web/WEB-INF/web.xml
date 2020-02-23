@@ -7,7 +7,7 @@
     <!--配置Servlet -->
     <servlet>
         <servlet-name>demo1</servlet-name>
-        <servlet-class>cn.itcast.web.servlet.ServletDemo1</servlet-class>
+        <servlet-class>servlet.ServletDemo1</servlet-class>
     </servlet>
 
     <servlet-mapping>
