@@ -18,11 +18,13 @@ public class ServletContextDemo5 extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         ServletContext context = this.getServletContext();
         //获取文件的服务器路径
-//        String realPath = context.getRealPath("/b.txt");//web目录下资源访问
-//        String realPath = context.getRealPath("/WEB-INF/c.txt");//WEB-INF目录下资源访问
-        String realPath = context.getRealPath("/WEB-INF/classes/a.txt");//src目录下资源访问
-        System.out.println(realPath);
-        File file = new File(realPath);
+        String realPath1 = context.getRealPath("/b.txt");//web目录下资源访问
+        String realPath2 = context.getRealPath("/WEB-INF/c.txt");//WEB-INF目录下资源访问
+        String realPath3 = context.getRealPath("/WEB-INF/classes/a.txt");//src目录下资源访问
+        System.out.println(realPath1);
+        System.out.println(realPath2);
+        System.out.println(realPath3);
+        File file = new File(realPath1);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
