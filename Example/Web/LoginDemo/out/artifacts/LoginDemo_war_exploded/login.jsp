@@ -48,7 +48,11 @@
         </table>
     </form>
 
+    ${requestScope.checkCode_error}
+    ${requestScope.login_error}
+    <%--
     <div><%=request.getAttribute("checkCode_error")==null ? "" : request.getAttribute("checkCode_error")%></div>
     <div><%=request.getAttribute("login_error")==null ? "" : request.getAttribute("login_error")==null%></div>
+    --%>
 </body>
 </html>
