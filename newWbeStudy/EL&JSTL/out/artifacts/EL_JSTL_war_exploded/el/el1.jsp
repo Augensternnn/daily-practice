@@ -38,6 +38,7 @@
     List list = new ArrayList();
     request.setAttribute("list",list);
 %>
+    ${empty str}
     ${not empty str}
     ${not empty list}
 </body>
