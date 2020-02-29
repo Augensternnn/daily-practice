@@ -23,8 +23,10 @@ public class LoginServlet extends HttpServlet {
 
         //2获取用户填写的验证码，并校验验证码
         String verifycode = request.getParameter("verifycode");
+        System.out.println(verifycode);
         HttpSession session = request.getSession();
         String checkcode_server = (String)session.getAttribute("CHECKCODE_SERVER");
+        System.out.println(checkcode_server);
         session.removeAttribute("CHECKCODE_SERVER");//确保验证码一次性
         if(!checkcode_server.equalsIgnoreCase(verifycode)){//验证码不正确
             //提示信息
