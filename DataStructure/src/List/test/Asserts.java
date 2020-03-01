@@ -1,4 +1,4 @@
-package List.ArrayList;
+package List.test;
 
 public class Asserts {
 	public static void test(boolean value) {

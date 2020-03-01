@@ -107,6 +107,10 @@
         return old;
     }
 
+    public void remove(E element){
+        remove(indexOf(element));
+    }
+
     /**
      * 查看元素的位置
      * @param element
