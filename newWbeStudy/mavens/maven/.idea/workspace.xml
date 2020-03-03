@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d7009caa-5149-4452-a6b8-b6c6853a5325" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Redis/src/dao/ProvinceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis/src/dao/impl/ProvinceDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis/src/domain/Province.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis/src/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis/src/service/ProvinceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis/src/service/impl/ProvinceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis/src/util/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis/src/web/servlet/ProvinceServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis/web/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis/web/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis/web/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis/web/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis/web/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis/web/WEB-INF/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis/web/WEB-INF/lib/jstl-impl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis/web/WEB-INF/lib/mysql-connector-java-5.1.18-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis/web/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis/web/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis/web/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis/web/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis/web/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Redis/web/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis/Redis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis/Redis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis/out/production/Redis/test/JedisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis/out/production/Redis/util/JedisPoolUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis/src/test/JedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis/src/Jedis/JedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis/src/util/JedisPoolUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis/src/Jedis/util/JedisPoolUtils.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="G:\Repository\M2Repository" />
+        <option name="mavenHome" value="G:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="G:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1YZMl34iAac2yjPvmIoCbAuHXJc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+      <module name="maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7009caa-5149-4452-a6b8-b6c6853a5325" name="Default Changelist" comment="" />
+      <created>1583145812265</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583145812265</updated>
+      <workItem from="1583145821204" duration="426000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1583146254803">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1583146254803" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1583146254802">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1583146254802" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1583146254802">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1583146254802" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1583146254802">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1583146254802" />
+  </component>
+</project>

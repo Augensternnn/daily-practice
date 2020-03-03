@@ -104,6 +104,7 @@
             elements[i-1] = elements[i];
         }
         elements[--size] = null;
+        trim();//动态缩容
         return old;
     }
 
@@ -166,6 +167,23 @@
         }
         elements = newElements;
     }
+
+     /**
+      * 动态缩容操作
+      * 发现剩余空间还有一半就缩容
+      */
+     private void trim(){
+         int capacity = elements.length;
+         int newCapacity = capacity >> 1;
+         if(size >= newCapacity || capacity <= DEFAULT_CAPACITY)//剩余空间小于一半 或 小于默认容量
+             return;
+         //缩容
+         E[] newElements = (E[]) new Object[newCapacity];
+         for (int i = 0; i < size; i++) {
+             newElements[i] = elements[i];
+         }
+         elements = newElements;
+     }
 
     private void outOfBounds(int index){
         throw new IndexOutOfBoundsException("index："+index+"，Size："+size);
