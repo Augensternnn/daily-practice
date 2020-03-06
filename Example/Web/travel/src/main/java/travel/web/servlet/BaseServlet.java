@@ -1,5 +1,8 @@
 package travel.web.servlet;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -24,8 +27,12 @@ public class BaseServlet extends HttpServlet {
         //3.获取方法对象Method
         System.out.println(this);//this：谁调用代表谁
         try {
-            Method method = this.getClass().getMethod(methodName, HttpServletRequest.class, HttpServletResponse.class);
+            /*//忽略访问权限修饰符，获取方法
+            Method method = this.getClass().getDeclaredMethod(methodName, HttpServletRequest.class, HttpServletResponse.class);
             //4.执行方法
+            //暴力反射
+            method.setAccessible(true);*/
+            Method method = this.getClass().getMethod(methodName,HttpServletRequest.class,HttpServletResponse.class);
             method.invoke(this,req,resp);
         } catch (NoSuchMethodException e) {
             e.printStackTrace();
@@ -34,6 +41,25 @@ public class BaseServlet extends HttpServlet {
         } catch (InvocationTargetException e) {
             e.printStackTrace();
         }
-        //4.执行方法
+    }
+
+    /**
+     * 将传入对象序列化为json，并写回客户端
+     * @param obj
+     */
+    public void writeValue(Object obj,HttpServletResponse response) throws IOException {
+        ObjectMapper mapper = new ObjectMapper();
+        response.setContentType("application/json;charset=utf-8");
+        mapper.writeValue(response.getOutputStream(),obj);
+    }
+
+    /**
+     * 将传入对象序列化为json返回
+     * @param obj
+     * @return
+     */
+    public String writeValueAsString(Object obj) throws JsonProcessingException {
+        ObjectMapper mapper = new ObjectMapper();
+        return mapper.writeValueAsString(obj);
     }
 }
