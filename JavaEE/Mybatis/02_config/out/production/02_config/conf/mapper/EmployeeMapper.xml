@@ -12,7 +12,9 @@
         public Employee getEmpById(Integer id);
     -->
 <!--    <select id="getEmpById" resultType="bean.Employee">-->
-    <select id="getEmpById" resultType="emp">
+    <!---->
+    <select id="getEmpById" resultType="bean.Employee"
+        databaseId="mysql">
         select * from tbl_employee where id = #{id}
     </select>
 </mapper>

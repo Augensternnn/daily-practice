@@ -1,10 +1,5 @@
 package Tree.printer;
 
-/**
- * 
- * @author MJ Lee
- *
- */
 public final class BinaryTrees {
 
 	private BinaryTrees() {

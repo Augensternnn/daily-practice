@@ -1,5 +1,6 @@
 import bean.Employee;
 import dao.EmployeeMapper;
+import dao.EmployeeMapperAnnotation;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -17,7 +18,7 @@ public class MyBatisTest {
     }
 
     @Test
-    public void test() throws IOException {
+    public void test1() throws IOException {
         //1.获取SQLSessionFactory对象
         SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
         //2.获取SQLSession对象
@@ -30,6 +31,23 @@ public class MyBatisTest {
             System.out.println(mapper.getClass());
             System.out.println(employee);
         } finally {
+            openSession.close();
+        }
+    }
+
+    /**
+     * mapper、class，注册接口
+     * EmployeeMapperAnnotation
+     */
+    @Test
+    public void test2() throws IOException {
+        SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
+        SqlSession openSession = sqlSessionFactory.openSession();
+        try {
+            EmployeeMapperAnnotation mapper = openSession.getMapper(EmployeeMapperAnnotation.class);
+            Employee empById = mapper.getEmpById(1);
+            System.out.println(empById);
+        }finally {
             openSession.close();
         }
     }
