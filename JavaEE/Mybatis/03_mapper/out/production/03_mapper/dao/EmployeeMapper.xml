@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.EmployeeMapper">
+    <!--
+        namespace：名称空间，指定为接口的全类名
+        id：唯一标识
+        resultType：返回值类型[全类名]
+        #{id}：从传递过来的参数值中取出id值
+    -->
+
+    <!--public Employee getEmpById(Integer id);-->
+    <!--<select id="getEmpById" resultType="bean.Employee">-->
+    <select id="getEmpById" resultType="bean.Employee"
+        databaseId="mysql">
+        select * from tbl_employee where id = #{id}
+    </select>
+
+    <!--public void addEmp(Employee employee);
+        parameterMap：可以省略，要写则指定全类名或者别名
+       【注】sql语句不写分号
+       mysql支持自增主键，自增主键值的获取，mybatis也是利用statement的getGeneratedKeys()
+       useGeneratedKeys：默认为false；   true：使用自增主键获取主键值策略
+       keyProperty：指定对应的主键属性，即 mybatis获取到主键值后，将这个值封装给JavaBean的哪个属性
+    -->
+    <!--useGeneratedKeys="true" keyProperty="id"-->
+
+    <!--<insert id="addEmp" parameterType="bean.Employee"
+            useGeneratedKeys="true" keyProperty="id">
+        insert into tbl_employee(last_name,email,gender) values(
+        #{lastName},#{email},#{gender})
+    </insert>-->
+
+    <!--keyProperty：查出的主键值封装给JavaBean的哪个属性
+        order：
+              BEFORE：当前sql在插入sql之前执行
+              AFTER：当前sql在插入sql之后执行
+        resultType：查出结果的返回值类型
+
+        【获取非自增主键的值】
+        <selectKey keyProperty="id" order="BEFORE" resultType="Integer">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+        运行顺序：
+            先运行selectKey查询id的sql；查出的id值封装给JavaBean的id属性值
+
+    -->
+    <insert id="addEmp" parameterType="bean.Employee">
+        <!--<selectKey resultType="Integer" keyProperty="id" order="AFTER" >
+            SELECT LAST_INSERT_ID()
+        </selectKey>-->
+        <selectKey resultType="String" keyProperty="email" order="BEFORE" >
+            select email from tbl_employee where id = 1
+        </selectKey>
+        insert into tbl_employee(last_name,email,gender) values(
+        #{lastName},#{email},#{gender})
+    </insert>
+
+    <!--public void updateEmp(Employee employee);-->
+    <update id="updateEmp">
+        update tbl_employee set last_name=#{lastName},email=#{email},gender=#{gender}
+        where id=#{id}
+    </update>
+
+    <!--public void deleteEmpById(Integer id);-->
+    <delete id="deleteEmpById">
+        delete from tbl_employee where id=#{id}
+    </delete>
+</mapper>

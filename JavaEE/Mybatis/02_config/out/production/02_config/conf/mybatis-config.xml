@@ -99,11 +99,17 @@
                     file:///var/mappers/AuthorMapper.xml
                 【注册接口】
                  class：引用（注册）接口
-                    1.sql映射文件：映射文件名必须和接口同名，并且与接口放在同一目录下
+                    1.sql映射文件：映射文件名必须和接口同名，并且与接口放在同一目录下：<mapper class="dao.EmployeeMapper"/>
                     2.没有sql映射文件：所有的sql都是利用注解写在接口上
+                    【推荐】比较重要的、复杂的Dao接口：写sql映射文件；
+                            不重要的、简单的Dao接口：为了开发快速，可以使用注解
         -->
-        <mapper resource="conf/mapper/EmployeeMapper.xml"/>
-<!--        <mapper class="dao.EmployeeMapper"/>-->
-        <mapper class="dao.EmployeeMapperAnnotation"/>
+<!--        <mapper resource="conf/mapper/EmployeeMapper.xml"/>-->
+<!--        <mapper class="dao.EmployeeMapperAnnotation"/>-->
+
+        <!--批量注册：package
+            name：包名[基于注解的能找到；其他接口(写了映射文件的)找不到，需要将映射文件、接口放在同一目录下]
+        -->
+        <package name="dao"/>
     </mappers>
 </configuration>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.EmployeeMapper">
+
+    <!--public Employee getEmpById(Integer id);-->
+    <select id="getEmpById" resultType="bean.Employee"
+        databaseId="mysql">
+        select * from tbl_employee where id = #{id}
+    </select>
+
+    <!--public void addEmp(Employee employee);-->
+    <!--useGeneratedKeys="true" keyProperty="id"-->
+    <insert id="addEmp" parameterType="bean.Employee">
+        <selectKey resultType="java.lang.Integer" keyProperty="id" order="AFTER" >
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+        insert into tbl_employee(last_name,email,gender) values(
+        #{lastName},#{email},#{gender})
+    </insert>
+
+    <!--public void updateEmp(Employee employee);-->
+    <update id="updateEmp">
+        update tbl_employee set last_name=#{lastName},email=#{email},gender=#{gender}
+        where id=#{id}
+    </update>
+
+    <!--public void deleteEmpById(Integer id);-->
+    <delete id="deleteEmpById">
+        delete from tbl_employee where id=#{id}
+    </delete>
+</mapper>

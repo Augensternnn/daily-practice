@@ -64,7 +64,9 @@ public class BST<E> implements BinaryTreeInfo {
                 node= node.right;
             }else if(cmp < 0){
                 node = node.left;
-            }else {//相等
+            }else {
+                //相等，传进来的值覆盖之前的值
+                node.element = element;
                 return;
             }
         }
