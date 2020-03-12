@@ -17,6 +17,17 @@
         select * from tbl_employee where id = #{id}
     </select>
 
+    <!--public Employee getEmpByIdAndLastName(Integer id,String lastName);-->
+    <!--select * from tbl_employee where id = #{param1} and last_name = #{param2}-->
+    <select id="getEmpByIdAndLastName" resultType="bean.Employee">
+        select * from tbl_employee where id = #{id} and last_name = #{lastName}
+    </select>
+
+    <!--public Employee getEmpByMap(Map<String,Object> map);-->
+    <select id="getEmpByMap" resultType="bean.Employee">
+        select * from tbl_employee where id = #{id} and last_name = #{lastName}
+    </select>
+
     <!--public void addEmp(Employee employee);
         parameterMap：可以省略，要写则指定全类名或者别名
        【注】sql语句不写分号
