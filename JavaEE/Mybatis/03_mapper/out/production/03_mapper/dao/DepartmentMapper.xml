@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.DepartmentMapper">
+    <!--public Department getDeptById(Integer id);-->
+    <select id="getDeptById" resultType="bean.Department">
+        select id,dept_name departmentName from tbl_dept where id = #{id}
+    </select>
+
+</mapper>

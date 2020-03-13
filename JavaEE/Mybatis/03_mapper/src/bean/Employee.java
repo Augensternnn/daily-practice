@@ -9,6 +9,7 @@ public class Employee {
     private String lastName;//和数据库字段名不一致，可以在查询sql时给他起别名
     private String email;
     private String gender;
+    private Department dept;
 
     public Employee(){
 
@@ -19,6 +20,14 @@ public class Employee {
         this.lastName = lastName;
         this.email = email;
         this.gender = gender;
+    }
+
+    public Department getDept() {
+        return dept;
+    }
+
+    public void setDept(Department dept) {
+        this.dept = dept;
     }
 
     public Integer getId() {

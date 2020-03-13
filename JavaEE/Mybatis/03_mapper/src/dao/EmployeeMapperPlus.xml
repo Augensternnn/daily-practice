@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.EmployeeMapperPlus">
+    <!--resultMap：自定义某个JavaBean的封装规则[即，自定义结果集映射的规则]
+        type：自定义规则的Java类型[]可以写别名
+        id：唯一id，方便引用
+    -->
+    <resultMap id="MySimpleEmp" type="bean.Employee">
+        <!--id：指定主键列的封装规则【id定义主键底层会有优化】
+                column：指定哪一列
+                property：指定对应的JavaBean属性
+            【主键也可以使用result定义，不过使用id定义，mybatis会知道该属性为主键属性】
+        -->
+        <id column="id" property="id"/>
+        <!--result：定义普通列封装规则-->
+        <result column="last_name" property="lastName"/><!--自定义映射规则了，就不需要使用驼峰命名法了-->
+        <!--其他不指定的列会自动封装【自动查看列名与JavaBean的属性名是否对应，不写是因为列名与属性名对应，不对应必须要写】
+            【推荐】使用resultMap时，将全列的映射规则都写上
+        -->
+        <result column="email" property="email"/>
+        <result column="gender" property="gender"/>
+    </resultMap>
+
+    <!--public Employee getEmpById(Integer id);-->
+    <!--<select id="getEmpById" resultType="emp">-->
+    <select id="getEmpById" resultMap="MySimpleEmp">
+        select * from tbl_employee where id = #{id}
+    </select>
+
+    <!--
+        场景一：查询Employee的同时，查询员工对应的部门
+            Employee == Department
+            一个员工有与之对应的部门信息
+            id      last_name      gender      d_id      did  dept_name(private Department dept;)
+    -->
+    <!--
+        联合查询：使用级联属性封装结果集
+    -->
+    <resultMap id="MyDifEmp" type="bean.Employee">
+        <id column="id" property="id"/>
+        <result column="last_name" property="lastName"/>
+        <result column="gender" property="gender"/>
+        <result column="did" property="dept.id"/>
+        <result column="dept_name" property="dept.departmentName"/>
+    </resultMap>
+
+    <!--
+        使用association定义关联的单个对象的封装规则
+    -->
+    <resultMap id="MyDifEmp2" type="bean.Employee">
+        <id column="id" property="id"/>
+        <result column="last_name" property="lastName"/>
+        <result column="gender" property="gender"/>
+        <!--association：可以指定联合的JavaBean对象
+              property：指定哪个属性是联合的对象
+              javaType：这个属性对象的类型【不能省略】
+            在association里定义的规则，注意不要和外面的列名重复，否则会有问题，都表示第一次定义的那个列
+        -->
+        <association property="dept" javaType="bean.Department">
+            <id column="did" property="id"/>
+            <result column="dept_name" property="departmentName"/>
+        </association>
+    </resultMap>
+
+    <!--public Employee getEmpAndDept(Integer id);-->
+    <select id="getEmpAndDept" resultMap="MyDifEmp2">
+        select e.id id,e.last_name last_name,e.gender gender,e.d_id d_id,
+        d.id did,d.dept_name dept_name from tbl_employee e,tbl_dept d
+        where e.d_id = d.id and e.id = #{id}
+    </select>
+
+    <!--分布查询好处：
+            1.组合已有的方法完成复杂查询
+            2.可以使用延迟加载
+    -->
+
+    <!--使用association进行分布查询
+            1.先按照员工id查询员工信息【id    last_name    email    gender    d_id】
+            2.根据查出员工信息中的d_id值去部门表查出部门信息
+            3.查出的部门设置到员工中
+    -->
+    <resultMap id="MyEmpByStep" type="bean.Employee">
+        <id column="id" property="id"/>
+        <result column="last_name" property="lastName"/>
+        <result column="email" property="email"/>
+        <result column="gender" property="gender"/>
+        <!--association定义关联对象的封装规则
+                select：表明当前属性是调用select指定的方法查出的结果
+                column：指定将哪一列的值传给这个方法
+
+                流程：使用select指定的方法(传入column指定的这列参数的值)查出对象，
+                      并封装给property指定的属性
+        -->
+        <association property="dept"
+            select="dao.DepartmentMapper.getDeptById"
+            column="d_id">
+        </association>
+    </resultMap>
+    <!--public Employee getEmpByIdStep(Integer id);-->
+    <select id="getEmpByIdStep" resultMap="MyEmpByStep">
+        select * from tbl_employee where id = #{id}
+    </select>
+
+    <!--延迟加载
+            Employee --> Dept
+    -->
+</mapper>

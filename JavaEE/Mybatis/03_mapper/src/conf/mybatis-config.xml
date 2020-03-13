@@ -18,9 +18,9 @@
             name：设置项名
             value：设置项取值
     -->
-    <settings>
-        <setting name="mapUnderscoreToCamelCase" value="true"/><!--驼峰式命名法-->
-    </settings>
+    <!--<settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>&lt;!&ndash;驼峰式命名法&ndash;&gt;
+    </settings>-->
 
     <!--
         3.typeAliases：别名处理器；可以给java类型起别名
