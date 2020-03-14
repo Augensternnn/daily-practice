@@ -45,7 +45,6 @@
         <result column="did" property="dept.id"/>
         <result column="dept_name" property="dept.departmentName"/>
     </resultMap>
-
     <!--
         使用association定义关联的单个对象的封装规则
     -->
@@ -63,19 +62,16 @@
             <result column="dept_name" property="departmentName"/>
         </association>
     </resultMap>
-
     <!--public Employee getEmpAndDept(Integer id);-->
     <select id="getEmpAndDept" resultMap="MyDifEmp2">
         select e.id id,e.last_name last_name,e.gender gender,e.d_id d_id,
         d.id did,d.dept_name dept_name from tbl_employee e,tbl_dept d
         where e.d_id = d.id and e.id = #{id}
     </select>
-
     <!--分布查询好处：
             1.组合已有的方法完成复杂查询
             2.可以使用延迟加载
     -->
-
     <!--使用association进行分布查询
             1.先按照员工id查询员工信息【id    last_name    email    gender    d_id】
             2.根据查出员工信息中的d_id值去部门表查出部门信息
@@ -102,8 +98,16 @@
     <select id="getEmpByIdStep" resultMap="MyEmpByStep">
         select * from tbl_employee where id = #{id}
     </select>
-
-    <!--延迟加载
-            Employee --> Dept
+    <!--延迟加载(懒加载)：按需加载[全局配置lazyLoadingEnabled、aggressiveLazyLoading]
+            Employee -包含-> Dept(属性)
+                我们每次查询Employee对象时，都将部门信息一起查询出来
+                希望：部门信息在我们使用的时候再去查询
+                分段查询的基础之上加上两个配置
     -->
+
+    <!--====================================association====================================-->
+    <!--
+        场景二：查询部门时，将部门对应的所有员工信息也查询出来【讲解注释在DepartmentMapper.xml中】
+    -->
+
 </mapper>

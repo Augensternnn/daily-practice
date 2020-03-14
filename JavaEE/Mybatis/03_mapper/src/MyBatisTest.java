@@ -1,4 +1,6 @@
+import bean.Department;
 import bean.Employee;
+import dao.DepartmentMapper;
 import dao.EmployeeMapper;
 import dao.EmployeeMapperAnnotation;
 import dao.EmployeeMapperPlus;
@@ -138,8 +140,22 @@ public class MyBatisTest {
             System.out.println(empAndDept.getDept());*/
 
             Employee empByIdStep = mapper.getEmpByIdStep(1);
-            System.out.println(empByIdStep);
-            System.out.println(empByIdStep.getDept());
+            System.out.println(empByIdStep.getLastName());
+            //System.out.println(empByIdStep.getDept());
+        }finally {
+            openSession.close();
+        }
+    }
+
+    @Test
+    public void test6() throws IOException {
+        SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
+        SqlSession openSession = sqlSessionFactory.openSession();
+        try {
+            DepartmentMapper mapper = openSession.getMapper(DepartmentMapper.class);
+            Department department = mapper.getDeptByIdPlus(1);
+            System.out.println(department);
+            System.out.println(department.getEmps());
         }finally {
             openSession.close();
         }
