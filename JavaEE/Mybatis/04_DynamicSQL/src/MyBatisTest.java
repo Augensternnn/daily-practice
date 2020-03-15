@@ -1,9 +1,6 @@
 import bean.Department;
 import bean.Employee;
-import dao.DepartmentMapper;
-import dao.EmployeeMapper;
-import dao.EmployeeMapperAnnotation;
-import dao.EmployeeMapperPlus;
+import dao.*;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -12,7 +9,8 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.HashMap;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
@@ -161,6 +159,88 @@ public class MyBatisTest {
             Department deptByIdStep = mapper.getDeptByIdStep(1);
             System.out.println(deptByIdStep.getDepartmentName());
             //System.out.println(deptByIdStep.getEmps());
+        }finally {
+            openSession.close();
+        }
+    }
+
+    /**
+     * 测试动态SQL
+     */
+    @Test
+    public void test7() throws IOException {
+        SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
+        SqlSession openSession = sqlSessionFactory.openSession();
+        try {
+            EmployeeMapperDynamicSQL mapper = openSession.getMapper(EmployeeMapperDynamicSQL.class);
+
+            //测试where
+            Employee employee = new Employee(1,"Admin",null,null);
+            /*List<Employee> emps = mapper.getEmpsByConditionIf(employee);
+            for (Employee emp : emps) {
+                System.out.println(emp);
+            }*/
+            /**
+             * 查询的时候如果某些条件没带，可能sql拼装会有问题
+             * 解决方案：
+             *      1.给 where 后面拼接 1=1，以后的条件都 and xxx
+             *      2.mybatis可以使用where标签来将所有的查询条件包括在内.
+             *          mybatis会将where标签中拼装的sql，多出来的and或者or去掉【where只会去掉第一个多出来的and或者or】
+             *          如是以下情况where标签不好用，无法好好封装：xxx and，且最后一个标签后面没有and
+             */
+
+            //测试Trim
+            /*List<Employee> emps2 = mapper.getEmpsByConditionTrim(employee);
+            for (Employee emp : emps2) {
+                System.out.println(emp);
+            }*/
+
+            //测试choose
+            /*List<Employee> list = mapper.getEMpsByConditionChoose(employee);
+            for (Employee emp : list) {
+                System.out.println(emp);
+            }*/
+
+            //测试set标签
+            /*mapper.updateEmp(employee);
+            openSession.commit();*/
+
+            //测试foreach标签
+            List<Employee> list = mapper.getEmpsByConditionForeach(Arrays.asList(1, 3));
+            for (Employee emp : list) {
+                System.out.println(emp);
+            }
+        }finally {
+            openSession.close();
+        }
+    }
+
+    @Test
+    public void test8() throws IOException {
+        SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
+        SqlSession openSession = sqlSessionFactory.openSession();
+        try {
+            EmployeeMapperDynamicSQL mapper = openSession.getMapper(EmployeeMapperDynamicSQL.class);
+            List<Employee> emps = new ArrayList<>();
+            emps.add(new Employee(null,"siri","siri@qq.com","1",new Department(1)));
+            emps.add(new Employee(null,"allen","allen@qq.com","1",new Department(1)));
+            mapper.addEmps(emps);
+            openSession.commit();
+        }finally {
+            openSession.close();
+        }
+    }
+
+    @Test
+    public void test9() throws IOException {
+        SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
+        SqlSession openSession = sqlSessionFactory.openSession();
+        try {
+            EmployeeMapperDynamicSQL mapper = openSession.getMapper(EmployeeMapperDynamicSQL.class);
+            List<Employee> list = mapper.getEmpsTestInnerParameter(new Employee());
+            for (Employee employee : list) {
+                System.out.println(employee);
+            }
         }finally {
             openSession.close();
         }

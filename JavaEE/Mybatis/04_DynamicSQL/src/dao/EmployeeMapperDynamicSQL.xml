@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.EmployeeMapperDynamicSQL">
+    <!--
+        if：判断
+        choose (when, otherwise)：分支选择   类似 带了break的switch-case
+        trim (where[封装查询条件], set[封装修改条件])：字符串截取
+        foreach：
+    -->
+
+    <!--where标签
+        需求：查询员工
+        要求：携带了哪个字段，查询条件就带上这个字段的值
+    -->
+    <!--List<Employee> getEmpsByConditionIf(Employee employee);-->
+    <select id="getEmpsByConditionIf" resultType="bean.Employee">
+        select * from tbl_employee
+        <!--where-->
+        <where>
+            <!--test：判断表达式(OGNL表达式)    与JSTL中c:if里的test用法一样
+            OGNL表达式的使用：参照官方文档或PPT
+            test里的取值都是从参数中取值，再进行判断
+            遇见特殊符号，应该去写转义字符
+                转义字符：可从w3school里HTML ISO-8859-1中查找
+                    "->&quot;
+                    &&：也要写转义字符(&amp;)，也可以写and
+        -->
+            <if test="id!=null">
+                id = #{id}
+            </if>
+            <if test="lastName!=null and lastName!=''">
+                and last_name like #{lastName}
+            </if>
+            <if test="email!=null &amp;&amp; email.trim()!=&quot;&quot;">
+                and email = #{email}
+            </if>
+            <!--ognl会自动进行字符串与数字的转换-->
+            <if test="gender==0 or gender==1">
+                and gender = #{gender}
+            </if>
+        </where>
+    </select>
+
+    <!--trim标签
+        List<Employee> getEmpsByConditionTrim(Employee employee);-->
+    <select id="getEmpsByConditionTrim" resultType="bean.Employee">
+        select * from tbl_employee
+        <!--后面多出的and或or，where标签不能解决(where只能解决前面多出的and)
+            prefix：给拼串后的整个字符串加一个前缀[可写可不写]
+                前缀；trim标签体中是整个字符串拼串后的结果
+            prefixOverrides：前缀覆盖：去掉整个字符串前面多余的字符
+            suffix：给拼串后的整个字符串加一个后缀
+            suffixOverrides：后缀覆盖：去掉整个字符串后面多余的字符
+        -->
+        <!--自定义字符串的截取规则-->
+        <trim prefix="where" suffixOverrides="and">
+            <if test="id!=null">
+                id = #{id} and
+            </if>
+            <if test="lastName!=null and lastName!=''">
+                last_name like #{lastName} and
+            </if>
+            <if test="email!=null &amp;&amp; email.trim()!=&quot;&quot;">
+                email = #{email} and
+            </if>
+            <!--ognl会自动进行字符串与数字的转换-->
+            <if test="gender==0 or gender==1">
+                gender = #{gender}
+            </if>
+        </trim>
+    </select>
+
+    <!--choose + where标签
+        带了id就用id查，带了lastName就用lastName查；只会进入其中一个
+        List<Employee> getEMpsByConditionChoose(Employee employee);
+    -->
+    <select id="getEMpsByConditionChoose" resultType="bean.Employee">
+        select * from tbl_employee
+        <where>
+            <choose>
+                <when test="id!=null">
+                    id = #{id}
+                </when>
+                <when test="lastName!=null">
+                    last_name like #{lastName}
+                </when>
+                <when test="email!=null">
+                    email = #{email}
+                </when>
+                <otherwise>
+                    gender = 0
+                    <!-- 查询所有：1=1 -->
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+
+    <!--set标签
+        void updateEmp(Employee employee);
+    -->
+    <update id="updateEmp">
+            <!--set标签的使用-->
+        update tbl_employee
+        <set>
+            <if test="lastName!=null">
+                last_name = #{lastName},
+            </if>
+            <if test="email!=null">
+                email = #{email},
+            </if>
+            <if test="gender!=null">
+                gender = #{gender},
+            </if>
+        </set>
+        where id = #{id}
+        <!--
+        Trim：更新拼串
+        update tbl_employee
+        <trim prefix="set" suffixOverrides=",">
+            <if test="lastName!=null">
+                last_name = #{lastName},
+            </if>
+            <if test="email!=null">
+                email = #{email},
+            </if>
+            <if test="gender!=null">
+                gender = #{gender},
+            </if>
+        </trim>
+        where id = #{id}
+        -->
+    </update>
+
+    <!--foreach遍历集合-->
+    <!--List<Employee> getEmpsByConditionForeach(@Param("ids")List<Integer> ids);-->
+    <select id="getEmpsByConditionForeach" resultType="bean.Employee">
+        select * from tbl_employee
+        <!--
+            collection：指定要遍历的集合
+                list类型的参数会特殊处理封装在map中，map的key就叫list
+            item：将当前遍历出的元素赋值给指定的变量
+            separator：元素之间的分隔符
+            open：遍历出所有结果，拼接一个开始的字符
+            close：遍历出所有结果，拼接一个结束的字符
+            index：索引；
+                    遍历list的时候：index是索引，item是当前值；
+                    遍历map的时候：index表示map的key，item就是map的值
+
+            #{变量名}：取出变量的值，即当前遍历出的元素
+        -->
+        <foreach collection="ids" item="item_id" separator="," open="where id in(" close=")">
+            #{item_id}
+        </foreach>
+    </select>
+
+    <!--foreach批量保存-->
+    <!--void addEmps(@Param("emps")List<Employee> emps);-->
+    <!--MySQL下批量保存：可以foreach遍历  mysql支持values(),(),(),...语法-->
+    <insert id="addEmps">
+        insert into tbl_employee(last_name,email,gender,d_id)
+        values
+        <foreach collection="emps" item="emp" separator=",">
+            (#{emp.lastName},#{emp.email},#{emp.gender},#{emp.dept.id})
+        </foreach>
+    </insert><!---->
+
+    <!--这种方式需要数据库连接属性allowMultiQueries=true
+        这种分号分割多个sql也可以用于其他的批量操作(删除、修改)
+    -->
+    <!--<insert id="addEmps">
+        <foreach collection="emps" item="emp" separator=";">
+            insert into tbl_employee(last_name,email,gender,d_id)
+            values(#{emp.lastName},#{emp.email},#{emp.gender},#{emp.dept.id})
+        </foreach>
+    </insert>-->
+
+    <!--两个内置参数：
+        不只是方法传递过来的参数可以被用来判断、取值
+        mybatis默认还有两个内置参数：
+        _parameter：代表整个参数
+            单个参数：_parameter就是传入的这个参数
+            多个参数：参数会被封装为一个map，_parameter代表这个map
+        _databaseId：如果配置了databaseIdProvider标签，_databaseId就代表当前数据库的别名
+            使用_databaseId，这样使用不同的数据库查询，就不用写多次查询语句
+    -->
+    <!--List<Employee> getEmpsTestInnerParameter(Employee employee);-->
+    <select id="getEmpsTestInnerParameter" resultType="bean.Employee">
+        <if test="_databaseId=='mysql'">
+            select * from tbl_employee
+            <if test="_parameter!=null">
+                where last_name = #{_parameter.lastName}
+            </if>
+        </if>
+        <if test="_databaseId=='oracle'">
+            select * from employees
+        </if>
+    </select>
+</mapper>

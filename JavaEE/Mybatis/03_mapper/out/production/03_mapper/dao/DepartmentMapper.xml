@@ -8,7 +8,12 @@
         select id,dept_name departmentName from tbl_dept where id = #{id}
     </select>
 
+    <!--
+        collection嵌套结果集的方式，定义关联的集合类型元素的封装规则
+    -->
+
     <!--did     dept_name   |    eid     last_name     email     gender-->
+    <!--嵌套结果集的方式，使用collection标签定义关联的集合类型的属性封装规则-->
     <resultMap id="MyDept" type="bean.Department">
         <id column="did" property="id"/>
         <result column="dept_name" property="departmentName"/>
@@ -31,5 +36,26 @@
 			   from tbl_dept d left join tbl_employee e
 			   on d.id=e.d_id where d.id = #{id}
     </select>
+
+    <!--collection：分段查询-->
+    <resultMap id="MyDeptStep" type="bean.Department">
+        <id column="id" property="id"/>
+        <result column="dept_name" property="departmentName"/>
+        <collection property="emps"
+                    select="dao.EmployeeMapperPlus.getEmpsByDeptId"
+                    column="{depeId=id}" fetchType="lazy"></collection>
+    </resultMap>
+    <!--public Department getDeptByIdStep(Integer id);-->
+    <select id="getDeptByIdStep" resultMap="MyDeptStep">
+        select id,dept_name departmentName from tbl_dept where id = #{id}
+    </select>
+
+    <!--拓展：多列的值传递过去
+              将多列的值封装map传递
+              column="{key1=column1，key2=column2}"
+          fetchType：默认lazy[用处：即使全局设置了延迟加载，但是：当我们想立即加载时，不用改动全局，可以添加fetchType标签]
+                lazy：表示使用延迟加载
+                eager：表示立即加载
+    -->
 
 </mapper>
