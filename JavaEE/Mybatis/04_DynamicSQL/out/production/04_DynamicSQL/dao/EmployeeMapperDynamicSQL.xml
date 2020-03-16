@@ -159,7 +159,12 @@
     <!--void addEmps(@Param("emps")List<Employee> emps);-->
     <!--MySQL下批量保存：可以foreach遍历  mysql支持values(),(),(),...语法-->
     <insert id="addEmps">
-        insert into tbl_employee(last_name,email,gender,d_id)
+        insert into tbl_employee(
+            <!--last_name,email,gender,d_id-->
+
+            <!--include：引用外部定义的sql-->
+            <include refid="insertColumn"></include>
+        )
         values
         <foreach collection="emps" item="emp" separator=",">
             (#{emp.lastName},#{emp.email},#{emp.gender},#{emp.dept.id})
@@ -187,14 +192,27 @@
     -->
     <!--List<Employee> getEmpsTestInnerParameter(Employee employee);-->
     <select id="getEmpsTestInnerParameter" resultType="bean.Employee">
+
+        <!--bind：可以将OGNL表达式的值绑定到一个变量中，方便后来引用这个变量的值-->
+        <!--<bind name="_lastName" value="'%'+lastName+'%'"/>-->
+
         <if test="_databaseId=='mysql'">
             select * from tbl_employee
             <if test="_parameter!=null">
-                where last_name = #{_parameter.lastName}
+                <!-- where last_name like #{_lastName}-->
+                <!--where last_name like '%${_parameter.lastName}%'-->
+                where last_name like #{lastName}
             </if>
         </if>
-        <if test="_databaseId=='oracle'">
+        <!--<if test="_databaseId=='oracle'">
             select * from employees
-        </if>
+        </if>-->
     </select>
+
+    <!--sql：抽取可重用的sql片段，方便后面引用-->
+    <sql id="insertColumn">
+        <if test="_databaseId=='mysql'">
+            last_name,email,gender,d_id
+        </if>
+    </sql>
 </mapper>
