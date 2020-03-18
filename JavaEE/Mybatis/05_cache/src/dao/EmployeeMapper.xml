@@ -20,7 +20,10 @@
             type：指定自定义缓存的全类名
                 自定义缓存：实现Cache接口即可
     -->
-        <cache eviction="FIFO" flushInterval="60000" readOnly="false" size="1024"></cache>
+        <!--<cache eviction="FIFO" flushInterval="60000" readOnly="false" size="1024"></cache>-->
+
+    <cache type="org.mybatis.caches.ehcache.EhcacheCache"></cache>
+
     <!--
         namespace：名称空间，指定为接口的全类名
         id：唯一标识
@@ -31,7 +34,7 @@
     <!--public Employee getEmpById(Integer id);-->
     <!--<select id="getEmpById" resultType="bean.Employee">-->
     <select id="getEmpById" resultType="bean.Employee"
-        databaseId="mysql">
+        databaseId="mysql" useCache="true">
         select * from tbl_employee where id = #{id}
     </select>
 
@@ -83,7 +86,7 @@
               AFTER：当前sql在插入sql之后执行
         resultType：查出结果的返回值类型
     -->
-    <insert id="addEmp" parameterType="bean.Employee">
+    <insert id="addEmp" parameterType="bean.Employee" flushCache="true">
         <selectKey resultType="Integer" keyProperty="id" order="AFTER" >
             SELECT LAST_INSERT_ID()
         </selectKey>

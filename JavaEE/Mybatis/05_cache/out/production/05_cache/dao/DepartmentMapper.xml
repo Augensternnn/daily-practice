@@ -3,6 +3,11 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="dao.DepartmentMapper">
+    <!--引用缓存
+            namespace：指定和哪个名称空间下的缓存一样
+    -->
+    <cache-ref namespace="dao.EmployeeMapper"/>
+
     <!--public Department getDeptById(Integer id);-->
     <select id="getDeptById" resultType="bean.Department">
         select id,dept_name departmentName from tbl_dept where id = #{id}

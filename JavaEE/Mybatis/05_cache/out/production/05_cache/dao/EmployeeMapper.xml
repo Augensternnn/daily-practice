@@ -3,6 +3,27 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="dao.EmployeeMapper">
+    <!--CaChe
+            eviction：缓存的回收策略，即 缓存满了后将哪些删除掉
+                LRU – 最近最少使用的：移除最长时间不被使用的对象。
+                FIFO – 先进先出：按对象进入缓存的顺序来移除它们。
+                SOFT – 软引用：移除基于垃圾回收器状态和软引用规则的对象。
+                WEAK – 弱引用：更积极地移除基于垃圾收集器状态和弱引用规则的对象。
+               默认的是 LRU
+            flushInterval：缓存刷新间隔(可设置一个毫秒值)，即 缓存多长时间清空一次，默认不清空
+            readOnly：缓存是否只读
+                true：只读；mybatis认为所有从缓存中获取数据的操作都是只读操作，不会修改数据
+                    mybatis为了加快获取速度，直接就会将数据在缓存中的引用交给用户【不安全，速度快】
+                false：非只读；mybatis认为获取的数据可能会被修改
+                    mybatis会利用 序列化&反序列化 的技术克隆一份新的数据给你【安全，速度慢；默认值】
+            size：缓存存放多少元素
+            type：指定自定义缓存的全类名
+                自定义缓存：实现Cache接口即可
+    -->
+        <!--<cache eviction="FIFO" flushInterval="60000" readOnly="false" size="1024"></cache>-->
+
+    <cache type="org.mybatis.caches.ehcache.EhcacheCache"></cache>
+
     <!--
         namespace：名称空间，指定为接口的全类名
         id：唯一标识
@@ -13,7 +34,7 @@
     <!--public Employee getEmpById(Integer id);-->
     <!--<select id="getEmpById" resultType="bean.Employee">-->
     <select id="getEmpById" resultType="bean.Employee"
-        databaseId="mysql">
+        databaseId="mysql" useCache="true">
         select * from tbl_employee where id = #{id}
     </select>
 
@@ -65,7 +86,7 @@
               AFTER：当前sql在插入sql之后执行
         resultType：查出结果的返回值类型
     -->
-    <insert id="addEmp" parameterType="bean.Employee">
+    <insert id="addEmp" parameterType="bean.Employee" flushCache="true">
         <selectKey resultType="Integer" keyProperty="id" order="AFTER" >
             SELECT LAST_INSERT_ID()
         </selectKey>
