@@ -33,6 +33,17 @@
                     request：作用于web应用的请求范围
                     session：作用于web应用的会话范围
                     global-session：作用于集群环境的会话范围(全局会话范围)；当不是集群环境时，它就是session
+        <bean id="accountService" class="service.impl.AccountServiceImpl" scope="prototype"></bean>
     -->
-    <bean id="accountService" class="service.impl.AccountServiceImpl" scope="prototype"></bean>
+
+    <!--bean对象的生命周期：
+            单例对象：
+                出生：当容器创建时对象出生
+                活着：只有容器还在，对象一直活着
+                死亡：容器销毁，对象消亡
+                【总结】单例对象的生命周期和容器相同
+            多例对象：
+                出生：
+
+    -->
 </beans>
