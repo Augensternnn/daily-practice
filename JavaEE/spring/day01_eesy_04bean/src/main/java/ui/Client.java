@@ -10,11 +10,13 @@ import service.IAccountService;
 public class Client {
     public static void main(String[] args) {
         //1.获取核心容器对象
-        ApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
+//        ApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
+        ClassPathXmlApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
         //2.根据id获取Bean对象
         IAccountService as = (IAccountService)ac.getBean("accountService");
-        IAccountService as1 = (IAccountService)ac.getBean("accountService");
-//        as.saveAccount();
-        System.out.println(as==as1);
+        as.saveAccount();
+
+        //手动关闭容器
+        ac.close();
     }
 }

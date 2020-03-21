@@ -15,4 +15,12 @@ public class AccountServiceImpl implements IAccountService {
         System.out.println("service的saveAccount()执行...");
     }
 
+    public void init() {
+        System.out.println("对象初始化了...");
+    }
+
+    public void destroy() {
+        System.out.println("对象销毁了...");
+    }
+
 }
