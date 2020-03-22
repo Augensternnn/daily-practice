@@ -3,6 +3,7 @@ package Tree;
 import Tree.printer.BinaryTreeInfo;
 
 import java.util.Comparator;
+import java.util.Queue;
 
 /**
  * 二叉搜索树
@@ -40,7 +41,8 @@ public class BST<E> implements BinaryTreeInfo {
     }
 
     public void clear(){
-
+        root = null;
+        size = 0;
     }
 
     public void add(E element){
@@ -57,19 +59,18 @@ public class BST<E> implements BinaryTreeInfo {
         Node<E> parent = root;
         Node<E> node = root;
         int cmp = 0;
-        while (node != null){
+        do {
             cmp = compare(element, node.element);
             parent = node;
-            if(cmp > 0){
-                node= node.right;
-            }else if(cmp < 0){
+            if (cmp > 0) {
+                node = node.right;
+            } else if (cmp < 0) {
                 node = node.left;
-            }else {
-                //相等，传进来的值覆盖之前的值
+            } else { // 相等
                 node.element = element;
                 return;
             }
-        }
+        } while (node != null);
         //看看插入到父节点哪个位置
         Node<E> newNode = new Node<>(element,parent);
         if(cmp > 0)
@@ -80,11 +81,25 @@ public class BST<E> implements BinaryTreeInfo {
     }
 
     public void remove(E element){
-
+        //remove(node(element));
     }
 
     public boolean contains(E element){
-        return false;
+        return node(element) != null;
+    }
+
+    private Node<E> node(E element) {
+        Node<E> node = root;
+        while (node != null) {
+            int cmp = compare(element, node.element);
+            if (cmp == 0) return node;
+            if (cmp > 0) {
+                node = node.right;
+            } else { // cmp < 0
+                node = node.left;
+            }
+        }
+        return null;
     }
 
     /**
@@ -121,4 +136,54 @@ public class BST<E> implements BinaryTreeInfo {
         return ((Node<E>)node).element;
     }
 
+    /**
+     * 前序遍历
+     */
+    public void preorderTraversal(){
+        preorderTraversal(root);
+    }
+    private void preorderTraversal(Node<E> node){
+        if (node == null)
+            return;
+        System.out.println(node.element);
+        preorderTraversal(node.left);
+        preorderTraversal(node.right);
+    }
+
+    /**
+     * 中序遍历
+     */
+    public void inorderTraversal(){
+        inorderTraversal(root);
+    }
+    private void inorderTraversal(Node<E> node){
+        if (node == null)
+            return;
+        inorderTraversal(node.left);
+        System.out.println(node.element);
+        inorderTraversal(node.right);
+    }
+
+    /**
+     * 后序遍历
+     */
+    public void postorderTraversal(){
+        postorderTraversal(root);
+    }
+    private void postorderTraversal(Node<E> node){
+        if (node == null)
+            return;
+        postorderTraversal(node.left);
+        postorderTraversal(node.right);
+        System.out.println(node.element);
+    }
+
+    /**
+     * 层序遍历
+     */
+    public void levelOrderTraversal(){
+        if(root == null)
+            return;
+        Queue<Node<E>>
+    }
 }
