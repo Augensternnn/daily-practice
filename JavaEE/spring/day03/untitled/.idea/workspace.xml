@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b8d796a-f3c5-4355-b508-2cac6a57df93" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../day03_eesy_01account/src/main/java/com/service/impl/AccountServiceImpl_OLD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03_eesy_01account/src/main/java/com/utils/ConnectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03_eesy_01account/src/main/java/com/utils/TransactionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03_eesy_02proxy/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03_eesy_02proxy/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03_eesy_02proxy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03_eesy_02proxy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03_eesy_02proxy/day03_eesy_02proxy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day03_eesy_02proxy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03_eesy_01account/src/main/java/com/dao/impl/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_eesy_01account/src/main/java/com/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03_eesy_01account/src/main/java/com/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_eesy_01account/src/main/java/com/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03_eesy_01account/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_eesy_01account/src/main/resources/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03_eesy_01account/target/classes/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_eesy_01account/target/classes/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03_eesy_01account/target/classes/com/dao/impl/AccountDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_eesy_01account/target/classes/com/dao/impl/AccountDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03_eesy_01account/target/classes/com/service/impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day03_eesy_01account/target/classes/com/service/impl/AccountServiceImpl.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="G:\Github\practice\JavaEE\spring\day03\untitled\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="G:\Repository\M2Repository" />
+        <option name="mavenHome" value="G:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="G:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1ZTWPal3QYzU0UmcqoxVmTgJcL4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b8d796a-f3c5-4355-b508-2cac6a57df93" name="Default Changelist" comment="" />
+      <created>1584863540396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584863540396</updated>
+      <workItem from="1584863542431" duration="441000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
