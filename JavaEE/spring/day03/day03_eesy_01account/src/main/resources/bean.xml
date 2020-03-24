@@ -7,20 +7,22 @@
     <bean id="accountService" class="com.service.impl.AccountServiceImpl">
         <!--注入dao-->
         <property name="accountDao" ref="accountDao"></property>
+        <!--注入事务管理器-->
+        <property name="tsManager" ref="tsManager"></property>
     </bean>
 
     <!--配置dao对象-->
     <bean id="accountDao" class="com.dao.impl.AccountDaoImpl">
         <!--注入QueryRunner-->
         <property name="runner" ref="runner"></property>
+        <!--注入ConnectionUtils-->
+        <property name="connectionUtils" ref="connectionUtils"/>
     </bean>
 
     <!--配置QueryRunner-->
     <bean id="runner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype">
-        <!--注入数据源
-                使用构造函数注入(没有set方法注入)
-        -->
-        <constructor-arg name="ds" ref="dataSource"></constructor-arg>
+        <!--注入数据源-->
+        <!--<constructor-arg name="ds" ref="dataSource"></constructor-arg>-->
     </bean>
 
     <!--配置数据源-->
@@ -30,5 +32,17 @@
         <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/eesy"/>
         <property name="user" value="root"/>
         <property name="password" value="root"/>
+    </bean>
+
+    <!--配置Connection的工具类ConnectionUtils-->
+    <bean id="connectionUtils" class="com.utils.ConnectionUtils">
+        <!--注入数据源-->
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <!--配置事务管理器-->
+    <bean id="tsManager" class="com.utils.TransactionManager">
+        <!--注入ConnectionUtils-->
+        <property name="connectionUtils" ref="connectionUtils"/>
     </bean>
 </beans>
