@@ -45,4 +45,7 @@ public interface IAccountService {
      * @param money         转账金额
      */
     void transfer(String sourceName,String targetName,Float money);
+
+    //void test();//只是连接点，不是切入点。因为没有被增强
+    //所有的切入点都是连接点，但连接点不一定是切入点；被增强了才会成为切入点
 }
