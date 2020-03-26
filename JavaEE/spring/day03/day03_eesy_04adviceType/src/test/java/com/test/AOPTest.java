@@ -13,7 +13,10 @@ public class AOPTest {
         ApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
         //2.获取对象
         IAccountService as = (IAccountService)ac.getBean("accountService");
+
+
         //3.执行方法
+        
         as.saveAccount();
     }
 }
