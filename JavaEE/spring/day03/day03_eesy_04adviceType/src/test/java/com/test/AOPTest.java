@@ -14,9 +14,7 @@ public class AOPTest {
         //2.获取对象
         IAccountService as = (IAccountService)ac.getBean("accountService");
 
-
         //3.执行方法
-        
         as.saveAccount();
     }
 }
