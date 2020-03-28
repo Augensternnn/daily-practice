@@ -3,24 +3,28 @@ package Tree;
 import Tree.printer.BinaryTreeInfo;
 
 import java.util.Comparator;
+import java.util.LinkedList;
 import java.util.Queue;
 
 /**
  * 二叉搜索树
  */
-public class BST<E> implements BinaryTreeInfo {
+public class BST1<E> implements BinaryTreeInfo {
     private int size;
     private Node<E> root;
     private Comparator<E> comparator;
 
-    public BST(){
+    public BST1(){
         this(null);
     }
 
-    public BST(Comparator<E> comparator){
+    public BST1(Comparator<E> comparator){
         this.comparator = comparator;
     }
 
+    public static interface Visitor<E>{
+        void visit(E element);
+    }
     private static class Node<E>{
         E element;
         Node<E> left;
@@ -184,6 +188,29 @@ public class BST<E> implements BinaryTreeInfo {
     public void levelOrderTraversal(){
         if(root == null)
             return;
-        Queue<Node<E>>
+        Queue<Node<E>> queue = new LinkedList<>();
+        queue.offer(root);
+        while (!queue.isEmpty()){
+            Node<E> node = queue.poll();
+            System.out.println(node.element);
+            if(node.left != null)
+                queue.offer(node.left);
+            if(node.right != null)
+                queue.offer(node.right);
+        }
+    }
+    public void levelOrderTraversal(Visitor<E> visitor){
+        if(root == null || visitor == null)
+            return;
+        Queue<Node<E>> queue = new LinkedList<>();
+        queue.offer(root);
+        while (!queue.isEmpty()){
+            Node<E> node = queue.poll();
+            visitor.visit(node.element);
+            if(node.left != null)
+                queue.offer(node.left);
+            if(node.right != null)
+                queue.offer(node.right);
+        }
     }
 }
