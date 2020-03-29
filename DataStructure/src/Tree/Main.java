@@ -1,7 +1,7 @@
 package Tree;
 
-import Tree.printer.BinaryTrees;
-import file.Files;
+import Tree.util.printer.BinaryTrees;
+import Tree.util.file.Files;
 
 public class Main {
     static void test(){
@@ -27,13 +27,17 @@ public class Main {
 //        bst.inorderTraversal();
 //        bst.postorderTraversal();
 //        bst1.levelOrderTraversal();
-        bst1.levelOrderTraversal(new BST1.Visitor<Integer>() {
-            @Override
-            public void visit(Integer element) {
-                System.out.print("_"+element+"_");
-            }
-        });
+//        bst1.levelOrderTraversal(new BST1.Visitor<Integer>() {
+//            @Override
+//            public void visit(Integer element) {
+//                System.out.print("_"+element+"_");
+//            }
+//        });
 
+//        System.out.println(bst1);
+
+//        System.out.println(bst1.height2());
+        System.out.println(bst1.isComplete());
     }
     public static void main(String[] args) {
         //test();
