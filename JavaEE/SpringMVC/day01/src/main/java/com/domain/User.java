@@ -1,10 +1,15 @@
 package com.domain;
 
+import sun.dc.pr.PRError;
+
 import java.io.Serializable;
+import java.util.Date;
 
 public class User implements Serializable {
     private String uname;
     private Integer age;
+
+    private Date date;
 
     public String getUname() {
         return uname;
@@ -20,5 +25,22 @@ public class User implements Serializable {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "uname='" + uname + '\'' +
+                ", age=" + age +
+                ", date=" + date +
+                '}';
     }
 }

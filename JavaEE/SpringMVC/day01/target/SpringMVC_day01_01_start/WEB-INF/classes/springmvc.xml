@@ -22,7 +22,24 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
-    <!--开启SpringMVC框架注解的支持-->
-    <mvc:annotation-driven/>
+    <!--配置自定义类型转换器
+        自定义的类型转换器不会覆盖框架内部自带的转换器，自带的转换器也不会失效，而是同时生效同时有用
+    -->
+    <bean id="converterService" class="org.springframework.context.support.ConversionServiceFactoryBean">
+        <!--给工厂注入一个新的类型转换器
+            属性converters是一个Set集合，故里面使用set标签
+        -->
+        <property name="converters">
+            <set>
+                <!--注册自己写是类型转换器-->
+                <bean class="com.utils.StringToDateConverter"/>
+            </set>
+        </property>
+    </bean>
+
+    <!--开启SpringMVC框架注解的支持：默认生效处理器映射器、处理器适配器，但类型转换器没有生效，需要自己配置使其生效
+        conversion-service：使自定义的转换器生效
+    -->
+    <mvc:annotation-driven conversion-service="converterService"/>
 
 </beans>
