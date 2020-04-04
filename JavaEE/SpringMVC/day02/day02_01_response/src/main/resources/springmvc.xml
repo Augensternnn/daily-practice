@@ -21,9 +21,9 @@
     </bean>
 
     <!--告诉前端控制器：哪些静态资源不拦截-->
-    <mvc:resources location="/css/" mapping="/css/**"/> <!-- 样式 -->
-    <mvc:resources location="/images/" mapping="/images/**"/> <!-- 图片 -->
-    <mvc:resources location="/js/" mapping="/js/**"/> <!-- javascript -->
+    <mvc:resources location="/css/" mapping="/css/**"/>
+    <mvc:resources location="/images/" mapping="/images/**"/>
+    <mvc:resources location="/js/" mapping="/js/**"/>
 
     <!--开启SpringMVC框架注解的支持-->
     <mvc:annotation-driven/>

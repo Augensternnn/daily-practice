@@ -3,13 +3,29 @@
 <head>
     <title>响应数据</title>
     <%--引入jquery.min.js--%>
-    <script src="js/js/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
 
     <script>
         //页面加载，绑定单击事件
-        $(function () {
-            $("#btn").click(function () {
-                alert("hello btn");
+        $(function(){
+            $("#btn").click(function(){
+                // alert("hello btn");
+                //发送ajax请求
+                $.ajax({
+                    //编写json格式，设置属性和值
+                    url:"user/testAjax",
+                    contentType:"application/json;charset=utf-8",
+                    data:'{"username":"hehe","password":"123","age":"18"}',
+                    dataType:"json",
+                    type:"post",
+                    success:function (data) {
+                        //参数data：服务器端响应的json的数据
+                        alert(data);
+                        alert(data.username);
+                        alert(data.password);
+                        alert(data.age);
+                    }
+                });
             });
         });
     </script>

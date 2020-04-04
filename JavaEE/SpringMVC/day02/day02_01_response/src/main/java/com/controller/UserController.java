@@ -3,7 +3,9 @@ package com.controller;
 import com.domain.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.ServletException;
@@ -104,5 +106,21 @@ public class UserController {
 
         //重定向(这里不用添加项目名，底层已经自动添加了)
         return "redirect:/index.jsp";
+    }
+
+    /**
+     * 模拟异步请求响应过程
+     */
+    @RequestMapping("/testAjax")
+    public @ResponseBody User testAjax(@RequestBody User user){
+        System.out.println("testAjax()执行...");
+        //客户端发送ajax的请求，传的是json字符串，后端已经将json字符串封装到user对象中了
+        System.out.println(user);
+
+        //响应
+        //模拟查询数据库
+        user.setUsername("haha");
+        user.setAge(20);
+        return user;
     }
 }
