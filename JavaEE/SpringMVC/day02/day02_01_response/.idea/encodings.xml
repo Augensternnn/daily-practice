@@ -3,5 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../day02_02_fileupload/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../day02_02_fileupload/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../day02_03_exception/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../day02_03_exception/src/main/resources" charset="UTF-8" />
   </component>
 </project>

@@ -6,7 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="day02_03_exception" />
         <module name="day02_01_response" />
+        <module name="fileuploadserver" />
+        <module name="day02_02_fileupload" />
+        <module name="day02_04_interceptor" />
       </profile>
     </annotationProcessing>
   </component>
