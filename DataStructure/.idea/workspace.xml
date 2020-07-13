@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="222efda0-d17e-4f04-af59-d9bfcc0c08f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/06_ssm/06_ssm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/06_ssm/src/com/conf/dbconfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/06_ssm/src/com/conf/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/06_ssm/web/WEB-INF/lib/com.springsource.net.sf.cglib-2.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/06_ssm/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/06_ssm/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/06_ssm/web/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/06_ssm/web/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/06_ssm/web/WEB-INF/lib/spring-aspects-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/06_ssm/web/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/06_ssm/web/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/06_ssm/web/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/06_ssm/web/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/06_ssm/web/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/06_ssm/web/WEB-INF/lib/spring-orm-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/06_ssm/web/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/06_ssm/web/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/06_ssm/web/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/06_ssm/web/WEB-INF/lib/taglibs-standard-impl-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/06_ssm/web/WEB-INF/lib/taglibs-standard-spec-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/07_mbg/07_mbg.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/07_mbg/mbg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/07_mbg/src/com/config/dbconfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/07_mbg/src/com/config/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/07_mbg/src/com/test/MBGTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/07_mbg/src/com/test/MyBatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/07_mbg/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/07_mbg/web/WEB-INF/lib/ehcache-core-2.6.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/07_mbg/web/WEB-INF/lib/log4j.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/07_mbg/web/WEB-INF/lib/mybatis-3.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/07_mbg/web/WEB-INF/lib/mybatis-ehcache-1.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/07_mbg/web/WEB-INF/lib/mybatis-generator-core-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/07_mbg/web/WEB-INF/lib/mysql-connector-java-5.1.37-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/07_mbg/web/WEB-INF/lib/slf4j-api-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/07_mbg/web/WEB-INF/lib/slf4j-log4j12-1.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/09_SourceCode/09_SourceCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/09_SourceCode/src/com/MyBatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/09_SourceCode/src/com/bean/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/09_SourceCode/src/com/conf/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/09_SourceCode/src/com/conf/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/09_SourceCode/src/com/conf/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/09_SourceCode/src/com/dao/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/09_SourceCode/web/WEB-INF/lib/log4j.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/09_SourceCode/web/WEB-INF/lib/mybatis-3.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/09_SourceCode/web/WEB-INF/lib/mysql-connector-java-5.1.37-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/10_plugin/10_plugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/10_plugin/src/com/dao/MyFirstPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/10_plugin/src/com/dao/MySecondPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/11_other/11_other.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/11_other/src/com/bean/EmpStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/11_other/src/com/typeHandler/MyEnumEmpStatusTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/11_other/web/WEB-INF/lib/jsqlparser-0.9.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/11_other/web/WEB-INF/lib/pagehelper-5.0.0-rc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Caesar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/List/ArrayList/ArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/List/ArrayList/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/List/ArrayList/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/List/LinkedList/LinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/List/LinkedList/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/List/List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/List/test/Asserts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/META-INF/DataStructure.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Tree/BST1$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Tree/BST1$Visitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Tree/BST1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Tree/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Tree/printer/BinaryTreeInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Tree/printer/BinaryTrees$PrintStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Tree/printer/BinaryTrees.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Tree/printer/InorderPrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Tree/printer/LevelOrderPrinter$LevelInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Tree/printer/LevelOrderPrinter$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Tree/printer/LevelOrderPrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Tree/printer/Printer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/Tree/printer/Strings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/_/LeetCode/LinkedList/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/_/LeetCode/LinkedList/_141_HasCycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/_/LeetCode/LinkedList/_206_ReverseList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/_/LeetCode/LinkedList/_237_DeleteNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/_/LeetCode/LinkedList/_2_AddTwoNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/_/nowcoder/CalculateMax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/_/nowcoder/Error_log$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/_/nowcoder/Error_log.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/_/nowcoder/Millionaire.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/_/nowcoder/ReverseString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/file/Files.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/ArrayList/ArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/ArrayList/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/ArrayList/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/LinkedList/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/List.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/test/Asserts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/BST1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/util/file/Files.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/util/printer/BinaryTreeInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/util/printer/BinaryTrees.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/util/printer/InorderPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/util/printer/LevelOrderPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/util/printer/Printer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/util/printer/Strings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_/LeetCode/LinkedList/ListNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_/LeetCode/LinkedList/_141_HasCycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_/LeetCode/LinkedList/_206_ReverseList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_/LeetCode/LinkedList/_237_DeleteNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_/LeetCode/LinkedList/_2_AddTwoNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_/LeetCode/Tree/TreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_/LeetCode/Tree/_226_InvertTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_/nowcoder/CalculateMax.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_/nowcoder/Error_log.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_/nowcoder/Millionaire.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_/nowcoder/ReverseString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Example/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaEE/Mybatis/05_cache/src/MyBatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaEE/Mybatis/05_cache/src/MyBatisTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DataStructure" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="G:\Github\practice\DataStructure\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YAM1pXD3R8zpfcmQpH0hXabkh3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Tree" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/Ex6_14.java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="List.ArrayList" />
+      <recent name="List.LinkedList" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Github\practice\DataStructure\src\Tree" />
+      <recent name="G:\Github\practice\DataStructure\src\Tree\BBST" />
+      <recent name="G:\Github\practice\DataStructure\lib" />
+      <recent name="G:\Github\practice\DataStructure\src" />
+      <recent name="G:\Github\practice\DataStructure\src\Tree\practice" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="CopyMaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CopyMaker" />
+      <module name="DataStructure" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetSignature" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GetSignature" />
+      <module name="DataStructure" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="DataStructure" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieStoreTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MovieStoreTester" />
+      <module name="DataStructure" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RSAPassword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RSAPassword" />
+      <module name="DataStructure" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.GetSignature" />
+        <item itemvalue="Application.RSAPassword" />
+        <item itemvalue="Application.CopyMaker" />
+        <item itemvalue="Application.MovieStoreTester" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_LAMBDA,SHOW_ANONYMOUS,SHOW_INHERITED" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="222efda0-d17e-4f04-af59-d9bfcc0c08f0" name="Default Changelist" comment="" />
+      <created>1582380734262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582380734262</updated>
+      <workItem from="1582380740296" duration="4122000" />
+      <workItem from="1582424578313" duration="394000" />
+      <workItem from="1582802376375" duration="3142000" />
+      <workItem from="1582806200019" duration="78000" />
+      <workItem from="1582806297094" duration="9066000" />
+      <workItem from="1582858691155" duration="866000" />
+      <workItem from="1582866371055" duration="148000" />
+      <workItem from="1582867670836" duration="16000" />
+      <workItem from="1582890698798" duration="388000" />
+      <workItem from="1582978291026" duration="9481000" />
+      <workItem from="1583034074319" duration="16000" />
+      <workItem from="1583064039597" duration="9626000" />
+      <workItem from="1583111932870" duration="4130000" />
+      <workItem from="1583120830821" duration="29000" />
+      <workItem from="1583156892697" duration="1140000" />
+      <workItem from="1583204465653" duration="206000" />
+      <workItem from="1583395924986" duration="1110000" />
+      <workItem from="1583466766448" duration="2271000" />
+      <workItem from="1583504054171" duration="36000" />
+      <workItem from="1583583697778" duration="1540000" />
+      <workItem from="1583640989294" duration="32000" />
+      <workItem from="1583665990794" duration="610000" />
+      <workItem from="1583670058989" duration="1738000" />
+      <workItem from="1583672590602" duration="6746000" />
+      <workItem from="1583727468104" duration="57000" />
+      <workItem from="1583820561238" duration="684000" />
+      <workItem from="1583844106355" duration="433000" />
+      <workItem from="1583847494568" duration="3837000" />
+      <workItem from="1583903355792" duration="61000" />
+      <workItem from="1584800382682" duration="3144000" />
+      <workItem from="1585320439268" duration="1394000" />
+      <workItem from="1585363261210" duration="2091000" />
+      <workItem from="1585371402661" duration="9002000" />
+      <workItem from="1585636687374" duration="604000" />
+      <workItem from="1585637306391" duration="16000" />
+      <workItem from="1587565550133" duration="2201000" />
+      <workItem from="1587608756189" duration="737000" />
+      <workItem from="1587694454282" duration="5496000" />
+      <workItem from="1587884467363" duration="2807000" />
+      <workItem from="1589632263740" duration="2487000" />
+      <workItem from="1589710202433" duration="2896000" />
+      <workItem from="1590059122187" duration="696000" />
+      <workItem from="1590215193856" duration="10000" />
+      <workItem from="1590764979027" duration="8000" />
+      <workItem from="1590910476619" duration="2462000" />
+      <workItem from="1591062526844" duration="1781000" />
+      <workItem from="1591081496450" duration="245000" />
+      <workItem from="1591186896764" duration="3951000" />
+      <workItem from="1591248878346" duration="14327000" />
+      <workItem from="1591366917667" duration="589000" />
+      <workItem from="1591433349677" duration="40000" />
+      <workItem from="1591839160172" duration="3894000" />
+      <workItem from="1591875001569" duration="2954000" />
+      <workItem from="1591972209474" duration="2454000" />
+      <workItem from="1592019648983" duration="8386000" />
+      <workItem from="1592216527861" duration="6000" />
+      <workItem from="1592639597993" duration="2790000" />
+      <workItem from="1592724577492" duration="2974000" />
+      <workItem from="1592790742226" duration="2557000" />
+      <workItem from="1592821964579" duration="2982000" />
+      <workItem from="1592837417260" duration="846000" />
+      <workItem from="1592873128936" duration="5203000" />
+      <workItem from="1592964703221" duration="15000" />
+      <workItem from="1593050023790" duration="2349000" />
+      <workItem from="1593093726415" duration="2406000" />
+      <workItem from="1593139888250" duration="4517000" />
+      <workItem from="1593179990340" duration="2660000" />
+      <workItem from="1593269435938" duration="1646000" />
+      <workItem from="1593305877259" duration="4870000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1593314836296">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="446" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689/1920.0.1920.1050@0.0.1280.689" timestamp="1592792172680" />
+    <state x="446" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1593314836296" />
+    <state x="583" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585321006187">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="583" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.689@0.0.1280.689" timestamp="1585321006187" />
+    <state x="371" y="94" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592883954874">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="371" y="94" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1592883954874" />
+    <state x="721" y="101" width="476" height="489" key="DiffContextDialog" timestamp="1591843078985">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="721" y="101" width="476" height="489" key="DiffContextDialog/0.0.1280.689@0.0.1280.689" timestamp="1591843078985" />
+    <state x="421" y="88" key="FileChooserDialogImpl" timestamp="1593315597472">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="421" y="88" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1593315597472" />
+    <state width="580" height="220" key="GridCell.Tab.0.bottom" timestamp="1593183655117">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="203" key="GridCell.Tab.0.bottom/0.0.1280.689/1920.0.1920.1050@0.0.1280.689" timestamp="1592639933882" />
+    <state width="580" height="220" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1593183655117" />
+    <state width="580" height="220" key="GridCell.Tab.0.center" timestamp="1593183655117">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="203" key="GridCell.Tab.0.center/0.0.1280.689/1920.0.1920.1050@0.0.1280.689" timestamp="1592639933882" />
+    <state width="580" height="220" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1593183655117" />
+    <state width="580" height="220" key="GridCell.Tab.0.left" timestamp="1593183655117">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="203" key="GridCell.Tab.0.left/0.0.1280.689/1920.0.1920.1050@0.0.1280.689" timestamp="1592639933882" />
+    <state width="580" height="220" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1593183655117" />
+    <state width="580" height="220" key="GridCell.Tab.0.right" timestamp="1593183655117">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="203" key="GridCell.Tab.0.right/0.0.1280.689/1920.0.1920.1050@0.0.1280.689" timestamp="1592639933882" />
+    <state width="580" height="220" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1593183655117" />
+    <state width="1237" height="203" key="GridCell.Tab.1.bottom" timestamp="1592884224015">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="203" key="GridCell.Tab.1.bottom/0.0.1280.689/1920.0.1920.1050@0.0.1280.689" timestamp="1592639933882" />
+    <state width="1237" height="203" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1592884224015" />
+    <state width="1237" height="203" key="GridCell.Tab.1.center" timestamp="1592884224015">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="203" key="GridCell.Tab.1.center/0.0.1280.689/1920.0.1920.1050@0.0.1280.689" timestamp="1592639933882" />
+    <state width="1237" height="203" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1592884224015" />
+    <state width="1237" height="203" key="GridCell.Tab.1.left" timestamp="1592884224015">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="203" key="GridCell.Tab.1.left/0.0.1280.689/1920.0.1920.1050@0.0.1280.689" timestamp="1592639933882" />
+    <state width="1237" height="203" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1592884224015" />
+    <state width="1237" height="203" key="GridCell.Tab.1.right" timestamp="1592884224015">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="203" key="GridCell.Tab.1.right/0.0.1280.689/1920.0.1920.1050@0.0.1280.689" timestamp="1592639933882" />
+    <state width="1237" height="203" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1592884224015" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1592792251661">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.689/1920.0.1920.1050@0.0.1280.689" timestamp="1592792251661" />
+    <state x="28" y="0" key="new project wizard" timestamp="1593315600034">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="28" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1593315600034" />
+    <state x="343" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1592020744775">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="343" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.689@0.0.1280.689" timestamp="1592020744775" />
+    <state x="605" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1585378733256">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="605" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1585378733256" />
+  </component>
+</project>

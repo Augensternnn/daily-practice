@@ -77,6 +77,7 @@ public class MyBatisTest {
      *      1.导入第三方缓存包
      *      2.导入与第三方缓存整合的适配包(官方有)
      *      3.mapper.xml中使用自定义缓存
+     *      
      *          <cache type="org.mybatis.caches.ehcache.EhcacheCache"></cache>
      */
     @Test

@@ -1,0 +1,339 @@
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Retrieving column information for table "tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "mybatis..tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "dept_name", data type 12, in table "mybatis..tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Retrieving column information for table "tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "last_name", data type 12, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "gender", data type 1, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "email", data type 12, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "d_id", data type 4, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Retrieving column information for table "tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "mybatis..tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "dept_name", data type 12, in table "mybatis..tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Retrieving column information for table "tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "last_name", data type 12, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "gender", data type 1, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "email", data type 12, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "d_id", data type 4, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Retrieving column information for table "tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "mybatis..tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "dept_name", data type 12, in table "mybatis..tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Retrieving column information for table "tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "last_name", data type 12, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "gender", data type 1, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "email", data type 12, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "d_id", data type 4, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Retrieving column information for table "tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "mybatis..tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "dept_name", data type 12, in table "mybatis..tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Retrieving column information for table "tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "last_name", data type 12, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "gender", data type 1, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "email", data type 12, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "d_id", data type 4, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Retrieving column information for table "tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "mybatis..tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "dept_name", data type 12, in table "mybatis..tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Retrieving column information for table "tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "last_name", data type 12, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "gender", data type 1, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "email", data type 12, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "d_id", data type 4, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Retrieving column information for table "tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "mybatis..tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "dept_name", data type 12, in table "mybatis..tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Retrieving column information for table "tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "last_name", data type 12, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "gender", data type 1, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "email", data type 12, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "d_id", data type 4, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Retrieving column information for table "tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "mybatis..tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "dept_name", data type 12, in table "mybatis..tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Retrieving column information for table "tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "last_name", data type 12, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "gender", data type 1, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "email", data type 12, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "d_id", data type 4, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Retrieving column information for table "tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "mybatis..tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "dept_name", data type 12, in table "mybatis..tbl_dept"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Retrieving column information for table "tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "last_name", data type 12, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "gender", data type 1, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "email", data type 12, in table "mybatis..tbl_employee"
+DEBUG main org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "d_id", data type 4, in table "mybatis..tbl_employee"
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+DEBUG main org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+DEBUG main org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 706197430.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 706197430 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+DEBUG main org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+DEBUG main org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 706197430.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 706197430 to pool.
+DEBUG main org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao
+DEBUG main org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: DepartmentMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: EmployeeMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Listing file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao
+DEBUG main org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao/DepartmentMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao/DepartmentMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4    countByExample (Lcom/bean/DepartmentExample;)I deleteByExample deleteByPrimaryKey (Ljava/lang/Integer;)I insert (Lcom/bean/Department;)I insertSelective selectByExample .(Lcom/bean/DepartmentExample;)Ljava/util/List; 	Signature E(Lcom/bean/DepartmentExample;)Ljava/util/List<Lcom/bean/Department;>; selectByPrimaryKey *(Ljava/lang/Integer;)Lcom/bean/Department; updateByExampleSelective 4(Lcom/bean/Department;Lcom/bean/DepartmentExample;)I "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value record example updateByExample updateByPrimaryKeySelective updateByPrimaryKey 
+DEBUG main org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao/EmployeeMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao/EmployeeMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4    countByExample (Lcom/bean/EmployeeExample;)I deleteByExample deleteByPrimaryKey (Ljava/lang/Integer;)I insert (Lcom/bean/Employee;)I insertSelective selectByExample ,(Lcom/bean/EmployeeExample;)Ljava/util/List; 	Signature A(Lcom/bean/EmployeeExample;)Ljava/util/List<Lcom/bean/Employee;>; selectByPrimaryKey ((Ljava/lang/Integer;)Lcom/bean/Employee; updateByExampleSelective 0(Lcom/bean/Employee;Lcom/bean/EmployeeExample;)I "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value record example updateByExample updateByPrimaryKeySelective updateByPrimaryKey 
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.dao.DepartmentMapper matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.dao.EmployeeMapper matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+DEBUG main org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+DEBUG main org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 706197430.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 706197430 to pool.
+DEBUG main org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao
+DEBUG main org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: DepartmentMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: EmployeeMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Listing file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao
+DEBUG main org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao/DepartmentMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao/DepartmentMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4    countByExample (Lcom/bean/DepartmentExample;)I deleteByExample deleteByPrimaryKey (Ljava/lang/Integer;)I insert (Lcom/bean/Department;)I insertSelective selectByExample .(Lcom/bean/DepartmentExample;)Ljava/util/List; 	Signature E(Lcom/bean/DepartmentExample;)Ljava/util/List<Lcom/bean/Department;>; selectByPrimaryKey *(Ljava/lang/Integer;)Lcom/bean/Department; updateByExampleSelective 4(Lcom/bean/Department;Lcom/bean/DepartmentExample;)I "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value record example updateByExample updateByPrimaryKeySelective updateByPrimaryKey 
+DEBUG main org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao/EmployeeMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao/EmployeeMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4    countByExample (Lcom/bean/EmployeeExample;)I deleteByExample deleteByPrimaryKey (Ljava/lang/Integer;)I insert (Lcom/bean/Employee;)I insertSelective selectByExample ,(Lcom/bean/EmployeeExample;)Ljava/util/List; 	Signature A(Lcom/bean/EmployeeExample;)Ljava/util/List<Lcom/bean/Employee;>; selectByPrimaryKey ((Ljava/lang/Integer;)Lcom/bean/Employee; updateByExampleSelective 0(Lcom/bean/Employee;Lcom/bean/EmployeeExample;)I "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value record example updateByExample updateByPrimaryKeySelective updateByPrimaryKey 
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.dao.DepartmentMapper matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.dao.EmployeeMapper matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+DEBUG main org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+DEBUG main org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 706197430.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 706197430 to pool.
+DEBUG main org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao
+DEBUG main org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: DepartmentMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: EmployeeMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Listing file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao
+DEBUG main org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao/DepartmentMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao/DepartmentMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4    countByExample (Lcom/bean/DepartmentExample;)I deleteByExample deleteByPrimaryKey (Ljava/lang/Integer;)I insert (Lcom/bean/Department;)I insertSelective selectByExample .(Lcom/bean/DepartmentExample;)Ljava/util/List; 	Signature E(Lcom/bean/DepartmentExample;)Ljava/util/List<Lcom/bean/Department;>; selectByPrimaryKey *(Ljava/lang/Integer;)Lcom/bean/Department; updateByExampleSelective 4(Lcom/bean/Department;Lcom/bean/DepartmentExample;)I "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value record example updateByExample updateByPrimaryKeySelective updateByPrimaryKey 
+DEBUG main org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao/EmployeeMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao/EmployeeMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4    countByExample (Lcom/bean/EmployeeExample;)I deleteByExample deleteByPrimaryKey (Ljava/lang/Integer;)I insert (Lcom/bean/Employee;)I insertSelective selectByExample ,(Lcom/bean/EmployeeExample;)Ljava/util/List; 	Signature A(Lcom/bean/EmployeeExample;)Ljava/util/List<Lcom/bean/Employee;>; selectByPrimaryKey ((Ljava/lang/Integer;)Lcom/bean/Employee; updateByExampleSelective 0(Lcom/bean/Employee;Lcom/bean/EmployeeExample;)I "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value record example updateByExample updateByPrimaryKeySelective updateByPrimaryKey 
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.dao.DepartmentMapper matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.dao.EmployeeMapper matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+DEBUG main org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+DEBUG main org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 706197430.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 706197430 to pool.
+DEBUG main org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao
+DEBUG main org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: DepartmentMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: EmployeeMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Listing file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao
+DEBUG main org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao/DepartmentMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao/DepartmentMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4    countByExample (Lcom/bean/DepartmentExample;)I deleteByExample deleteByPrimaryKey (Ljava/lang/Integer;)I insert (Lcom/bean/Department;)I insertSelective selectByExample .(Lcom/bean/DepartmentExample;)Ljava/util/List; 	Signature E(Lcom/bean/DepartmentExample;)Ljava/util/List<Lcom/bean/Department;>; selectByPrimaryKey *(Ljava/lang/Integer;)Lcom/bean/Department; updateByExampleSelective 4(Lcom/bean/Department;Lcom/bean/DepartmentExample;)I "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value record example updateByExample updateByPrimaryKeySelective updateByPrimaryKey 
+DEBUG main org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao/EmployeeMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/dao/EmployeeMapper.class
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: ����   4    countByExample (Lcom/bean/EmployeeExample;)I deleteByExample deleteByPrimaryKey (Ljava/lang/Integer;)I insert (Lcom/bean/Employee;)I insertSelective selectByExample ,(Lcom/bean/EmployeeExample;)Ljava/util/List; 	Signature A(Lcom/bean/EmployeeExample;)Ljava/util/List<Lcom/bean/Employee;>; selectByPrimaryKey ((Ljava/lang/Integer;)Lcom/bean/Employee; updateByExampleSelective 0(Lcom/bean/Employee;Lcom/bean/EmployeeExample;)I "RuntimeVisibleParameterAnnotations %Lorg/apache/ibatis/annotations/Param; value record example updateByExample updateByPrimaryKeySelective updateByPrimaryKey 
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.dao.DepartmentMapper matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.io.ResolverUtil - Checking to see if class com.dao.EmployeeMapper matches criteria [is assignable to Object]
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+DEBUG main org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+DEBUG main org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 706197430.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 706197430 to pool.
+DEBUG main org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/config/mapper
+DEBUG main org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/config/mapper
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: DepartmentMapper.xml
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: EmployeeMapper.xml
+DEBUG main org.apache.ibatis.io.DefaultVFS - Listing file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/config/mapper
+DEBUG main org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/config/mapper/DepartmentMapper.xml
+DEBUG main org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/config/mapper/DepartmentMapper.xml
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+DEBUG main org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/config/mapper/EmployeeMapper.xml
+DEBUG main org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/config/mapper/EmployeeMapper.xml
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+DEBUG main org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+DEBUG main org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 706197430.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 706197430 to pool.
+DEBUG main org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/config/mapper
+DEBUG main org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/config/mapper
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: DepartmentMapper.xml
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: EmployeeMapper.xml
+DEBUG main org.apache.ibatis.io.DefaultVFS - Listing file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/config/mapper
+DEBUG main org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/config/mapper/DepartmentMapper.xml
+DEBUG main org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/config/mapper/DepartmentMapper.xml
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+DEBUG main org.apache.ibatis.io.DefaultVFS - Find JAR URL: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/config/mapper/EmployeeMapper.xml
+DEBUG main org.apache.ibatis.io.DefaultVFS - Not a JAR: file:/G:/Github/practice/JavaEE/Mybatis/07_mbg/out/production/07_mbg/com/config/mapper/EmployeeMapper.xml
+DEBUG main org.apache.ibatis.io.DefaultVFS - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+DEBUG main org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+DEBUG main org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 706197430.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 706197430 to pool.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 706197430 from pool.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2a17b7b6]
+DEBUG main com.dao.EmployeeMapper.selectByExample - ==>  Preparing: select id, last_name, gender, email, d_id from tbl_employee 
+DEBUG main com.dao.EmployeeMapper.selectByExample - ==> Parameters: 
+DEBUG main com.dao.EmployeeMapper.selectByExample - <==      Total: 18
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2a17b7b6]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2a17b7b6]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 706197430 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+DEBUG main org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+DEBUG main org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 706197430.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 706197430 to pool.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 706197430 from pool.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2a17b7b6]
+DEBUG main com.dao.EmployeeMapper.selectByExample - ==>  Preparing: select id, last_name, gender, email, d_id from tbl_employee 
+DEBUG main com.dao.EmployeeMapper.selectByExample - ==> Parameters: 
+DEBUG main com.dao.EmployeeMapper.selectByExample - <==      Total: 18
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2a17b7b6]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2a17b7b6]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 706197430 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+DEBUG main org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+DEBUG main org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 706197430.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 706197430 to pool.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 706197430 from pool.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2a17b7b6]
+DEBUG main com.dao.EmployeeMapper.selectByExample - ==>  Preparing: select id, last_name, gender, email, d_id from tbl_employee 
+DEBUG main com.dao.EmployeeMapper.selectByExample - ==> Parameters: 
+DEBUG main com.dao.EmployeeMapper.selectByExample - <==      Total: 18
+DEBUG main com.dao.EmployeeMapper.selectByExample - ==>  Preparing: select id, last_name, gender, email, d_id from tbl_employee WHERE ( last_name like ? and gender = ? ) 
+DEBUG main com.dao.EmployeeMapper.selectByExample - ==> Parameters: %e%(String), 1(String)
+DEBUG main com.dao.EmployeeMapper.selectByExample - <==      Total: 7
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2a17b7b6]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2a17b7b6]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 706197430 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+DEBUG main org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+DEBUG main org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 706197430.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 706197430 to pool.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 706197430 from pool.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2a17b7b6]
+DEBUG main com.dao.EmployeeMapper.selectByExample - ==>  Preparing: select id, last_name, gender, email, d_id from tbl_employee WHERE ( last_name like ? and gender = ? ) 
+DEBUG main com.dao.EmployeeMapper.selectByExample - ==> Parameters: %e%(String), 1(String)
+DEBUG main com.dao.EmployeeMapper.selectByExample - <==      Total: 7
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2a17b7b6]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2a17b7b6]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 706197430 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+DEBUG main org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+DEBUG main org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+DEBUG main org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 706197430.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 706197430 to pool.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Checked out connection 706197430 from pool.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2a17b7b6]
+DEBUG main com.dao.EmployeeMapper.selectByExample - ==>  Preparing: select id, last_name, gender, email, d_id from tbl_employee WHERE ( last_name like ? and gender = ? ) or( email like ? ) 
+DEBUG main com.dao.EmployeeMapper.selectByExample - ==> Parameters: %e%(String), 1(String), %e%(String)
+DEBUG main com.dao.EmployeeMapper.selectByExample - <==      Total: 8
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2a17b7b6]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2a17b7b6]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 706197430 to pool.

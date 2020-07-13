@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeHandlers>
+        <!--1、配置我们自定义的TypeHandler  -->
+        <typeHandler handler="com.typeHandler.MyEnumEmpStatusTypeHandler" javaType="com.bean.EmpStatus"/>
+        <!--2、也可以在处理某个字段的时候告诉MyBatis用什么类型处理器
+                保存：#{empStatus,typeHandler=xxxx}
+                查询：
+                    <resultMap type="com.atguigu.mybatis.bean.Employee" id="MyEmp">
+                         <id column="id" property="id"/>
+                         <result column="empStatus" property="empStatus" typeHandler=""/>
+                     </resultMap>
+                注意：如果在参数位置修改TypeHandler，应该保证保存数据和查询数据用的TypeHandler是一样的。
+          -->
+    </typeHandlers>
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+        </plugin>
+    </plugins>
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/mybatis"/>
+                <property name="username" value="root"/>
+                <property name="password" value="root"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <mapper resource="com/conf/EmployeeMapper.xml"/>
+    </mappers>
+</configuration>
